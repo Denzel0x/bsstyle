@@ -202,7 +202,7 @@ export default function WorkWithUs() {
             >
               <div className="aspect-square border border-white/10 overflow-hidden relative group">
                 <img
-                  src="/images/workwithus/blockcSherpaCulture.avif"
+                  src="/images/workwithus/invoriousculture.avif"
                   alt="Invorious Culture"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                   loading="lazy"
