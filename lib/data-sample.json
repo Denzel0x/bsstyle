@@ -1,0 +1,2263 @@
+{
+  "homePage": {
+    "home": {
+      "badge": "Global Strategy Experts",
+      "title": "Accelerating Growth for Forward Thinkers",
+      "description": "We combine deep industry expertise with cutting-edge analytical tools to transform your business vision into measurable reality.",
+      "primaryCta": {
+        "label": "Book a Consultation",
+        "href": "/#contact"
+      },
+      "secondaryCta": {
+        "label": "View Case Studies",
+        "href": "/portfolio"
+      },
+      "stats": [
+        { "value": "150+", "label": "Clients Served" },
+        { "value": "$100M+", "label": "Revenue Growth" },
+        { "value": "5+", "label": "Global Offices" }
+      ],
+      "heroImage": {
+        "src": "/images/landing/pro_team.avif",
+        "alt": "Professional Team"
+      },
+      "trustedBy": {
+        "avatars": [
+          "/images/landing/trustedby1.jpg",
+          "/images/landing/trustedby2.jpg",
+          "/images/landing/trustedby3.jpg"
+        ],
+        "text": "Trusted by 50+ Fortune 500"
+      }
+    },
+    "about": {
+      "badge": "Our Story",
+      "title": "Pioneering Web3 Excellence Since 2022",
+      "description": "Invorious was founded on a simple principle: complexity shouldn't hinder progress. We help organizations navigate the shifting tides of the decentralized economy through Web3-native expertise and human-centric strategy.",
+      "highlights": [
+        {
+          "icon": "target",
+          "title": "Mission-Driven",
+          "description": "Mission-Driven. Empowering Web3 leaders with actionable clarity."
+        },
+        {
+          "icon": "zap",
+          "title": "Impact-First",
+          "description": "Measuring success by your tangible Web3 growth."
+        }
+      ],
+      "retention": {
+        "value": "98%",
+        "description": "100% client retention. We build lasting Web3 partnerships-not just blockchain projects."
+      },
+      "images": [
+        {
+          "src": "/images/landing/consulting1.avif",
+          "alt": "Consulting 1",
+          "className": "w-full h-48 sm:h-64 object-cover rounded-2xl shadow-lg"
+        },
+        {
+          "src": "/images/landing/consulting3.avif",
+          "alt": "Consulting 2",
+          "className": "w-full h-40 sm:h-48 object-cover rounded-2xl shadow-lg"
+        },
+        {
+          "src": "/images/landing/consulting2.avif",
+          "alt": "Consulting 3",
+          "className": "w-full h-40 sm:h-48 object-cover rounded-2xl shadow-lg"
+        },
+        {
+          "src": "/images/landing/consulting4.avif",
+          "alt": "Consulting 4",
+          "className": "w-full h-48 sm:h-64 object-cover rounded-2xl shadow-lg"
+        }
+      ]
+    },
+    "services": {
+      "badge": "What We Do",
+      "title": "Tailored Solutions for Complex Challenges",
+      "description": "We provide comprehensive Web3 consulting and development services that cover every aspect of your decentralized business lifecycle-from strategy to smart contracts.",
+      "detailsDefaults": {
+        "description": "A focused engagement designed to produce clear outcomes, practical next steps, and measurable progress.",
+        "features": [
+          "A clear scope and success metrics",
+          "Actionable recommendations and next steps",
+          "Templates, checklists, and best-practice playbooks",
+          "Stakeholder alignment and decision-ready outputs",
+          "Implementation guidance with measurable milestones",
+          "A handover plan your team can execute"
+        ],
+        "deliverables": [
+          "A short discovery summary and problem framing",
+          "Prioritized recommendations with effort/impact",
+          "A 30/60/90-day execution plan",
+          "Reusable templates and checklists",
+          "Decision log and stakeholder alignment notes",
+          "A final handover session and next-step roadmap"
+        ],
+        "process": [
+          {
+            "step": "01",
+            "title": "Discovery",
+            "description": "Align goals, constraints, and stakeholders. Confirm scope and success metrics."
+          },
+          {
+            "step": "02",
+            "title": "Analysis",
+            "description": "Review inputs, identify root causes, and map opportunities with clear trade-offs."
+          },
+          {
+            "step": "03",
+            "title": "Delivery",
+            "description": "Package decisions into a plan your team can execute, with milestones and owners."
+          }
+        ],
+        "outcomes": [
+          "Clarity on what to do next in your Web3 journey (and what to defer)",
+"Stronger alignment across decision-makers and stakeholders",
+"Reduced risk through explicit assumptions and decentralized trade-offs",
+"A plan that's measurable, time-bound, and owned by your team"
+        ]
+      },
+      "items": [
+        {
+          "icon": "trendingUp",
+          "title": "Blockchain Strategy",
+          "description": "Define your Web3 roadmap and capture high-value opportunities in decentralized markets.",
+          "features": ["Market Analysis", "Opportunity Mapping"]
+        },
+        {
+          "icon": "barChart",
+          "title": "DeFi & Tokenomics",
+         "description": "Design sustainable token economies and navigate DeFi with rigorous financial oversight.",
+           "features": ["Tokenomics Design", "DeFi Risk Management"]
+        },
+        {
+          "icon": "monitor",
+    "title": "Web3 Transformation",
+    "description": "Integrate blockchain technology to improve operations, security, and customer value.",
+    "features": ["Decentralized Infrastructure", "Web3 Integration"]
+        },
+        {
+          "icon": "briefcase",
+           "title": "Smart Contract Development",
+    "description": "Build secure, audited smart contracts and dApps that scale with your business.",
+    "features": ["Contract Development", "Security Audits"]
+        },
+        {
+          "icon": "globe",
+    "title": "Sustainable Blockchain",
+    "description": "Transition to energy-efficient blockchain solutions without compromising performance.",
+    "features": ["Green Blockchain", "Efficient Consensus"]
+        },
+        {
+          "icon": "users",
+          "title": "Community & Talent",
+    "description": "Build engaged Web3 communities and develop talent systems for the decentralized workforce.",
+    "features": ["Community Strategy", "Web3 Talent Programs"]
+        }
+      ]
+    },
+    "portfolio": {
+      "badge": "Success Stories",
+      "title": "Case Studies of Impact",
+      "description": "Discover how we've helped leading global enterprises, startups, and Web3 natives achieve their most ambitious decentralized goals.",
+      "items": [
+        {
+          "tag": "Fintech Integration",
+          "title": "Reimagining Decentralized Finance",
+          "description": "A 35% increase in DeFi protocol adoption for a leading European platform through strategic UX overhaul.",
+          "imageSrc": "/images/landing/fintech.avif",
+          "imageAlt": "Case Study 1"
+        },
+        {
+          "tag": "Operations",
+          "title": "Sustainable Blockchain Supply Chain",
+          "description": "Reducing carbon footprint by 22% while increasing net margins for a global logistics provider.",
+          "imageSrc": "/images/landing/operations.avif",
+          "imageAlt": "Case Study 2"
+        },
+        {
+          "tag": "Human Capital",
+          "title": "Transforming Workforce Performance",
+          "description": "Rebuilding talent strategy and leadership coaching to improve employee retention by 28% across 6 regional offices.",
+          "imageSrc": "/images/landing/humancapital.avif",
+          "imageAlt": "Case Study 4"
+        },
+        {
+          "tag": "Scaling",
+          "title": "Global Market Entry",
+          "description": "Scaling a tech unicorn from local presence to 15 international markets in under 24 months.",
+          "imageSrc": "/images/landing/scaling.avif",
+          "imageAlt": "Case Study 3"
+        }
+      ]
+    },
+    "team": {
+      "badge": "The Minds Behind Invorious",
+      "title": "Hiring Office & Tech Office",
+      "joinLabel": "Join our team",
+      "members": [
+        {
+          "name": "Karlheinz Trebesius",
+          "role": "Hiring Team",
+          "imageSrc": "/images/team/karlheinz.jpg",
+          "imageAlt": "Team Member",
+          "linkedinUrl": "https://www.linkedin.com/in/karlheinz-trebesius-44442737/"
+        },
+        {
+          "name": "Antonio Coviello",
+          "role": "Chief Technology Officer",
+          "imageSrc": "/images/team/antonio.jpg",
+          "imageAlt": "Team Member",
+                    "linkedinUrl": "https://www.linkedin.com/in/antonio-c-8205373a/"
+
+        },
+        {
+          "name": "Conor Hayes",
+          "role": "Hiring Manager & Talent Lead",
+          "imageSrc": "/images/team/conor.jpg",
+          "imageAlt": "Team Member",
+                    "linkedinUrl": "https://www.linkedin.com/in/hayesconor/"
+
+        },
+        {
+          "name": "Youssef MNIA",
+          "role": "Technical Recruiter",
+          "imageSrc": "/images/team/youseef.jpg",
+          "imageAlt": "Team Member",
+                    "linkedinUrl": "https://www.linkedin.com/in/youssef-m-018/"
+
+        }
+      ]
+    }
+  },
+  "about": {
+    "values": [
+      {
+        "icon": "award",
+        "title": "Relentless Excellence",
+        "description": "We hold ourselves to the highest standards, ensuring every blockchain deliverable-from strategy to smart contracts-exceeds expectations."
+      },
+      {
+        "icon": "shield",
+        "title": "Radical Candor",
+        "description": "Radical Candor. Honesty is our policy. We tell our clients what they need to hear about their Web3 strategy-not just what they want to hear."
+      },
+      {
+        "icon": "zap",
+        "title": "Agile Innovation",
+        "description": "Agile Innovation. The Web3 world changes fast; so do we. We adapt our blockchain strategies to the latest market signals, emerging protocols, and decentralized trends."
+      },
+      {
+        "icon": "users",
+        "title": "Collective Impact",
+        "description": "We believe in the power of diverse perspectives coming together to solve complex Web3 challenges-from blockchain architecture to decentralized governance."
+      }
+    ],
+"journey": [
+  {
+    "year": "2022",
+    "title": "The Foundation",
+    "description": "Invorious launched in London with a small, passionate team of Web3 strategists and blockchain developers. Our mission: guide organizations across the blockchain divide with expert consulting and development.",
+    "offsetClassName": "lg:mb-12"
+  },
+  {
+    "year": "2023",
+    "title": "Building Momentum",
+    "description": "Expanded client base across Europe, serving enterprises and Web3 natives with strategic advisory and development.",
+    "offsetClassName": "lg:mt-12"
+  },
+  {
+    "year": "2024",
+    "title": "Strategic Growth",
+    "description": "Strengthened client partnerships across Web3 consulting and blockchain development. Expanded technical capabilities and deepened expertise in decentralized solutions.",
+    "offsetClassName": "lg:mb-12"
+  },
+  {
+    "year": "2025",
+    "title": "Strategic Growth",
+    "description": "Continued to guide organizations across the decentralized economy. Built foundational expertise for upcoming Web3 product development.",
+    "offsetClassName": "lg:mt-12"
+  },
+  {
+    "year": "2026",
+    "title": "Platform Development",
+    "description": "Began development of Pet360-a Web3 SaaS platform for pet care. Building NFT passport infrastructure, smart contract frameworks, and on-chain insurance architecture.",
+    "offsetClassName": "lg:mb-12"
+  }
+],
+    "stats": [
+      {
+        "key": "clients",
+        "label": "Clients Worldwide",
+        "value": 100,
+        "prefix": "",
+        "suffix": "+",
+        "isCurrency": false
+      },
+      {
+        "key": "offices",
+        "label": "Global Offices",
+        "value": 3,
+        "prefix": "",
+        "suffix": "+",
+        "isCurrency": false
+      },
+      {
+        "key": "experts",
+        "label": "Senior Experts",
+        "value": 10,
+        "prefix": "",
+        "suffix": "+",
+        "isCurrency": false
+      },
+      {
+        "key": "revenue",
+        "label": "Revenue Impact",
+        "value": 500,
+        "prefix": "$",
+        "suffix": "M+",
+        "isCurrency": true
+      }
+    ],
+ "presence": {
+  "heading": "Strategically Located for Global Reach",
+  "offices": [
+    {
+      "city": "London",
+      "type": "Global Headquarters",
+      "address": "483 Green Lanes, London N13 4BS, United Kingdom",
+      "phone": "+44 20 3793 8842"
+    },
+    {
+      "city": "São Paulo",
+      "type": "Latin America Hub",
+      "address": "Avenida Paulista, 2000, São Paulo - SP, 01310-200, Brazil",
+      "phone": "+55 11 97582 4416"
+    },
+    {
+      "city": "Singapore",
+      "type": "APAC Regional Office",
+      "address": "8 Marina Boulevard, Marina Bay Financial Centre, Singapore 018981",
+      "phone": "+65 6927 8345"
+    }
+  ]
+},
+    "recognitions": [
+      { "icon": "award", "label": "Best Consultancies 2023" },
+      { "icon": "shield", "label": "Strategic Partner Award" },
+      { "icon": "target", "label": "Case Study of Year" },
+      { "icon": "zap", "label": "Top 50 Innovators" }
+    ]
+  },
+  "services": {
+    "overview": {
+      "paragraphs": [
+        "Our strategic planning service goes beyond traditional consulting. We don't just hand you a deck; we partner with your leadership to diagnose systemic challenges, identify untapped market potential, and architect a future-proof roadmap for your entire organization.",
+        "By combining quantitative market research with qualitative stakeholder alignment, we ensure your new strategy is not only ambitious but practically executable within your current cultural and operational context."
+      ],
+      "highlights": [
+        {
+          "icon": "trendingUp",
+          "title": "Growth Acceleration",
+          "description": "Unlock new revenue streams by identifying market gaps before your competitors do."
+        },
+        {
+          "icon": "shield",
+          "title": "Risk Mitigation",
+          "description": "Future-proof your business against economic shifts with resilient operational models."
+        }
+      ],
+      "deliverables": [
+        "3-Year Strategic Growth Roadmap",
+        "Comprehensive Market Analysis Report",
+        "Financial Projection & ROI Models",
+        "Competitor Benchmarking Matrix",
+        "Change Management Playbook",
+        "Executive Alignment Workshop"
+      ]
+    },
+    "engagementPackages": {
+      "heading": "Flexible Options for Every Stage",
+      "items": [
+        {
+          "id": "price-btn-1",
+          "name": "Growth Diagnostic",
+          "description": "Best for SMBs looking for a strategic health check and quick wins.",
+          "priceMain": "$15,999",
+          "priceSuffix": "/project",
+          "isFeatured": false,
+          "badgeText": "",
+          "features": [
+            { "text": "4-Week Engagement", "included": true },
+            { "text": "SWOT Analysis", "included": true },
+            { "text": "Market Gap Analysis", "included": true },
+            { "text": "Financial Projections", "included": false }
+          ],
+          "ctaLabel": "Get Started"
+        },
+        {
+          "id": "price-btn-2",
+          "name": "Standard Transformation",
+          "description": "Comprehensive 12-week program for scaling mid-market companies.",
+          "priceMain": "$59,999",
+          "priceSuffix": "/project",
+          "isFeatured": true,
+          "badgeText": "Most Popular",
+          "features": [
+            { "text": "10-Week Engagement", "included": true },
+            { "text": "Full Market Modeling", "included": true },
+            { "text": "3-Year Financials", "included": true },
+            { "text": "Board Presentation Deck", "included": true }
+          ],
+          "ctaLabel": "Schedule Call"
+        },
+        {
+          "id": "price-btn-3",
+          "name": "Enterprise Strategy",
+          "description": "Tailored solutions for global organizations with complex multi-market needs.",
+          "priceMain": "Custom",
+          "priceSuffix": " quote",
+          "isFeatured": false,
+          "badgeText": "",
+          "features": [
+            { "text": "Ongoing Retainer Options", "included": true },
+            { "text": "M&A Advisory", "included": true },
+            { "text": "Global Expansion Strategy", "included": true },
+            { "text": "Dedicated Partner Support", "included": true }
+          ],
+          "ctaLabel": "Contact Enterprise"
+        }
+      ]
+    }
+  },
+  "portfolio": {
+    "caseStudies": [
+                {
+  "industry": "Web3 / Pet Tech",
+  "slug": "pet360-blockchain-pet-ecosystem",
+  "outcomeLabel": "Pet Ecosystem Live",
+  "title": "Pet360: Web3 Pet Care SaaS Platform",
+  "description": "Building a complete blockchain ecosystem for pet care-NFT passports, vaccine certificates, smart contract adoptions, and on-chain insurance.",
+  "imageSrc": "/images/landing/pet360.avif",
+  "imageAlt": "Pet360 Platform - Blockchain Pet Care",
+  "details": {
+    "breadcrumbLabel": "Pet360 Web3 Pet Ecosystem",
+    "categoryLabel": "Blockchain Pet Care SaaS",
+    "pageTitle": "Pet360",
+    "engagementBadges": [
+      { "text": "Building in England" },
+      { "text": "Web3-Native SaaS" },
+      { "text": "Pet Innovation in Progress" }
+    ],
+    "challenge": {
+      "title": "Fragmented Pet Care Records",
+      "description": "Pet owners, breeders, and insurers struggle with fragmented medical histories, lost vaccine records, inefficient adoption processes, and opaque insurance claims. There is no single source of truth for a pet's lifetime health journey.",
+      "bullets": [
+        "Medical histories lost or scattered across multiple vets",
+        "Vaccine certificates easily lost, forged, or damaged",
+        "Adoption processes lack transparency and efficiency",
+        "Pet insurance claims slow, complex, and often disputed"
+      ]
+    },
+    "solution": {
+      "title": "Complete Web3 Pet Care Ecosystem",
+      "description": "Invorious is building Pet360-a Web3-native SaaS platform that puts every pet's journey on-chain. From immutable medical records to smart contract adoptions, we're creating trust and transparency across the pet care industry.",
+      "features": [
+        {
+          "title": "Pet NFT Passports",
+          "description": "Immutable medical history stored on blockchain-accessible anywhere, anytime."
+        },
+        {
+          "title": "Vaccine Certificate NFTs",
+          "description": "Tamper-proof, verifiable vaccine records as NFTs."
+        },
+        {
+          "title": "Smart Contract Adoptions",
+          "description": "Transparent, automated pet adoptions with verifiable ownership transfer."
+        },
+        {
+          "title": "On-Chain Pet Insurance",
+          "description": "Decentralized insurance with automated claims and transparent policies."
+        }
+      ]
+    },
+    "metrics": [
+      { "value": "100%", "label": "Immutable Records" },
+      { "value": "Real-Time", "label": "Verification" },
+      { "value": "Zero", "label": "Forgery Risk" },
+      { "value": "Instant", "label": "Claims Processing" }
+    ],
+    "timeline": [
+      {
+        "step": "01",
+        "title": "Platform Vision & Design",
+        "description": "Define Pet360 ecosystem architecture, NFT standards, and smart contract requirements."
+      },
+      {
+        "step": "02",
+        "title": "Smart Contract Development",
+        "description": "Build and audit NFT passport contracts, vaccine certificate logic, and adoption smart contracts."
+      },
+      {
+        "step": "03",
+        "title": "Insurance Integration",
+        "description": "Develop on-chain insurance framework with automated claims oracles."
+      },
+      {
+        "step": "04",
+        "title": "Launch & Ecosystem Growth",
+        "description": "Launch Pet360 platform, onboard vets, shelters, insurers, and pet owners."
+      }
+    ],
+   "teamInvolved": [
+  {
+    "name": "Pet360 Team",
+    "role": "Lead Backend Developer",
+    "imageSrc": "/images/team/pet360/backendlead.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Pet360 Team",
+    "role": "Frontend Developer",
+    "imageSrc": "/images/team/pet360/frontenddev.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Pet360 Team",
+    "role": "Database Engineer",
+    "imageSrc": "/images/team/pet360/databaseengineer.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },
+  {
+              "name": "Pet360 Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/pet360/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+],
+    "testimonial": {
+      "quote": "Pet360 is revolutionizing how we manage pet care. Immutable records, smart contract adoptions, and on-chain insurance-finally, a single source of truth for every pet's journey.",
+      "name": "Pet360 Partner",
+      "role": "Early Adopter"
+    },
+    "gallery": [
+      {
+        "label": "Pet NFT Passport",
+        "imageSrc": "/images/petshow/nft.jpg",
+        "imageAlt": "Pet NFT Passport Concept"
+      },
+      {
+        "label": "Smart Contract Adoption Flow",
+        "imageSrc": "/images/petshow/smartcontractflow.png",
+        "imageAlt": "Smart Contract Adoption"
+      }
+    ],
+    "keyLearnings": [
+      {
+        "title": "Immutable Records Build Trust",
+        "description": "Pet owners and insurers trust verifiable, tamper-proof medical histories."
+      },
+      {
+        "title": "Smart Contracts Automate Adoption",
+        "description": "Transparent, efficient adoptions reduce fraud and streamline ownership transfer."
+      },
+      {
+        "title": "On-Chain Insurance Simplifies Claims",
+        "description": "Automated claims processing reduces friction for pet owners and insurers alike."
+      }
+    ],
+    "bottomCta": {
+      "title": "We're Building Pet360",
+      "description": "A Web3 pet care platform with NFT passports, smart contract adoptions, and on-chain insurance.",
+      "buttonLabel": "Join Invorious to learn more or get involved",
+      "href": "/",
+      "scrollToContact": true
+    }
+  }
+},
+      {
+        "industry": "Retail",
+        "slug": "reimagining-retail-banking",
+        "outcomeLabel": "+35% Digital Adoption",
+        "title": "Reimagining Decentralized Finance",
+        "description": "A 35% increase in DeFi protocol adoption for a leading European platform through strategic UX overhaul.",
+        "imageSrc": "/images/landing/fintech.avif",
+        "imageAlt": "Retail Banking Transformation",
+        "details": {
+          "breadcrumbLabel": "Retail Banking Transformation",
+          "categoryLabel": "Digital Transformation & UX",
+          "pageTitle": "Reimagining Decentralized Finance for the Next Generation.",
+          "engagementBadges": [
+            { "text": "14 Months Engagement" },
+            { "text": "Global European Bank" },
+            { "text": "FastCompany Design Award 2023" }
+          ],
+          "challenge": {
+            "title": "Legacy Barriers to Growth",
+            "description": "Our client, a top-tier European bank, was losing significant market share to agile fintech startups. Their mobile app had a 2.1-star rating, and digital customer onboarding took upwards of 5 days, leading to a 60% abandonment rate.",
+            "bullets": [
+              "Declining NPS scores among customers aged 18-35.",
+              "High operational costs due to branch-heavy processing.",
+              "Technical debt preventing rapid feature deployment."
+            ]
+          },
+          "solution": {
+            "title": "A Radical UX Pivot",
+            "description": "Invorious implemented a \"Design-Led Transformation\" framework. We bypassed traditional IT bottlenecks by creating a dedicated innovation hub that rebuilt the core banking experience from the user's perspective, not the legacy system's constraints.",
+            "features": [
+              {
+                "title": "Instant KYC",
+                "description": "Automated identity verification reduced onboarding to < 5 minutes."
+              },
+              {
+                "title": "Predictive Spend",
+                "description": "AI-driven insights to help users save more effectively."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "+35%", "label": "Digital Adoption" },
+            { "value": "-85%", "label": "Onboarding Time" },
+            { "value": "$42M", "label": "Annual Ops Savings" },
+            { "value": "4.8 Star", "label": "App Store Rating" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Discovery & Audit",
+              "description": "Week 1-4: Stakeholder interviews and tech stack evaluation."
+            },
+            {
+              "step": "02",
+              "title": "Prototype & Design",
+              "description": "Week 5-12: High-fidelity prototypes and user testing cycles."
+            },
+            {
+              "step": "03",
+              "title": "Core Engineering",
+              "description": "Week 13-40: Agile development of the microservices layer."
+            },
+            {
+              "step": "04",
+              "title": "Pilot & Global Scale",
+              "description": "Week 41-60: Staged rollout to 4 million customers."
+            }
+          ],
+ "teamInvolved": [
+  {
+    "name": "Reimagining Decentralized Finance Team",
+    "role": "Lead Backend Developer",
+    "imageSrc": "/images/team/Finance/backendlead.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Reimagining Decentralized Finance Team",
+    "role": "Frontend Developer",
+    "imageSrc": "/images/team/Finance/frontenddev.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Reimagining Decentralized Finance Team",
+    "role": "Database Engineer",
+    "imageSrc": "/images/team/Finance/databaseengineer.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },
+  {
+              "name": "Reimagining Decentralized Finance Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/Finance/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+],
+          "testimonial": {
+            "quote": "Invorious didn't just design a new app; they transformed our internal culture to be digital-first. Our ability to respond to market shifts has increased tenfold, and the revenue impact was visible within the first quarter of launch.",
+            "name": "Jean-Pierre Rossi",
+            "role": "Chief Digital Officer, European Global Bank"
+          },
+          "gallery": [
+            {
+              "label": "Legacy Platform (2021)",
+              "imageSrc": "/images/team/Finance/legacy.avif",
+              "imageAlt": "Legacy Banking"
+            },
+            {
+              "label": "Invorious Experience (2023)",
+              "imageSrc": "/images/team/Finance/modern.avif",
+              "imageAlt": "Modern Banking UX"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Trust is Mobile-First",
+              "description": "Modern banking trust isn't built in marble branches; it's built in the reliability and speed of the mobile app interface."
+            },
+            {
+              "title": "Data as a Service",
+              "description": "Users don't want spreadsheets; they want actionable intelligence on their spending patterns delivered in real-time."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "Whether it's UX overhaul or a total strategic pivot, our team is ready to deliver measurable growth for your organization.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      },
+
+      {
+        "industry": "Logistics",
+        "slug": "sustainable-supply-chain",
+        "outcomeLabel": "22% Lower Carbon",
+        "title": "Sustainable Blockchain Supply Chain",
+        "description": "Optimizing a global logistics provider's network through blockchain-enabled tracking to reduce operational costs and environmental impact simultaneously.",
+        "imageSrc": "/images/landing/operations.avif",
+        "imageAlt": "Logistics Optimization",
+        "details": {
+          "breadcrumbLabel": "Sustainable Blockchain Supply Chain",
+          "categoryLabel": "Operations Excellence & Sustainability",
+          "pageTitle": "Sustainable Blockchain Supply Chain: Lower Carbon, Higher Velocity.",
+          "engagementBadges": [
+            { "text": "10 Months Engagement" },
+            { "text": "Global Logistics Provider" },
+            { "text": "Operations Sustainability Award 2024" }
+          ],
+          "challenge": {
+            "title": "Carbon & Cost Pressure",
+            "description": "The client faced rising fuel costs and increased scrutiny around emissions. Routes were planned manually, and reporting lagged weeks behind operations, preventing proactive decision-making.",
+            "bullets": [
+              "Inconsistent route planning across regions.",
+              "Carbon reporting too slow for daily operations.",
+              "High overhead from fragmented vendor workflows."
+            ]
+          },
+          "solution": {
+            "title": "A Lean Decarbonization Program",
+            "description": "Invorious built a decision engine that combined route optimization with real-time emissions estimates, then embedded it into daily planning rituals to sustain improvements.",
+            "features": [
+              {
+                "title": "Route Optimization Simulator",
+                "description": "Scenario planning that balances time, cost, and emissions."
+              },
+              {
+                "title": "Real-Time Emissions Dashboard",
+                "description": "Operational visibility that updates throughout the day."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "-22%", "label": "Carbon Footprint" },
+            { "value": "+18%", "label": "Cost Efficiency" },
+            { "value": "$31M", "label": "Annualized Savings" },
+            { "value": "99.2%", "label": "On-Time Delivery" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Discovery & Baseline",
+              "description": "Week 1-3: Map current routes, measure carbon baseline, and identify cost drivers."
+            },
+            {
+              "step": "02",
+              "title": "Network Redesign",
+              "description": "Week 4-8: Build optimization models and validate assumptions with planning teams."
+            },
+            {
+              "step": "03",
+              "title": "Lean Execution",
+              "description": "Week 9-22: Pilot standardized workflows and automate vendor handoffs."
+            },
+            {
+              "step": "04",
+              "title": "Scale & Continuous Improvement",
+              "description": "Week 23-40: Roll out across regions and refine using operational feedback."
+            }
+          ],
+ "teamInvolved": [
+  {
+    "name": "Sustainable Blockchain Supply Chain Team",
+    "role": "Lead Backend Developer",
+    "imageSrc": "/images/team/SupplyChain/backendlead.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Sustainable Blockchain Supply Chain Team",
+    "role": "Frontend Developer",
+    "imageSrc": "/images/team/SupplyChain/frontenddev.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Sustainable Blockchain Supply Chain Team",
+    "role": "Database Engineer",
+    "imageSrc": "/images/team/SupplyChain/databaseengineer.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },
+  {
+              "name": "Sustainable Blockchain Supply Chain Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/SupplyChain/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+],
+          "testimonial": {
+            "quote": "Invorious helped us make decarbonization operational, not theoretical. The optimization tool and dashboard changed how our teams plan every day.",
+            "name": "Amina Kruger",
+            "role": "VP Operations, Global Logistics Provider"
+          },
+          "gallery": [
+         
+            {
+              "label": "Invorious Planning Engine (2024)",
+              "imageSrc": "/images/team/SupplyChain/planning.avif",
+              "imageAlt": "Planning Engine"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Visibility Drives Adoption",
+              "description": "Teams adopt sustainability when measurements are timely, actionable, and tied to daily workflows."
+            },
+            {
+              "title": "Lean Automations Win Quick",
+              "description": "Small automation wins unlock compounding improvements across regions."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "Whether it's operational excellence or a sustainability pivot, our team is ready to deliver measurable growth for your organization.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      },
+      {
+        "industry": "Retail",
+        "slug": "unicorn-market-expansion",
+        "outcomeLabel": "15 New Markets",
+        "title": "Web3 Unicorn Global Expansion",
+        "description": "Scaling a fast-growth blockchain brand from local presence to a dominant international player in under 2 years.",
+        "imageSrc": "/images/landing/Market_En.avif",
+        "imageAlt": "Market Entry",
+        "details": {
+          "breadcrumbLabel": "Web3 Unicorn Global Expansion",
+          "categoryLabel": "Market Expansion & Growth Strategy",
+          "pageTitle": "Web3 Unicorn Global Expansion: From local signal to global momentum-scaling fast-growth blockchain brands across international markets.",
+          "engagementBadges": [
+            { "text": "9 Months Engagement" },
+            { "text": "Fast-Growth Tech Brand" },
+            { "text": "Growth Leadership Award 2024" }
+          ],
+          "challenge": {
+            "title": "Stalled Go-To-Market",
+            "description": "The client had product-market fit locally but struggled to translate it across regions. Sales cycles slowed, messaging became inconsistent, and partnerships were delayed by fragmented planning and data silos.",
+            "bullets": [
+              "Inconsistent value proposition across regions.",
+              "Slow partner onboarding and approvals.",
+              "Data silos delaying decisions and forecasting."
+            ]
+          },
+          "solution": {
+            "title": "A Localization-Led Growth System",
+            "description": "Invorious designed a modular expansion playbook that aligned product, marketing, and operations. We standardized inputs, improved forecasting, and built tooling to keep local teams fast and consistent.",
+            "features": [
+              {
+                "title": "Localization Operating Model",
+                "description": "Guidelines and workflows that made regional launch execution repeatable."
+              },
+              {
+                "title": "Growth Analytics & Forecasting",
+                "description": "A single view of pipeline, conversion, and market signals to prioritize investments."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "15", "label": "New Markets" },
+            { "value": "+42%", "label": "Revenue Uplift" },
+            { "value": "2.1x", "label": "Lead Generation" },
+            { "value": "28%", "label": "Faster Sales Cycle" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Discovery & Market Signal",
+              "description": "Week 1-6: Identify high-potential regions and validate assumptions with customer discovery."
+            },
+            {
+              "step": "02",
+              "title": "Prototype & Messaging",
+              "description": "Week 7-12: Build localization message kits and run rapid channel experiments."
+            },
+            {
+              "step": "03",
+              "title": "Operational Launch System",
+              "description": "Week 13-28: Implement partner onboarding workflows and reporting pipelines."
+            },
+            {
+              "step": "04",
+              "title": "Scale & Portfolio Steering",
+              "description": "Week 29-40: Roll out playbooks across markets and steer investments with live metrics."
+            }
+          ],
+ "teamInvolved": [
+  {
+    "name": "Web3 Unicorn Global Expansion Team",
+    "role": "Lead Backend Developer",
+    "imageSrc": "/images/team/unicorn/backendlead.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Web3 Unicorn Global Expansion Team",
+    "role": "Frontend Developer",
+    "imageSrc": "/images/team/unicorn/frontenddev.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Web3 Unicorn Global Expansion Team",
+    "role": "Database Engineer",
+    "imageSrc": "/images/team/unicorn/databaseengineer.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },
+  {
+              "name": "Web3 Unicorn Global Expansion Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/unicorn/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+],
+          "testimonial": {
+            "quote": "Invorious didn’t just recommend a plan; they turned expansion into a system our teams could execute quickly and consistently.",
+            "name": "Clara Nguyen",
+            "role": "Head of Global Growth, Fast-Tech Unicorn"
+          },
+          "gallery": [
+            {
+              "label": "Local-Only Playbook (2022)",
+              "imageSrc": "/images/team/unicorn/localonly.avif",
+              "imageAlt": "Local-Only Playbook"
+            },
+            {
+              "label": "Global Expansion Engine (2023)",
+              "imageSrc": "/images/team/unicorn/globalexpansion.avif",
+              "imageAlt": "Global Expansion Engine"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Speed Beats Perfect",
+              "description": "Launch velocity came from repeatable workflows, not from waiting for complete certainty."
+            },
+            {
+              "title": "Localization is a Product",
+              "description": "Consistency across regions improved conversion because the customer experience felt native everywhere."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "Whether you are expanding into new markets or redesigning your go-to-market system, we can help you move faster with confidence.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      },
+      
+      {
+        "industry": "Tech",
+        "slug": "saas-product-pivot",
+        "outcomeLabel": "ROI in 6 Months",
+        "title": "SaaS Product Pivot",
+        "description": "Restructuring a legacy software firm's product offering to a high-margin subscription model.",
+        "imageSrc": "images/landing/tech.avif",
+        "imageAlt": "Enterprise SaaS",
+        "details": {
+          "breadcrumbLabel": "SaaS Product Pivot",
+          "categoryLabel": "Product Strategy & Subscription Growth",
+          "pageTitle": "SaaS Product Pivot: Subscription-Led Growth in 6 Months.",
+          "engagementBadges": [
+            { "text": "6 Months Engagement" },
+            { "text": "Legacy Software Firm" },
+            { "text": "Product Strategy Award 2024" }
+          ],
+          "challenge": {
+            "title": "Churn from Legacy Offerings",
+            "description": "The client’s product packaging was built for perpetual licenses, leading to slow onboarding and limited value realization. Customer churn remained high, and revenue forecasting was unreliable due to inconsistent billing and activation tracking.",
+            "bullets": [
+              "Perpetual licensing model reduced recurring value.",
+              "Onboarding gaps delayed activation for new customers.",
+              "Fragmented billing data limited accurate forecasting."
+            ]
+          },
+          "solution": {
+            "title": "A Subscription Experience Redesign",
+            "description": "Invorious rebuilt the product experience around time-to-value. We redesigned packaging, updated onboarding, and implemented analytics to guide iteration based on customer behavior.",
+            "features": [
+              {
+                "title": "Subscription Packaging & Pricing",
+                "description": "Offer design that matched customer outcomes and improved upgrade paths."
+              },
+              {
+                "title": "Activation Journey in Product",
+                "description": "In-app guidance that accelerated time-to-value and reduced early churn."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "+31%", "label": "MRR Growth" },
+            { "value": "-24%", "label": "Customer Churn" },
+            { "value": "$18M", "label": "Expansion Revenue" },
+            { "value": "38%", "label": "Faster Activation" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Discovery & Billing Audit",
+              "description": "Week 1-2: Map current onboarding, activation funnels, and billing constraints."
+            },
+            {
+              "step": "02",
+              "title": "Offer & UX Prototyping",
+              "description": "Week 3-6: Design packaging flows and prototype in-app activation moments."
+            },
+            {
+              "step": "03",
+              "title": "Engineering for Time-to-Value",
+              "description": "Week 7-18: Implement subscription flows and analytics instrumentation."
+            },
+            {
+              "step": "04",
+              "title": "Launch & Iteration",
+              "description": "Week 19-24: Roll out, monitor performance, and optimize based on behavioral data."
+            }
+          ],
+ "teamInvolved": [
+  {
+    "name": "SaaS Product Pivot Team",
+    "role": "Lead Backend Developer",
+    "imageSrc": "/images/team/pivot/backendlead.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "SaaS Product Pivot Team",
+    "role": "Frontend Developer",
+    "imageSrc": "/images/team/pivot/frontenddev.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "SaaS Product Pivot Team",
+    "role": "Database Engineer",
+    "imageSrc": "/images/team/pivot/databaseengineer.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },
+  {
+              "name": "SaaS Product Pivot Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/pivot/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+],
+          "testimonial": {
+            "quote": "Invorious helped us pivot from a legacy offering to a subscription experience with measurable value in just one quarter cycle.",
+            "name": "Robert Hayes",
+            "role": "Chief Product Officer, Enterprise SaaS"
+          },
+          "gallery": [
+            {
+              "label": "Subscription Experience (2023)",
+              "imageSrc": "/images/team/pivot/subscription.avif",
+              "imageAlt": "Subscription Experience"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Time-to-Value is the Strategy",
+              "description": "Packaging improved outcomes only after the onboarding journey reduced time-to-value friction."
+            },
+            {
+              "title": "Instrumentation Enables Iteration",
+              "description": "Behavioral analytics turned product decisions into a fast, evidence-driven loop."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "From product strategy to subscription redesign, we can help you grow recurring value with a modern experience.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      },
+
+      {
+        "industry": "Energy",
+        "slug": "net-zero-strategy-2030",
+        "outcomeLabel": "Net Zero Path",
+        "title": "Blockchain-Powered Net Zero 2030",
+        "description": "Developing a roadmap for a national utility company to transition 80% of its grid to renewables by 2030-powered by Web3 traceability and smart contract verification.",
+        "imageSrc": "/images/landing/energy.avif",
+        "imageAlt": "Energy Grid",
+        "details": {
+          "breadcrumbLabel": "Blockchain-Powered Net Zero 2030",
+          "categoryLabel": "Decarbonization & Grid Transformation",
+          "pageTitle": "Blockchain-Powered Net Zero 2030: A Practical Roadmap to Renewables.",
+          "engagementBadges": [
+            { "text": "14 Months Engagement" },
+            { "text": "National Utility Company" },
+            { "text": "Climate Strategy Award 2024" }
+          ],
+          "challenge": {
+            "title": "Complex Grid Constraints",
+            "description": "The utility needed a credible net-zero plan but faced complex constraints across generation, transmission, and compliance timelines. Without scenario modeling and governance, decisions were either delayed or oversimplified.",
+            "bullets": [
+              "Conflicting timelines between assets and regulatory requirements.",
+              "Unclear scenario outcomes across demand and supply assumptions.",
+              "Governance gaps slowing cross-team alignment."
+            ]
+          },
+          "solution": {
+            "title": "Scenario Planning + Governance",
+            "description": "Invorious developed a roadmap that combined scenario modeling with operational governance. We translated targets into investment phases, roles, and measurable KPIs.",
+            "features": [
+              {
+                "title": "Renewables Transition Scenarios",
+                "description": "Model demand, grid constraints, and risk to pick resilient pathways."
+              },
+              {
+                "title": "Decision Governance Framework",
+                "description": "Clear approval workflows and reporting to keep stakeholders aligned."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "80%", "label": "Renewables Transition" },
+            { "value": "-55%", "label": "Emissions Reduction" },
+            { "value": "+25%", "label": "Reliability Improvement" },
+            { "value": "$48M", "label": "Program Efficiency" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Baseline & Constraints Mapping",
+              "description": "Week 1-4: Audit assets, demand patterns, and regulatory constraints."
+            },
+            {
+              "step": "02",
+              "title": "Scenario Design",
+              "description": "Week 5-12: Build scenarios and stress-test outcomes with technical teams."
+            },
+            {
+              "step": "03",
+              "title": "Roadmap & Investment Phases",
+              "description": "Week 13-40: Translate the chosen pathway into phased investments and KPIs."
+            },
+            {
+              "step": "04",
+              "title": "Governance & Rollout",
+              "description": "Week 41-60: Establish decision governance and execute initial rollout milestones."
+            }
+          ],
+ "teamInvolved": [
+  {
+    "name": "Blockchain-Powered Net Zero 2030 Team",
+    "role": "Lead Backend Developer",
+    "imageSrc": "/images/team/netzero/backendlead.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Blockchain-Powered Net Zero 2030 Team",
+    "role": "Frontend Developer",
+    "imageSrc": "/images/team/netzero/frontenddev.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },{
+    "name": "Blockchain-Powered Net Zero 2030 Team",
+    "role": "Database Engineer",
+    "imageSrc": "/images/team/netzero/databaseengineer.avif",
+    "imageAlt": "Pet360 Team",
+    "href": "#"
+  },
+  {
+              "name": "Blockchain-Powered Net Zero 2030 Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/netzero/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+],
+          "testimonial": {
+            "quote": "Invorious delivered a plan that our leadership can actually govern and execute. Scenario clarity reduced debate and accelerated commitments.",
+            "name": "Ethan Marshall",
+            "role": "Chief Strategy Officer, National Utility"
+          },
+          "gallery": [
+            {
+              "label": "Grid Planning (2021)",
+              "imageSrc": "/images/team/netzero/grid.avif",
+              "imageAlt": "Grid Planning"
+            },
+            {
+              "label": "Net Zero Roadmap Console (2023)",
+              "imageSrc": "/images/team/netzero/roadmap.avif",
+              "imageAlt": "Net Zero Roadmap Console"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Scenarios Reduce Risk of Regret",
+              "description": "The best roadmap is the one that stays resilient under uncertainty."
+            },
+            {
+              "title": "Governance Turns Targets into Actions",
+              "description": "Clear decision ownership is what makes net-zero plans execute over time."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "From decarbonization strategy to grid transformation governance, our team helps you deliver measurable change with confidence.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      }
+    ]
+  },
+  "team": {
+   "leaders": [
+  {
+    "name": "Dr. Marek Vance",
+    "slug": "dr-elena-vance",
+    "role": "Managing Director, Web3 Strategy",
+    "imageSrc": "/images/team/leader1.jpg",
+    "imageAlt": "Dr. Marek Vance",
+    "overlayText": "Expert in Web3 strategy, blockchain transformation, and decentralized ecosystem scaling with 20+ years of tenure.",
+    "badges": ["PhD Economics", "Former BCG Partner", "Web3 Strategist"],
+    "profileDetails": {
+      "heroChip": "Web3 Strategic Leadership",
+      "heroTitle": "Dr. Marek Vance",
+      "heroSubtitle": "Managing Director of Web3 Strategy",
+      "shortBio": "Dr. Vance is a world-renowned strategist with a focus on Web3 transformation, blockchain adoption, and global market acceleration. She leads Invorious's strategy practice, helping enterprises and blockchain natives navigate the decentralized economy.",
+      "socialLinks": {
+        "linkedinHref": "https://www.linkedin.com/in/elena-vance",
+        "twitterHref": "https://twitter.com/elenavance"
+      },
+      "scheduleHref": "#",
+      "scheduleLabel": "Schedule a Web3 Strategy Session",
+      "biography": [
+        "With over two decades of experience in management consulting and Web3 strategy, Dr. Marek Vance has built a reputation for her surgical precision in diagnosing organizational inefficiency and architecting sustainable blockchain growth models. Before joining Invorious as a founding partner, she served as a Senior Partner at BCG, where she spearheaded the Global Financial Institutions practice.",
+        "Her methodology combines the rigor of classical economic theory with the agility required by the decentralized economy. She has personally overseen over 150 large-scale transformations, totaling more than $12B in optimized capital allocation for her clients."
+      ],
+      "expertise": [
+        { "title": "Web3 Strategy & Transformation", "percent": 98 },
+        { "title": "Blockchain Adoption & Scaling", "percent": 95 },
+        { "title": "DeFi & Tokenomics Strategy", "percent": 92 },
+        { "title": "Executive Alignment & Coaching", "percent": 96 },
+        { "title": "Decentralized Ecosystem Design", "percent": 88 },
+        { "title": "Web3 Economic Policy", "percent": 94 }
+      ],
+      "careerJourney": [
+        {
+          "period": "2022 - Present",
+          "title": "Invorious",
+          "role": "Managing Director, Web3 Strategy Partner",
+          "description": "Founding partner responsible for the global Web3 strategy practice and enterprise client relations."
+        },
+        {
+          "period": "2010 - 2022",
+          "title": "Boston Consulting Group (BCG)",
+          "role": "Senior Partner & Managing Director",
+          "description": "Led the North American Financial Institutions group, managing a portfolio of $200M+ annually."
+        },
+        {
+          "period": "2004 - 2010",
+          "title": "McKinsey & Company",
+          "role": "Associate Principal",
+          "description": "Focused on operational restructuring and post-merger integration for global manufacturing firms."
+        }
+      ],
+      "academicFoundations": [
+        {
+          "title": "PhD in Economics",
+          "subtitle": "Stanford University",
+          "icon": "graduation-cap"
+        },
+        {
+          "title": "MBA Strategy",
+          "subtitle": "Harvard Business School",
+          "icon": "book-open"
+        },
+        {
+          "title": "BA Philosophy",
+          "subtitle": "Princeton University",
+          "icon": "landmark"
+        }
+      ],
+      "notableImpact": [
+        {
+          "category": "DeFi Protocol",
+          "title": "+35% TVL Growth",
+          "description": "Led the tokenomics overhaul for a leading European DeFi protocol."
+        },
+        {
+          "category": "Web3 Unicorn",
+          "title": "15 Markets in 24 Months",
+          "description": "Designed the global expansion roadmap for a $10B Web3 leader."
+        },
+        {
+          "category": "Enterprise Blockchain",
+          "title": "$450M Operational Alpha",
+          "description": "Architected the blockchain integration for Global Industrials."
+        }
+      ],
+      "directContact": {
+        "email": "m.vance@Invorious.com",
+        "phone": "+44 (20) 7946 0123",
+        "location": "London HQ, Suite 1200"
+      },
+      "clientVoice": [
+        {
+          "quote": "Marek has a unique ability to find the 'signal in the noise'. During our Web3 transformation, his strategic alignment workshops were the single most effective intervention for our executive team. He is peerless in her field.",
+          "name": "James Miller",
+          "role": "CEO, Apex Web3 Group",
+          "imageSrc": "/images/clients/jamesmiller.jpg"
+        },
+        {
+          "quote": "I've worked with the best consultants at every major firm, but Dr. Vance brings a different level of accountability. He doesn't just deliver a strategy; he ensures the blockchain execution actually happens. The results speak for themselves.",
+          "name": "William Jenkins",
+          "role": "CFO, OmniChain Global",
+          "imageSrc": "/images/team/David.avif"
+        }
+      ],
+      "bottomCta": {
+        "title": "Work with Dr. Vance on your next Web3 strategic project.",
+        "description": "Dr. Vance accepts a limited number of high-impact advisory engagements each year. Schedule a confidential discovery session to discuss your Web3 goals.",
+        "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+        "buttonLabel": "Book Web3 Strategy Workshop"
+      }
+    }
+  },
+  {
+    "name": "Marcus Thorne",
+    "slug": "marcus-thorne",
+    "role": "Head of Web3 & Digital Advisory",
+    "imageSrc": "/images/team/leader2.jpg",
+    "imageAlt": "Marcus Thorne",
+    "overlayText": "Web3 pioneer focusing on blockchain implementation, AI integration, and decentralized operational models.",
+    "badges": ["MIT Alumni", "Web3 Tech Innovator"],
+    "profileDetails": {
+      "heroChip": "Web3 & Digital Advisory",
+      "heroTitle": "Marcus Thorne",
+      "heroSubtitle": "Head of Web3 & Digital Advisory",
+      "shortBio": "Marcus helps leadership teams turn blockchain, AI, and cloud-native capabilities into operational outcomes. He partners with executives to design decentralized systems that scale safely, measure impact, and stay adaptable to change.",
+      "socialLinks": {
+        "linkedinHref": "https://www.linkedin.com/in/marcus-thorne",
+        "twitterHref": "https://twitter.com/marcusthorne"
+      },
+      "scheduleHref": "#",
+      "scheduleLabel": "Schedule a Web3 Digital Workshop",
+      "biography": [
+        "Marcus has led Web3 and digital transformation programs across regulated and high-scale environments, with a focus on blockchain enablement, AI integration, data governance, and resilient decentralized operations.",
+        "His approach connects technical architecture to measurable KPIs, ensuring teams can deploy Web3 solutions quickly while maintaining reliability, security, and accountability."
+      ],
+      "expertise": [
+        { "title": "Web3 & Blockchain Implementation", "percent": 96 },
+        { "title": "Decentralized Infrastructure", "percent": 94 },
+        { "title": "AI Integration & Enablement", "percent": 92 },
+        { "title": "Data Governance & Risk Controls", "percent": 89 }
+      ],
+      "careerJourney": [
+        {
+          "period": "2022 - Present",
+          "title": "Invorious",
+          "role": "Head of Web3 & Digital Advisory",
+          "description": "Leads blockchain, AI, and cloud-native advisory engagements for executive teams, aligning architecture with operational metrics."
+        },
+        {
+          "period": "2012 - 2022",
+          "title": "Cloud Systems Group",
+          "role": "Director, Platform Engineering",
+          "description": "Built multi-region cloud platforms and standardized operating models for global organizations."
+        },
+        {
+          "period": "2007 - 2012",
+          "title": "Tech Research Labs",
+          "role": "Applied AI & Blockchain Engineer",
+          "description": "Developed prototypes and productionized blockchain workflows focused on governance and human-in-the-loop design."
+        }
+      ],
+      "academicFoundations": [
+        {
+          "title": "PhD in Computer Science",
+          "subtitle": "MIT",
+          "icon": "graduation-cap"
+        },
+        {
+          "title": "MS in Systems Engineering",
+          "subtitle": "Stanford University",
+          "icon": "book-open"
+        },
+        {
+          "title": "BS in Information Systems",
+          "subtitle": "Carnegie Mellon",
+          "icon": "landmark"
+        }
+      ],
+      "notableImpact": [
+        {
+          "category": "Web3 Deployment",
+          "title": "+48% Decision Velocity",
+          "description": "Replaced manual analytics with governed blockchain workflows and real-time reporting dashboards."
+        },
+        {
+          "category": "Decentralized Resilience",
+          "title": "-62% Operational Incidents",
+          "description": "Introduced standardized runbooks, observability, and incident governance for multi-team Web3 operations."
+        }
+      ],
+      "directContact": {
+        "email": "m.thorne@Invorious.com",
+        "phone": "+44 (20) 7946 0123",
+        "location": "London HQ, Suite 710"
+      },
+      "clientVoice": [
+        {
+          "quote": "Marcus made Web3 feel actionable. The governance model and metrics dashboard helped our exec team trust decentralized deployments and scale them responsibly.",
+          "name": "Oliver Grant",
+          "role": "COO, Global DeFi Platform",
+          "imageSrc": "/images/clients/olivergrant.jpg"
+        },
+        {
+          "quote": "We didn't just migrate to blockchain; we improved how decisions are made. The new operating model reduced incidents and accelerated releases.",
+          "name": "Priya Nair",
+          "role": "VP Operations, Enterprise Web3",
+          "imageSrc": "/images/clients/Priya.jpg"
+        }
+      ],
+      "bottomCta": {
+        "title": "Work with Marcus on your next Web3 program.",
+        "description": "Marcus accepts a limited number of advisory engagements focused on blockchain enablement and decentralized operating models. Book a confidential workshop to align on outcomes and governance.",
+        "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+        "buttonLabel": "Book a Web3 Digital Workshop"
+      }
+    }
+  },
+  {
+    "name": "Simon Jenkins",
+    "slug": "Simon-jenkins",
+    "role": "DeFi & Financial Risk Partner",
+    "imageSrc": "/images/team/leader3.jpg",
+    "imageAlt": "Simon Jenkins",
+    "overlayText": "Architect of complex DeFi risk models and tokenomics frameworks for enterprise blockchain firms.",
+    "badges": ["Wharton MBA", "CFA Charterholder", "DeFi Risk Expert"],
+    "profileDetails": {
+      "heroChip": "DeFi & Financial Risk",
+      "heroTitle": "Simon Jenkins",
+      "heroSubtitle": "DeFi & Financial Risk Partner",
+      "shortBio": "Simon designs DeFi risk frameworks and tokenomics models that executives can govern and teams can operationalize. Her work connects modeling quality with decision speed, compliance, and measurable risk reduction in the decentralized economy.",
+      "socialLinks": {
+        "linkedinHref": "https://www.linkedin.com/in/simon-jenkins",
+        "twitterHref": "https://twitter.com/simonjenkins"
+      },
+      "scheduleHref": "#",
+      "scheduleLabel": "Schedule a DeFi Risk Advisory Session",
+      "biography": [
+        "Simon has built and validated DeFi risk models and tokenomics frameworks for complex blockchain ecosystems, helping organizations quantify exposure and strengthen oversight.",
+        "She specializes in translating model outputs into governance workflows and stakeholder-ready decision narratives for Web3 enterprises."
+      ],
+      "expertise": [
+        { "title": "DeFi Risk Modeling & Validation", "percent": 94 },
+        { "title": "Tokenomics Design & Strategy", "percent": 92 },
+        { "title": "Blockchain Capital Structure", "percent": 90 },
+        { "title": "Governance & Compliance Frameworks", "percent": 93 }
+      ],
+      "careerJourney": [
+        {
+          "period": "2022 - Present",
+          "title": "Invorious",
+          "role": "DeFi & Financial Risk Partner",
+          "description": "Leads DeFi risk and tokenomics advisory engagements for executive teams and board stakeholders, aligning models with governance outcomes."
+        },
+        {
+          "period": "2011 - 2022",
+          "title": "Global Markets Consulting",
+          "role": "Senior Manager, Risk Analytics",
+          "description": "Architected risk measurement approaches and reporting pipelines for multinational enterprises."
+        },
+        {
+          "period": "2006 - 2011",
+          "title": "Investment Analytics",
+          "role": "Quant Analyst",
+          "description": "Developed forecasting models and performed validation across credit and liquidity use cases."
+        }
+      ],
+      "academicFoundations": [
+        {
+          "title": "MBA Finance",
+          "subtitle": "Wharton Business School",
+          "icon": "book-open"
+        },
+        {
+          "title": "CFA Charterholder",
+          "subtitle": "CFA Institute",
+          "icon": "graduation-cap"
+        },
+        {
+          "title": "Advanced Risk Studies",
+          "subtitle": "London School of Economics",
+          "icon": "landmark"
+        }
+      ],
+      "notableImpact": [
+        {
+          "category": "DeFi Risk Reduction",
+          "title": "-28% Volatility Exposure",
+          "description": "Implemented model-driven limits and governance reviews that reduced unpredictable variance in DeFi protocols."
+        },
+        {
+          "category": "Tokenomics Governance",
+          "title": "+35% Faster Approvals",
+          "description": "Streamlined risk reporting into stakeholder-ready formats, improving decision cadence for Web3 enterprises."
+        }
+      ],
+      "directContact": {
+        "email": "s.jenkins@Invorious.com",
+        "phone": "+44 (20) 7946 0123",
+        "location": "London HQ, Suite 900"
+      },
+      "clientVoice": [
+        {
+          "quote": "Simon's framework gave our Web3 leadership clear accountability. We could explain the DeFi risk model, govern it, and act faster when conditions changed.",
+          "name": "Amir Khoury",
+          "role": "CFO, Global DeFi Group",
+          "imageSrc": "/images/clients/Amir.jpg"
+        }
+      ],
+      "bottomCta": {
+        "title": "Work with Simon on DeFi risk you can govern.",
+        "description": "Book a confidential discovery session to align on your DeFi risk objectives, tokenomics needs, and decision workflows.",
+        "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+        "buttonLabel": "Book a DeFi Risk Advisory Session"
+      }
+    }
+  }
+],
+"specialists": [
+  {
+    "name": "David Chen",
+    "slug": "david-chen",
+    "role": "Sustainable Blockchain Lead",
+    "imageSrc": "/images/team/spec1.jpg",
+    "imageAlt": "David Chen",
+    "tags": [
+      {
+        "label": "Green Web3",
+        "bgTextClassName": "bg-emerald-50 text-emerald-600"
+      },
+      {
+        "label": "Sustainable Blockchain",
+        "bgTextClassName": "bg-emerald-50 text-emerald-600"
+      }
+    ],
+    "profileDetails": {
+      "heroChip": "Sustainable Blockchain",
+      "heroTitle": "David Chen",
+      "heroSubtitle": "Sustainable Blockchain Lead",
+      "shortBio": "David helps organizations build energy-efficient blockchain solutions and operationalize green Web3 strategies. He connects data, governance, and execution so sustainability becomes an everyday performance capability.",
+      "socialLinks": {
+        "linkedinHref": "https://www.linkedin.com/in/david-chen",
+        "twitterHref": "https://twitter.com/davidchen"
+      },
+      "scheduleHref": "#",
+      "scheduleLabel": "Schedule a Sustainable Blockchain Deep-Dive",
+      "biography": [
+        "David has advised executive teams on practical green Web3 roadmaps, from energy-efficient consensus mechanisms to carbon-neutral blockchain operations and reporting rhythms.",
+        "His work focuses on turning sustainability goals into operating models that teams can run, audit, and improve across decentralized ecosystems."
+      ],
+      "expertise": [
+        { "title": "Green Blockchain Solutions", "percent": 95 },
+        { "title": "Energy-Efficient Consensus", "percent": 91 },
+        { "title": "Carbon-Neutral Web3 Operations", "percent": 88 },
+        { "title": "Sustainable Tokenomics", "percent": 85 }
+      ],
+      "careerJourney": [
+        {
+          "period": "2022 - Present",
+          "title": "Invorious",
+          "role": "Sustainable Blockchain Lead",
+          "description": "Leads green Web3 advisory engagements and builds measurable sustainable blockchain roadmaps."
+        },
+        {
+          "period": "2012 - 2022",
+          "title": "Impact Consulting Group",
+          "role": "Director, Sustainability Advisory",
+          "description": "Developed carbon, circular, and governance frameworks for global enterprises transitioning to Web3."
+        },
+        {
+          "period": "2007 - 2012",
+          "title": "Environmental Analytics Labs",
+          "role": "Senior Analyst",
+          "description": "Built measurement approaches for emissions, waste, and sustainable sourcing initiatives."
+        }
+      ],
+      "academicFoundations": [
+        {
+          "title": "MS Environmental Policy",
+          "subtitle": "Oxford University",
+          "icon": "book-open"
+        },
+        {
+          "title": "PhD in Sustainability Science",
+          "subtitle": "Imperial College",
+          "icon": "graduation-cap"
+        },
+        {
+          "title": "BA Economics",
+          "subtitle": "University of Toronto",
+          "icon": "landmark"
+        }
+      ],
+      "notableImpact": [
+        {
+          "category": "Green Web3 Execution",
+          "title": "+29% Program Adoption",
+          "description": "Built governance and reporting rhythms that increased adoption of sustainable blockchain practices."
+        },
+        {
+          "category": "Carbon-Neutral Operations",
+          "title": "-18% Energy Intensity",
+          "description": "Introduced measurement and improvement loops tied to daily blockchain operations."
+        }
+      ],
+      "directContact": {
+        "email": "d.chen@Invorious.com",
+        "phone": "+44 (20) 7946 0123",
+        "location": "London HQ, Suite 310"
+      },
+      "clientVoice": [
+        {
+          "quote": "David's approach made green Web3 tangible. Our teams finally had a system for metrics, governance, and follow-through-not just targets.",
+          "name": "Elena Rodriguez",
+          "role": "VP Sustainability, Global Blockchain Enterprise",
+          "imageSrc": "/images/clients/elenarodriguez.jpg"
+        }
+      ],
+      "bottomCta": {
+        "title": "Work with David on your sustainable blockchain execution system.",
+        "description": "Book a confidential session to align on measurable green Web3 outcomes, governance, and operational adoption across teams.",
+        "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+        "buttonLabel": "Book a Sustainable Blockchain Workshop"
+      }
+    }
+  },
+  {
+    "name": "Amara Okafor",
+    "slug": "amara-okafor",
+    "role": "Web3 Talent & Community Lead",
+    "imageSrc": "/images/team/spec2.jpg",
+    "imageAlt": "Amara Okafor",
+    "tags": [
+      { "label": "Web3 Community", "bgTextClassName": "bg-blue-50 text-blue-600" },
+      {
+        "label": "Decentralized Talent",
+        "bgTextClassName": "bg-blue-50 text-blue-600"
+      }
+    ],
+    "profileDetails": {
+      "heroChip": "Web3 Talent & Community",
+      "heroTitle": "Amara Okafor",
+      "heroSubtitle": "Web3 Talent & Community Lead",
+      "shortBio": "Amara designs Web3 community building systems and decentralized talent strategies that help organizations grow sustainably. She aligns culture, performance, and learning programs to Web3 business outcomes.",
+      "socialLinks": {
+        "linkedinHref": "https://www.linkedin.com/in/amara-okafor",
+        "twitterHref": "https://twitter.com/amaraokafor"
+      },
+      "scheduleHref": "#",
+      "scheduleLabel": "Schedule a Web3 Talent & Community Session",
+      "biography": [
+        "Amara partners with executives to translate Web3 strategy into community engagement, leadership capabilities, role clarity, and measurable performance routines.",
+        "Her work strengthens decentralized organizations by making coaching, feedback, and development operational for community managers and team leaders."
+      ],
+      "expertise": [
+        { "title": "Web3 Community Building", "percent": 93 },
+        { "title": "Decentralized Talent Systems", "percent": 90 },
+        { "title": "DAO Governance & Culture", "percent": 87 },
+        { "title": "Web3 Leadership Development", "percent": 88 }
+      ],
+      "careerJourney": [
+        {
+          "period": "2022 - Present",
+          "title": "Invorious",
+          "role": "Web3 Talent & Community Lead",
+          "description": "Leads engagements on Web3 community building, decentralized talent systems, and performance operating models."
+        },
+        {
+          "period": "2013 - 2022",
+          "title": "People & Performance Advisory",
+          "role": "Senior Consultant",
+          "description": "Built talent frameworks and manager enablement programs for scaling Web3 organizations."
+        },
+        {
+          "period": "2008 - 2013",
+          "title": "Learning & Organizational Development",
+          "role": "Program Lead",
+          "description": "Designed coaching curricula and leadership development pathways."
+        }
+      ],
+      "academicFoundations": [
+        {
+          "title": "MBA Organizational Leadership",
+          "subtitle": "INSEAD",
+          "icon": "book-open"
+        },
+        {
+          "title": "MA Psychology",
+          "subtitle": "University of Chicago",
+          "icon": "graduation-cap"
+        },
+        {
+          "title": "BSc Business Administration",
+          "subtitle": "NUS",
+          "icon": "landmark"
+        }
+      ],
+      "notableImpact": [
+        {
+          "category": "Web3 Community Growth",
+          "title": "+50k Active Members",
+          "description": "Built community systems that scaled Web3 project engagement from zero to 50k+ members."
+        },
+        {
+          "category": "Decentralized Talent",
+          "title": "+31% Contributor Readiness",
+          "description": "Implemented enablement and coaching systems that improved DAO contributor capability and confidence."
+        }
+      ],
+      "directContact": {
+        "email": "a.okafor@Invorious.com",
+        "phone": "+44 (20) 7946 0123",
+        "location": "London HQ, Suite 120"
+      },
+      "clientVoice": [
+        {
+          "quote": "Amara helped us operationalize community. We now have a system for how DAO leaders coach, measure progress, and improve-week over week.",
+          "name": "Sofia Almeida",
+          "role": "Chief People Officer, Global Web3 DAO",
+          "imageSrc": "/images/clients/sofiaalmeida.jpg"
+        },
+        {
+          "quote": "Instead of generic programs, the Web3 talent framework became part of our execution cadence. That's why it stuck.",
+          "name": "Daniel Jaker",
+          "role": "VP Strategy, Web3 Growth Firm",
+          "imageSrc": "/images/clients/danieljaker.jpg"
+        }
+      ],
+      "bottomCta": {
+        "title": "Work with Amara on your Web3 talent and community systems.",
+        "description": "Book a confidential discovery session to align community strategy, talent operations, and leadership capability with your Web3 outcomes.",
+        "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+        "buttonLabel": "Book a Web3 Talent Workshop"
+      }
+    }
+  },
+  {
+    "name": "Julian Voss",
+    "slug": "julian-voss",
+    "role": "Blockchain Supply Chain Advisor",
+    "imageSrc": "/images/team/spec3.jpg",
+    "imageAlt": "Julian Voss",
+    "tags": [
+      { "label": "Blockchain Logistics", "bgTextClassName": "bg-blue-50 text-blue-600" },
+      {
+        "label": "Smart Contracts",
+        "bgTextClassName": "bg-blue-50 text-blue-600"
+      }
+    ],
+    "profileDetails": {
+      "heroChip": "Blockchain Supply Chain",
+      "heroTitle": "Julian Voss",
+      "heroSubtitle": "Blockchain Supply Chain Advisor",
+      "shortBio": "Julian helps organizations improve supply chain velocity, traceability, and resilience using blockchain technology, smart contracts, and data-driven planning. He focuses on execution systems that teams can run daily.",
+      "socialLinks": {
+        "linkedinHref": "https://www.linkedin.com/in/julian-voss",
+        "twitterHref": "https://twitter.com/julianvoss"
+      },
+      "scheduleHref": "#",
+      "scheduleLabel": "Schedule a Blockchain Supply Chain Session",
+      "biography": [
+        "Julian has led blockchain-enabled operational excellence programs that reduce waste, improve logistics performance, and strengthen cross-site coordination using smart contracts and immutable tracking.",
+        "His work connects process design with measurable service levels, operational KPIs, and decentralized verification."
+      ],
+      "expertise": [
+        { "title": "Blockchain Supply Chain Design", "percent": 94 },
+        { "title": "Smart Contract Logistics", "percent": 91 },
+        { "title": "Supply Chain Traceability", "percent": 90 },
+        { "title": "Resilience & Risk Controls", "percent": 88 }
+      ],
+      "careerJourney": [
+        {
+          "period": "2022 - Present",
+          "title": "Invorious",
+          "role": "Blockchain Supply Chain Advisor",
+          "description": "Advises on blockchain-enabled lean transformations, smart contract logistics, and supply chain performance improvement."
+        },
+        {
+          "period": "2014 - 2022",
+          "title": "Global Operations Group",
+          "role": "Senior Operations Manager",
+          "description": "Standardized operating models and improved service levels across regional supply chains using blockchain solutions."
+        },
+        {
+          "period": "2008 - 2014",
+          "title": "Industrial Engineering Consulting",
+          "role": "Operations Analyst",
+          "description": "Designed process improvements and modeling approaches for planning and execution."
+        }
+      ],
+      "academicFoundations": [
+        {
+          "title": "PhD in Operations Research",
+          "subtitle": "ETH Zurich",
+          "icon": "graduation-cap"
+        },
+        {
+          "title": "MS Supply Chain Systems",
+          "subtitle": "Georgia Tech",
+          "icon": "book-open"
+        },
+        {
+          "title": "BA Industrial Engineering",
+          "subtitle": "TU Munich",
+          "icon": "landmark"
+        }
+      ],
+      "notableImpact": [
+        {
+          "category": "Blockchain Velocity",
+          "title": "+22% Lead-Time Improvement",
+          "description": "Re-designed planning workflows and eliminated waste using smart contract automation."
+        },
+        {
+          "category": "Traceability",
+          "title": "100% Immutable Records",
+          "description": "Implemented blockchain tracking for end-to-end supply chain visibility."
+        }
+      ],
+      "directContact": {
+        "email": "j.voss@Invorious.com",
+        "phone": "+44 (20) 7946 0123",
+        "location": "London HQ, Suite 402"
+      },
+      "clientVoice": [
+        {
+          "quote": "Julian brought blockchain clarity to messy logistics. The smart contract system made improvements repeatable and traceable for every shipment.",
+          "name": "Aisha Rahman",
+          "role": "Director, Global Logistics Operations",
+          "imageSrc": "/images/clients/aisharahman.jpg"
+        }
+      ],
+      "bottomCta": {
+        "title": "Work with Julian on blockchain supply chain execution.",
+        "description": "Book a confidential session to align on blockchain-enabled lean improvements, logistics KPIs, and traceability practices you can run daily.",
+        "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+        "buttonLabel": "Book a Blockchain Supply Chain Workshop"
+      }
+    }
+  },
+  {
+    "name": "Sofia Martinez",
+    "slug": "sofia-martinez",
+    "role": "Web3 Customer Experience Lead",
+    "imageSrc": "/images/team/spec4.jpg",
+    "imageAlt": "Sofia Martinez",
+    "tags": [
+      {
+        "label": "Web3 UX",
+        "bgTextClassName": "bg-blue-50 text-blue-600"
+      },
+      { "label": "dApp Design", "bgTextClassName": "bg-blue-50 text-blue-600" }
+    ],
+    "profileDetails": {
+      "heroChip": "Web3 Customer Experience",
+      "heroTitle": "Sofia Martinez",
+      "heroSubtitle": "Web3 Customer Experience Lead",
+      "shortBio": "Sofia designs Web3 customer experience systems that connect dApp UX, brand, and measurable outcomes. She helps organizations create decentralized experiences users trust and teams can continuously improve.",
+      "socialLinks": {
+        "linkedinHref": "https://www.linkedin.com/in/sofia-martinez",
+        "twitterHref": "https://twitter.com/sofiamartinez"
+      },
+      "scheduleHref": "#",
+      "scheduleLabel": "Schedule a Web3 CX & dApp UX Session",
+      "biography": [
+        "Sofia partners with leadership teams to turn Web3 experience strategy into execution-ready dApp journeys and decentralized design systems.",
+        "Her expertise blends Web3 research, product design, and performance measurement to create fast, reliable customer value in decentralized applications."
+      ],
+      "expertise": [
+        { "title": "dApp UX Strategy & Design", "percent": 96 },
+        { "title": "Web3 Design Systems", "percent": 92 },
+        { "title": "Wallet Onboarding & Conversion", "percent": 89 },
+        { "title": "Decentralized Brand Consistency", "percent": 88 }
+      ],
+      "careerJourney": [
+        {
+          "period": "2022 - Present",
+          "title": "Invorious",
+          "role": "Web3 Customer Experience Lead",
+          "description": "Leads dApp UX transformations that improve wallet onboarding, engagement, and measurable Web3 customer outcomes."
+        },
+        {
+          "period": "2013 - 2022",
+          "title": "Product Experience Studio",
+          "role": "Senior Product Designer",
+          "description": "Built design systems and ran experiments to improve conversion and retention for Web3 products."
+        },
+        {
+          "period": "2008 - 2013",
+          "title": "Brand & Digital Labs",
+          "role": "UX Researcher",
+          "description": "Conducted research and designed experience prototypes for multi-channel products."
+        }
+      ],
+      "academicFoundations": [
+        {
+          "title": "MS Human-Computer Interaction",
+          "subtitle": "Carnegie Mellon",
+          "icon": "graduation-cap"
+        },
+        {
+          "title": "MA Communication Design",
+          "subtitle": "UCL",
+          "icon": "book-open"
+        },
+        {
+          "title": "BA Psychology",
+          "subtitle": "University of Barcelona",
+          "icon": "landmark"
+        }
+      ],
+      "notableImpact": [
+        {
+          "category": "Web3 Conversion",
+          "title": "+41% Wallet Onboarding",
+          "description": "Redesigned dApp onboarding journeys and introduced performance instrumentation for rapid iteration."
+        },
+        {
+          "category": "dApp Design Consistency",
+          "title": "-33% UX Fragmentation",
+          "description": "Implemented Web3 design systems that improved brand consistency across decentralized product lines."
+        }
+      ],
+      "directContact": {
+        "email": "s.martinez@Invorious.com",
+        "phone": "+44 (20) 7946 0123",
+        "location": "London HQ, Suite 240"
+      },
+      "clientVoice": [
+        {
+          "quote": "Sofia gave us clarity on what to change first in our dApp. The redesigned wallet journey improved conversion immediately, and the system keeps improving.",
+          "name": "Jonas Remi",
+          "role": "VP Product, Web3 Consumer Platform",
+          "imageSrc": "/images/clients/jonasremi.avif"
+        },
+        {
+          "quote": "The combination of Web3 brand thinking and dApp UX rigor made the experience feel trustworthy. Our teams finally had a repeatable process.",
+          "name": "Mariana Garcia",
+          "role": "CMO, Global Web3 Brand",
+          "imageSrc": "/images/clients/marianagarcia.jpg"
+        }
+      ],
+      "bottomCta": {
+        "title": "Work with Sofia on your next Web3 customer experience system.",
+        "description": "Book a confidential discovery session to align on dApp UX strategy, Web3 brand consistency, and measurable decentralized experience outcomes.",
+        "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+        "buttonLabel": "Book a Web3 CX Workshop"
+      }
+    }
+  }
+]
+  },
+"workWithUs": {
+  "openings": [
+    {
+      "id": "apply-btn-1",
+      "category": "Blockchain Development",
+      "categoryColor": "bg-blue-100 text-blue-600",
+      "details": "Full-time • London / Remote (EMEA)",
+      "title": "Senior Smart Contract Developer",
+      "description": "Design and implement secure, gas-optimized smart contracts for Pet360's Web3 pet care ecosystem, including NFT passports, verifiable vaccine certificates, smart contract adoptions, and decentralized insurance protocols."
+    },
+    {
+      "id": "apply-btn-2",
+      "category": "Product Design",
+      "categoryColor": "bg-purple-100 text-purple-600",
+      "details": "Full-time • London / Remote (EMEA)",
+      "title": "Product Designer (UI/UX)",
+      "description": "Design intuitive, user-friendly interfaces for Pet360's web and mobile platforms. Create seamless experiences for pet owners, veterinarians, and insurers interacting with blockchain-based features."
+    },
+    {
+      "id": "apply-btn-3",
+      "category": "Backend Engineering",
+      "categoryColor": "bg-emerald-100 text-emerald-600",
+      "details": "Full-time • London / Remote (EMEA)",
+      "title": "Backend API Engineer",
+      "description": "Build scalable, secure RESTful APIs and microservices to power Pet360's pet care ecosystem, integrating with blockchain infrastructure, smart contracts, and third-party services."
+    },
+    {
+      "id": "apply-btn-4",
+      "category": "Frontend Engineering",
+      "categoryColor": "bg-orange-100 text-orange-600",
+      "details": "Full-time • London / Remote (EMEA)",
+      "title": "Frontend Engineer",
+      "description": "Develop responsive, high-performance web applications for Pet360 using React/Next.js. Implement wallet connections, NFT displays, and interactive dashboards for pet owners."
+    },
+    {
+      "id": "apply-btn-5",
+      "category": "Mobile Engineering",
+      "categoryColor": "bg-pink-100 text-pink-600",
+      "details": "Full-time • London / Remote (EMEA)",
+      "title": "Mobile Engineer",
+      "description": "Build cross-platform mobile apps for iOS and Android using React Native. Bring Pet360's pet care features, NFT passports, and wallet integration to pet owners on the go."
+    },
+    {
+      "id": "apply-btn-6",
+      "category": "Smart Contract Development Intern",
+      "categoryColor": "bg-blue-100 text-blue-600",
+      "details": "Internship (3-6 months) • London / Remote (EMEA)",
+      "title": "Smart Contract Intern",
+      "description": "Kickstart your Web3 career by working alongside our senior blockchain engineers. Assist in developing, testing, and deploying smart contracts for Pet360's NFT passports, vaccine certificates, and on-chain insurance infrastructure."
+    },
+{
+  "id": "apply-btn-7",
+  "category": "AI-Assisted Development",
+  "categoryColor": "bg-indigo-100 text-indigo-600",
+  "details": "Contract • Remote (Worldwide)",
+  "title": "AI Agent Developer (Cursor/Claude)",
+  "description": "Use Cursor and AI agents to finish Pet360's Web2 layer (OTP endpoints, appointment status, forms) and build the entire Web3 layer from scratch - pet NFT passports (ERC-721), vaccine certificates (ERC-1155), smart contract adoptions, insurance on-chain, and $PET token economy. Must know Solidity, Next.js, NestJS, and be a power user of Cursor or similar AI coding tools."
+}
+  ],
+  "openingDetails": {
+    "Blockchain": {
+      "qualifications": [
+        "3+ years of experience in smart contract development (Solidity, Rust, or Vyper)",
+        "Deep understanding of EVM, gas optimization, and security best practices",
+        "Experience with NFT standards (ERC-721, ERC-1155) and tokenomics",
+        "Familiarity with Hardhat, Foundry, or Truffle",
+        "Knowledge of Web3.js, Ethers.js, and wallet integrations",
+        "Strong debugging and smart contract audit skills",
+        "Professional English proficiency"
+      ],
+      "responsibilities": [
+        "Lead end-to-end smart contract development for Pet360 NFT passports",
+        "Develop vaccine certificate NFT contracts with verification logic",
+        "Build smart contract adoption system for pet ownership transfers",
+        "Create on-chain insurance claim automation contracts",
+        "Conduct unit testing, integration testing, and security audits",
+        "Optimize gas usage and transaction costs",
+        "Collaborate with backend and frontend engineers for integration"
+      ],
+"applicationSteps": [
+  "Submit your resume/CV, GitHub portfolio, and links to deployed smart contracts or relevant blockchain projects.",
+  "Use email subject format: Application - Smart Contract Developer - [Your Full Name]",
+  "Reference the role code in your email: SCD-FT-001",
+  "Complete a technical assessment (smart contract implementation task, 24-hour deadline from receipt). This helps us evaluate your skills before moving forward.",
+  "Intro call with hiring manager (30 minutes) - only for candidates who pass the technical assessment. Discuss your approach, experience, and alignment with our Web3 mission.",
+  "Technical interview with blockchain engineering team (45-60 minutes) to review your submission and discuss architectural decisions in depth.",
+  "Final interview with CTO, followed by formal offer and onboarding plan for successful candidates."
+]
+    },
+"Smart Contract Intern": {
+  "qualifications": [
+    "Currently pursuing or recently completed a Bachelor's or Master's degree in Computer Science, Software Engineering, or a related technical field",
+    "Demonstrated interest in blockchain technology through coursework, personal projects, hackathons, or research",
+    "Basic proficiency in at least one programming language (JavaScript, TypeScript, Python, or Go)",
+    "Familiarity with Solidity or strong willingness to learn rapidly (prior exposure is a strong plus)",
+    "Understanding of fundamental data structures, algorithms, and software design patterns",
+    "Strong analytical and problem-solving skills with attention to detail",
+    "Excellent written and verbal communication skills in English",
+    "Ability to work effectively in a remote, distributed team environment"
+  ],
+  "responsibilities": [
+    "Collaborate with senior engineers to design, implement, and test smart contract solutions for Pet360's core blockchain infrastructure",
+    "Assist in writing and deploying Solidity contracts for NFT passports and vaccine certificate verification",
+    "Participate in code reviews, security audits, and gas optimization exercises",
+    "Help maintain comprehensive technical documentation for smart contract systems",
+    "Support the team in deploying and verifying contracts across testnet and mainnet environments",
+    "Research emerging Web3 standards (ERC-721, ERC-1155, ERC-4337) and propose integration strategies",
+    "Contribute to unit testing, integration testing, and automated validation pipelines",
+    "Learn from senior mentors while actively contributing to production-ready code"
+  ],
+"applicationSteps": [
+  "Submit your resume/CV, GitHub profile, and any blockchain-related projects (coursework, hackathon submissions, or personal projects).",
+  "Use email subject format: Application - Smart Contract Intern - [Your Full Name]",
+  "Reference the role code in your email: SCI-IN-001",
+  "Complete a take-home technical assessment (smart contract fundamentals or algorithmic challenge, 1 day). This helps us evaluate your foundational skills and potential.",
+  "If successful, intro call with hiring manager (30 minutes) to discuss your background, interests, and alignment with our Web3 mission.",
+  "Technical screening interview with tech team (30-45 minutes) to review your submission and discuss your approach.",
+  "Final conversation with CTO, followed by formal offer and onboarding plan for successful candidates."
+]
+},
+    "Design": {
+      "qualifications": [
+        "4+ years of product design experience for web and mobile",
+        "Strong portfolio showcasing user-centered design process",
+        "Proficiency in Figma, Sketch, or Adobe XD",
+        "Experience designing dashboards or complex B2C/B2B platforms",
+        "Understanding of Web3/wallet UX is a plus",
+        "Professional English proficiency"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for Pet360 web and mobile apps",
+        "Create user flows, wireframes, prototypes, and high-fidelity designs",
+        "Collaborate with engineers on implementation",
+        "Conduct user research and usability testing",
+        "Maintain and evolve design system"
+      ],
+"applicationSteps": [
+  "Submit your resume/CV, design portfolio (case studies required), and links to live projects or design systems you've contributed to.",
+  "Use email subject format: Application - Product Designer - [Your Full Name]",
+  "Reference the role code in your email: PD-FT-002",
+  "Complete a platform review task (we'll provide access to a test platform. Analyze the UX/UI, identify pain points, and provide a brief audit report, 1 day).",
+  "If successful, intro call with hiring manager (30 minutes) to discuss your background, design philosophy, and review findings.",
+  "Portfolio review and design interview with tech team (45-60 minutes) to discuss your platform review, design challenge submission, and portfolio case studies.",
+  "Final interview with product lead & CTO, followed by formal offer and onboarding plan for successful candidates."
+]
+    },
+    "Backend": {
+      "qualifications": [
+  "4+ years of backend development experience with Node.js and NestJS framework",
+  "Strong experience with RESTful API design, microservices architecture, and modular application structure",
+  "Proficiency with PostgreSQL, TypeORM, or Prisma for database management",
+  "Experience with Ethers.js or Web3.js for blockchain interaction and smart contract integration",
+  "Familiarity with event-driven architecture and message queues (RabbitMQ, Bull, or Kafka)",
+  "Experience with cloud platforms (AWS, GCP, or Azure) and containerization (Docker, Kubernetes)",
+  "Knowledge of Redis for caching and session management",
+  "Understanding of security best practices (JWT, encryption, rate limiting, input validation)",
+  "Professional English proficiency"
+],
+  "responsibilities": [
+  "Design and implement scalable backend services for Pet360 using NestJS and TypeScript",
+  "Build RESTful APIs for frontend and mobile clients following OpenAPI/Swagger specifications",
+  "Integrate with blockchain infrastructure using Ethers.js to interact with smart contracts (NFT passports, vaccine certificates, insurance claims)",
+  "Design and optimize PostgreSQL database schemas, queries, and indexing for performance",
+  "Implement event listeners to sync on-chain events with off-chain database",
+  "Develop robust error handling, logging, and monitoring systems",
+  "Ensure API security (authentication, authorization, rate limiting, input sanitization)",
+  "Write unit tests and integration tests using Jest",
+  "Collaborate with smart contract developers and frontend engineers on Pet360 features"
+],
+"applicationSteps": [
+  "Submit your resume/CV, GitHub portfolio, and links to relevant backend projects or APIs you've built.",
+  "Use email subject format: Application - Backend API Engineer - [Your Full Name]",
+  "Reference the role code in your email: BE-FT-003",
+  "Complete a take-home coding challenge. We'll provide detailed requirements.",
+  "If successful, intro call with hiring manager (30 minutes) to discuss your background, technical experience, and approach.",
+  "Technical interview with tech team (45-60 minutes) to review your submission and discuss architectural decisions, database design, and NestJS/Ethers.js integration.",
+  "Final interview with CTO, followed by formal offer and onboarding plan for successful candidates."
+]
+    },
+    "Frontend": {
+      "qualifications": [
+        "3+ years of frontend development experience",
+        "Strong proficiency in React/Next.js and TypeScript",
+        "Experience with state management (Redux, Zustand, or Context API)",
+        "Understanding of responsive design and Tailwind CSS",
+        "Experience with Web3/wallet libraries (Web3.js, Ethers.js, Wagmi) is a plus",
+        "Professional English proficiency"
+      ],
+      "responsibilities": [
+        "Build responsive web interfaces for Pet360 platform",
+        "Implement wallet connection and blockchain interactions",
+        "Create pet owner dashboards and medical record views",
+        "Optimize frontend performance and SEO",
+        "Collaborate with designers and backend engineers"
+      ],
+"applicationSteps": [
+  "Submit your resume/CV, GitHub portfolio, and links to live projects or deployed web applications.",
+  "Use email subject format: Application - Frontend Engineer - [Your Full Name]",
+  "Reference the role code in your email: FE-FT-004",
+  "Complete a take-home challenge (React/Next.js feature implementation, 1 day deadline from receipt).",
+  "If successful, intro call with hiring manager (30 minutes) to discuss your background, technical experience, and frontend philosophy.",
+  "Technical interview with tech team (45-60 minutes) to review your submission and discuss component architecture, state management, and performance optimization.",
+  "Final interview with CTO, followed by formal offer and onboarding plan for successful candidates."
+]
+    },
+    "Mobile": {
+      "qualifications": [
+        "3+ years of mobile development experience with React Native",
+        "Published apps on iOS App Store and Google Play Store",
+        "Experience with mobile state management and offline storage",
+        "Familiarity with push notifications and mobile security",
+        "Understanding of blockchain/wallet mobile integration is a plus",
+        "Professional English proficiency"
+      ],
+      "responsibilities": [
+        "Build cross-platform mobile apps for Pet360 (iOS & Android)",
+        "Implement pet profile management and medical records",
+        "Add wallet integration for NFT passports",
+        "Handle push notifications for vet reminders",
+        "Optimize mobile performance and user experience"
+      ],
+"applicationSteps": [
+  "Submit your resume/CV, GitHub portfolio, and links to published apps on App Store and/or Google Play Store.",
+  "Use email subject format: Application - Mobile Engineer - [Your Full Name]",
+  "Reference the role code in your email: ME-FT-005",
+  "Complete a platform review task (we'll provide access to a test platform. Analyze the UX/UI, identify pain points, and provide a brief audit report focusing on navigation, performance, and user experience, 1 day).",
+  "If successful, intro call with hiring manager (30 minutes) to discuss your background, mobile development experience, and review findings.",
+  "Technical interview with tech team (45-60 minutes) to discuss your platform review, architectural decisions, and React Native best practices.",
+  "Final interview with CTO, followed by formal offer and onboarding plan for successful candidates."
+]
+    }
+  },
+  "journey": [
+    {
+      "step": "01",
+      "title": "Submit Portfolio or Resume",
+      "description": "Share your resume, GitHub profile, portfolio, or deployed smart contract examples. Our hiring team reviews every application within 5-7 business days."
+    },
+    {
+      "step": "02",
+      "title": "Technical Assessment",
+      "description": "Complete a practical assessment relevant to your role-either a live coding session, smart contract audit, or take-home project. We evaluate real-world Web3 problem-solving skills."
+    },
+    {
+      "step": "03",
+      "title": "Team Interview",
+      "description": "A 45-60 minute conversation with your future team lead and peers to discuss your technical approach, experience, and alignment with our mission."
+    },
+    {
+      "step": "04",
+      "title": "Offer & Onboarding",
+      "description": "Successful candidates receive a formal offer, token equity package, and a comprehensive 30-60-90 day onboarding plan to ensure immediate impact on Pet360."
+    }
+  ],
+  "benefits": [
+    {
+      "icon": "stethoscope",
+      "title": "Comprehensive Health",
+      "description": "Top-tier medical, dental, and vision coverage for you and your family. Mental health support included."
+    },
+    {
+      "icon": "graduationCap",
+      "title": "Web3 Growth Fund",
+      "description": "$7,500 annual budget for conferences (ETHDenver, DevCon), certifications (Solidity, Smart Contract Security), and blockchain courses."
+    },
+    {
+      "icon": "coffee",
+      "title": "Flexible Remote Work",
+      "description": "Choose between our London hub or fully remote setup across EMEA. Flexible hours that respect your lifestyle and time zones."
+    },
+    {
+      "icon": "chartBar",
+      "title": "Token Equity & Bonuses",
+      "description": "Competitive salary with performance bonuses and Pet360 token equity options. Share in the success of the ecosystem you help build."
+    }
+  ]
+}
+}

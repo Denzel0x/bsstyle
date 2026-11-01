@@ -1,0 +1,2526 @@
+{
+  "homePage": {
+    "home": {
+      "badge": "Sydney's Senior-Only Software Agency",
+      "title": "Tailored software, built to fit how your business actually runs.",
+      "description": "Invorious designs and builds custom web, mobile, and blockchain systems for businesses — from first architecture sketch to production. Trust us to help you succeed through technology.",
+      "primaryCta": {
+        "label": "Start a project",
+        "href": "/#contact"
+      },
+      "secondaryCta": {
+        "label": "See our services",
+        "href": "/services"
+      },
+      "stats": [
+        { "value": "2021", "label": "Founded in Sydney" },
+        { "value": "2–10", "label": "Senior Team Members" },
+        { "value": "1:1", "label": "Access to Engineers" }
+      ],
+      "heroImage": {
+        "src": "/images/landing/landing.avif",
+        "alt": "Invorious Team"
+      },
+      "trustedBy": {
+        "avatars": [
+          "/images/landing/trustedby1.jpg",
+          "/images/landing/trustedby2.jpg",
+          "/images/landing/trustedby3.jpg"
+        ],
+        "text": "Trusted by forward-thinking Web2 and Web3 teams"
+      }
+    },
+    "about": {
+      "badge": "Since 2021",
+      "title": "Client-centred, by design.",
+      "description": "Invorious was founded on a simple principle: we don't do bloated management, endless meetings, or sales pitches. The engineers who scope your project are the exact same people who build it.",
+      "highlights": [
+        {
+          "icon": "target",
+          "title": "Senior-Only Team",
+          "description": "We don't hand off code to juniors. You get elite, experienced engineers from day one."
+        },
+        {
+          "icon": "zap",
+          "title": "Production-Grade",
+          "description": "Measuring success by the performance, security, and maintainability of your shipped software."
+        }
+      ],
+      "retention": {
+        "value": "100%",
+        "description": "Client retention. We build lasting partnerships—not just software projects."
+      },
+      "images": [
+        {
+          "src": "/images/landing/crypto.jpg",
+          "alt": "Consulting 1",
+          "className": "w-full h-48 sm:h-64 object-cover rounded-2xl shadow-lg"
+        },
+        {
+          "src": "/images/landing/impact.jpg",
+          "alt": "Consulting 2",
+          "className": "w-full h-40 sm:h-48 object-cover rounded-2xl shadow-lg"
+        },
+        {
+          "src": "/images/landing/mission1.jpg",
+          "alt": "Consulting 3",
+          "className": "w-full h-40 sm:h-48 object-cover rounded-2xl shadow-lg"
+        },
+        {
+          "src": "/images/landing/mission2.jpg",
+          "alt": "Consulting 4",
+          "className": "w-full h-48 sm:h-64 object-cover rounded-2xl shadow-lg"
+        }
+      ]
+    },
+    "services": {
+      "badge": "What we do",
+      "title": "Three ways we work with you",
+      "description": "We build tailored software solutions—from Web2 apps to Web3 protocols—that fit how a business actually runs.",
+      "detailsDefaults": {
+        "description": "A focused engagement designed to produce clear outcomes, practical next steps, and measurable progress.",
+        "features": [
+          "A clear scope and success metrics",
+          "Actionable recommendations and next steps",
+          "Templates, checklists, and best-practice playbooks",
+          "Stakeholder alignment and decision-ready outputs",
+          "Implementation guidance with measurable milestones",
+          "A handover plan your team can execute"
+        ],
+        "deliverables": [
+          "A short discovery summary and problem framing",
+          "Prioritized recommendations with effort/impact",
+          "A 30/60/90-day execution plan",
+          "Reusable templates and checklists",
+          "Decision log and stakeholder alignment notes",
+          "A final handover session and next-step roadmap"
+        ],
+        "process": [
+          {
+            "step": "01",
+            "title": "Discovery",
+            "description": "Align goals, constraints, and stakeholders. Confirm scope and success metrics."
+          },
+          {
+            "step": "02",
+            "title": "Analysis",
+            "description": "Review inputs, identify root causes, and map opportunities with clear trade-offs."
+          },
+          {
+            "step": "03",
+            "title": "Delivery",
+            "description": "Package decisions into a plan your team can execute, with milestones and owners."
+          }
+        ],
+        "outcomes": [
+          "Clarity on what to do next in your Web3 journey (and what to defer)",
+          "Stronger alignment across decision-makers and stakeholders",
+          "Reduced risk through explicit assumptions and decentralized trade-offs",
+          "A plan that's measurable, time-bound, and owned by your team"
+        ]
+      },
+      "items": [
+        {
+          "icon": "briefcase",
+          "title": "Technology Consulting",
+          "description": "Plan before you build. Architecture reviews, technology roadmaps and technical due diligence.",
+          "features": ["Architecture Reviews", "Tech Roadmaps"]
+        },
+        {
+          "icon": "monitor",
+          "title": "Web2 – Apps & Web",
+          "description": "Products people can rely on. Custom web applications, mobile apps and internal tools, engineered for performance, maintainability and growth.",
+          "features": ["Custom Web Apps", "Mobile Apps"]
+        },
+        {
+          "icon": "globe",
+          "title": "Web3 – Blockchain",
+          "description": "Decentralised, done properly. Smart contracts, token systems and blockchain-backed applications, built with the same engineering discipline as everything else we ship.",
+          "features": ["Smart Contracts", "Token Systems"]
+        }
+      ]
+    },
+    "portfolio": {
+      "badge": "Success Stories",
+      "title": "Case Studies of Impact",
+      "description": "Discover how we've helped startups, enterprises, and Web3 natives ship production-grade systems.",
+      "items": [
+        {
+          "tag": "Web3 / DeFi",
+          "title": "VaultWise: AI DeFi Yield Optimizer",
+          "description": "Building an AI-powered DeFi yield optimizer featuring ERC-4626 vaults, cross-chain swap aggregators, and autonomous AI agents.",
+          "imageSrc": "/images/landing/vaultwise.avif",
+          "imageAlt": "VaultWise DeFi Platform"
+        },
+        {
+          "tag": "Web3 / Gaming Analytics",
+          "title": "Opportunity Intelligence Engine",
+          "description": "A lightweight Windows desktop application that detects cross-game arbitrage opportunities across 15+ Web3 games in real-time.",
+          "imageSrc": "/images/landing/arbitrage.avif",
+          "imageAlt": "Arbitrage Engine"
+        },
+        {
+          "tag": "Retail",
+          "title": "Reimagining Decentralized Finance",
+          "description": "A 35% increase in DeFi protocol adoption for a leading European platform through strategic UX overhaul.",
+          "imageSrc": "/images/landing/fintech.avif",
+          "imageAlt": "Case Study 3"
+        },
+        {
+          "tag": "Logistics",
+          "title": "Sustainable Blockchain Supply Chain",
+          "description": "Reducing carbon footprint by 22% while increasing net margins for a global logistics provider.",
+          "imageSrc": "/images/landing/operations.avif",
+          "imageAlt": "Case Study 4"
+        }
+      ]
+    },
+    "team": {
+      "badge": "The Minds Behind Invorious",
+      "title": "Co-Founding Team",
+      "joinLabel": "Meet the team",
+      "members": [
+        {
+          "name": "Barnaby Finch",
+          "role": "Co-Founder, Yield Strategy & Liquidity Provision",
+          "imageSrc": "/images/team/barnaby.jpg",
+          "imageAlt": "Barnaby Finch",
+          "linkedinUrl": "https://www.linkedin.com/in/barnaby-finch/"
+        },
+        {
+          "name": "Cressida Wainwright",
+          "role": "Co-Founder, Digital Asset Tokenization",
+          "imageSrc": "/images/team/cressida.jpg",
+          "imageAlt": "Cressida Wainwright",
+          "linkedinUrl": "https://www.linkedin.com/in/cressida-wainwright/"
+        },
+        {
+          "name": "Thiago Carvalhal",
+          "role": "Co-Founder, Smart Contract Security & Audits",
+          "imageSrc": "/images/team/thiago.jpg",
+          "imageAlt": "Thiago Carvalhal",
+          "linkedinUrl": "https://www.linkedin.com/in/thiago-carvalhal/"
+        }
+      ]
+    }
+  },
+  "about": {
+    "values": [
+      {
+        "icon": "award",
+        "title": "Senior-Only Craftsmanship",
+        "description": "We hold ourselves to the highest standards. We take pride in writing clean, secure, and highly optimized code (Solidity, Vyper, or TypeScript)."
+      },
+      {
+        "icon": "shield",
+        "title": "Radical Directness",
+        "description": "No sales pitches. No middle management. You talk directly to the engineers building your product, and we give you honest, technical advice."
+      },
+      {
+        "icon": "zap",
+        "title": "Client-Centred Autonomy",
+        "description": "We treat your business like our own. We are adaptive and completely focused on delivering results that actually move your business forward."
+      },
+      {
+        "icon": "users",
+        "title": "True Flexibility",
+        "description": "We embrace distributed teams across timezones (Sydney to Bogota) and offer hybrid, remote, and contract engagements."
+      }
+    ],
+    "journey": [
+      {
+        "year": "2021",
+        "title": "The Foundation",
+        "description": "Invorious launched in Sydney as a boutique, senior-only software agency. Our mission: fix the broken agency model by putting clients directly in touch with the engineers building their software.",
+        "offsetClassName": "lg:mb-12"
+      },
+      {
+        "year": "2023",
+        "title": "Expanding to Web3",
+        "description": "Building on our Web2 expertise, we expanded into Web3—building smart contracts and decentralized systems with the same rigorous engineering discipline.",
+        "offsetClassName": "lg:mt-12"
+      },
+      {
+        "year": "2024",
+        "title": "Strategic Growth",
+        "description": "Strengthened client partnerships across Web3 consulting and blockchain development. Expanded technical capabilities and deepened expertise in decentralized solutions.",
+        "offsetClassName": "lg:mb-12"
+      },
+      {
+        "year": "2025",
+        "title": "Consulting & Delivery",
+        "description": "Continued to guide organizations across the decentralized economy. Built foundational expertise for upcoming proprietary product development.",
+        "offsetClassName": "lg:mt-12"
+      },
+      {
+        "year": "2026",
+        "title": "Proprietary Service Development",
+        "description": "We are actively developing our own in-house service, shifting from purely client-focused consulting to building a scalable, product-led ecosystem alongside our agency work.",
+        "offsetClassName": "lg:mb-12"
+      },
+      {
+        "year": "2027",
+        "title": "Service Scaling & Early Adopters",
+        "description": "We will scale our newly developed service, onboarding early adopters and expanding our internal team. The focus will be on proving the product's value and locking in key industry partnerships.",
+        "offsetClassName": "lg:mt-12"
+      },
+      {
+        "year": "2028",
+        "title": "Ecosystem Maturity",
+        "description": "Our proprietary service will reach full maturity. We will continue to grow our developer network and solidify Invorious as a leading product-led software agency.",
+        "offsetClassName": "lg:mb-12"
+      }
+    ],
+    "stats": [
+      {
+        "key": "clients",
+        "label": "Clients Worldwide",
+        "value": 100,
+        "prefix": "",
+        "suffix": "+",
+        "isCurrency": false
+      },
+      {
+        "key": "offices",
+        "label": "Global Offices",
+        "value": 2,
+        "prefix": "",
+        "suffix": "",
+        "isCurrency": false
+      },
+      {
+        "key": "experts",
+        "label": "Senior Experts",
+        "value": 10,
+        "prefix": "",
+        "suffix": "+",
+        "isCurrency": false
+      },
+      {
+        "key": "revenue",
+        "label": "Revenue Impact",
+        "value": 500,
+        "prefix": "$",
+        "suffix": "M+",
+        "isCurrency": true
+      }
+    ],
+    "presence": {
+      "heading": "Strategically Located for Global Reach",
+      "offices": [
+        {
+          "city": "Sydney",
+          "type": "Global Headquarters",
+          "address": "Sydney, NSW, Australia",
+          "phone": "0426 576 625"
+        },
+        {
+          "city": "Bogota",
+          "type": "Latin America Hub",
+          "address": "Bogota, Colombia",
+          "phone": "+57 320 000 0000"
+        }
+      ]
+    },
+    "recognitions": [
+      { "icon": "award", "label": "Best Consultancies 2023" },
+      { "icon": "shield", "label": "Strategic Partner Award" },
+      { "icon": "target", "label": "Case Study of Year" },
+      { "icon": "zap", "label": "Top 50 Innovators" }
+    ]
+  },
+  "services": {
+    "overview": {
+      "paragraphs": [
+        "Our strategic planning service goes beyond traditional consulting. We don't just hand you a deck; we partner with your leadership to diagnose systemic challenges, identify untapped market potential, and architect a future-proof roadmap for your entire organization.",
+        "By combining quantitative market research with qualitative stakeholder alignment, we ensure your new strategy is not only ambitious but practically executable within your current cultural and operational context."
+      ],
+      "highlights": [
+        {
+          "icon": "trendingUp",
+          "title": "Growth Acceleration",
+          "description": "Unlock new revenue streams by identifying market gaps before your competitors do."
+        },
+        {
+          "icon": "shield",
+          "title": "Risk Mitigation",
+          "description": "Future-proof your business against economic shifts with resilient operational models."
+        }
+      ],
+      "deliverables": [
+        "3-Year Strategic Growth Roadmap",
+        "Comprehensive Market Analysis Report",
+        "Financial Projection & ROI Models",
+        "Competitor Benchmarking Matrix",
+        "Change Management Playbook",
+        "Executive Alignment Workshop"
+      ]
+    },
+    "engagementPackages": {
+      "heading": "Flexible Options for Every Stage",
+      "items": [
+        {
+          "id": "price-btn-1",
+          "name": "Growth Diagnostic",
+          "description": "Best for SMBs looking for a strategic health check and quick wins.",
+          "priceMain": "$15,999",
+          "priceSuffix": "/project",
+          "isFeatured": false,
+          "badgeText": "",
+          "features": [
+            { "text": "4-Week Engagement", "included": true },
+            { "text": "SWOT Analysis", "included": true },
+            { "text": "Market Gap Analysis", "included": true },
+            { "text": "Financial Projections", "included": false }
+          ],
+          "ctaLabel": "Get Started"
+        },
+        {
+          "id": "price-btn-2",
+          "name": "Standard Transformation",
+          "description": "Comprehensive 12-week program for scaling mid-market companies.",
+          "priceMain": "$59,999",
+          "priceSuffix": "/project",
+          "isFeatured": true,
+          "badgeText": "Most Popular",
+          "features": [
+            { "text": "10-Week Engagement", "included": true },
+            { "text": "Full Market Modeling", "included": true },
+            { "text": "3-Year Financials", "included": true },
+            { "text": "Board Presentation Deck", "included": true }
+          ],
+          "ctaLabel": "Schedule Call"
+        },
+        {
+          "id": "price-btn-3",
+          "name": "Enterprise Strategy",
+          "description": "Tailored solutions for global organizations with complex multi-market needs.",
+          "priceMain": "Custom",
+          "priceSuffix": " quote",
+          "isFeatured": false,
+          "badgeText": "",
+          "features": [
+            { "text": "Ongoing Retainer Options", "included": true },
+            { "text": "M&A Advisory", "included": true },
+            { "text": "Global Expansion Strategy", "included": true },
+            { "text": "Dedicated Partner Support", "included": true }
+          ],
+          "ctaLabel": "Contact Enterprise"
+        }
+      ]
+    }
+  },
+  "portfolio": {
+    "caseStudies": [
+      {
+        "industry": "Web3 / DeFi",
+        "slug": "vaultwise-defi-yield-optimizer",
+        "outcomeLabel": "DeFi Engine Live",
+        "title": "VaultWise: AI-Powered DeFi Yield Optimizer",
+        "description": "Building an AI-powered DeFi yield optimizer featuring ERC-4626 vaults, cross-chain swap aggregators, automated compounding agents, and autonomous AI rebalancing.",
+        "imageSrc": "/images/landing/vaultwise.avif",
+        "imageAlt": "VaultWise DeFi Platform",
+        "details": {
+          "breadcrumbLabel": "VaultWise DeFi Ecosystem",
+          "categoryLabel": "AI & DeFi Yield Optimizer",
+          "pageTitle": "VaultWise",
+          "engagementBadges": [
+            { "text": "Built with Cursor" },
+            { "text": "DeFi-Native" },
+            { "text": "AI-Driven Yield" }
+          ],
+          "challenge": {
+            "title": "Fragmented Yield & Complex UX",
+            "description": "DeFi users struggle to manually track yields, rebalance portfolios, and move assets across chains. The process is slow, gas-intensive, and requires constant monitoring.",
+            "bullets": [
+              "Manual yield farming is time-consuming and inefficient.",
+              "Cross-chain liquidity management is fragmented.",
+              "Users miss out on optimal APY due to delayed rebalancing."
+            ]
+          },
+          "solution": {
+            "title": "Autonomous AI Yield Engine",
+            "description": "Invorious is building VaultWise—a DeFi-native platform that abstracts away the complexity. Users deposit into secure ERC-4626 vaults, and an AI agent autonomously rebalances positions across protocols like Uniswap, Aave, and Curve based on real-time APY and risk parameters.",
+            "features": [
+              {
+                "title": "ERC-4626 Vaults",
+                "description": "Standardized, secure yield-bearing vaults for maximum composability."
+              },
+              {
+                "title": "Cross-Chain Aggregator",
+                "description": "Seamless asset routing across multiple chains."
+              },
+              {
+                "title": "Autonomous AI Agent",
+                "description": "Monitors and rebalances user positions 24/7."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "Max", "label": "APY Optimization" },
+            { "value": "24/7", "label": "AI Rebalancing" },
+            { "value": "Zero", "label": "Manual Effort" },
+            { "value": "Secure", "label": "Audited Contracts" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Architecture & Smart Contracts",
+              "description": "Design ERC-4626 vaults, cross-chain aggregators, and governance tokenomics."
+            },
+            {
+              "step": "02",
+              "title": "AI Agent Development",
+              "description": "Build the autonomous agent logic for APY tracking and position rebalancing."
+            },
+            {
+              "step": "03",
+              "title": "Frontend & Web3 Integration",
+              "description": "Develop the dApp interface with Wagmi, RainbowKit, and real-time dashboards."
+            },
+            {
+              "step": "04",
+              "title": "Audit & Launch",
+              "description": "Conduct rigorous smart contract audits and deploy to mainnet."
+            }
+          ],
+          "teamInvolved": [
+            {
+              "name": "VaultWise Team",
+              "role": "Lead Smart Contract Engineer",
+              "imageSrc": "/images/team/vaultwise/smartcontract.avif",
+              "imageAlt": "Smart Contract Engineer",
+              "href": "#"
+            },
+            {
+              "name": "VaultWise Team",
+              "role": "AI Developer",
+              "imageSrc": "/images/team/vaultwise/aideveloper.avif",
+              "imageAlt": "AI Developer",
+              "href": "#"
+            },
+            {
+              "name": "VaultWise Team",
+              "role": "Frontend Engineer",
+              "imageSrc": "/images/team/vaultwise/frontenddev.avif",
+              "imageAlt": "Frontend Developer",
+              "href": "#"
+            }
+          ],
+          "testimonial": {
+            "quote": "VaultWise abstracts the complexity of DeFi. The AI agent handles the hard work, so users can just deposit and earn.",
+            "name": "VaultWise User",
+            "role": "Early Adopter"
+          },
+          "gallery": [
+            {
+              "label": "Vault Dashboard",
+              "imageSrc": "/images/vaultwise/dashboard.avif",
+              "imageAlt": "Vault Dashboard"
+            },
+            {
+              "label": "AI Rebalancing Logic",
+              "imageSrc": "/images/vaultwise/ai-logic.png",
+              "imageAlt": "AI Rebalancing"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Standardization is Key",
+              "description": "Using ERC-4626 ensures maximum compatibility with other DeFi protocols."
+            },
+            {
+              "title": "AI Drives Efficiency",
+              "description": "Automated rebalancing outperforms manual yield farming by capturing opportunities instantly."
+            }
+          ],
+          "bottomCta": {
+            "title": "We're Building VaultWise",
+            "description": "An AI-powered DeFi yield optimizer with secure vaults and autonomous agents.",
+            "buttonLabel": "Join Invorious to learn more",
+            "href": "/",
+            "scrollToContact": true
+          }
+        }
+      },
+      {
+        "industry": "Web3 / Gaming Analytics",
+        "slug": "opportunity-intelligence-engine",
+        "outcomeLabel": "Desktop Arbitrage Engine",
+        "title": "Opportunity Intelligence Engine - Desktop Arbitrage Detection",
+        "description": "A lightweight Windows desktop application that detects cross-game arbitrage opportunities across 15+ Web3 games in real-time-helping gamers and traders act instantly.",
+        "imageSrc": "/images/landing/arbitrage.avif",
+        "imageAlt": "Opportunity Intelligence Engine - Desktop Arbitrage Detection",
+        "details": {
+          "breadcrumbLabel": "Opportunity Intelligence Engine",
+          "categoryLabel": "Web3 Gaming Analytics",
+          "pageTitle": "Opportunity Intelligence Engine",
+          "engagementBadges": [
+            { "text": "6 Months Development" },
+            { "text": "15+ Games Tracked" },
+            { "text": "Windows Desktop App" }
+          ],
+          "challenge": {
+            "title": "Fragmented Markets, Missed Opportunities",
+            "description": "Web3 gamers and traders struggle to track price discrepancies across multiple games and marketplaces. Assets are scattered across Ronin, Ethereum, Solana, and Polygon-each with different liquidity, pricing, and timing dynamics.",
+            "bullets": [
+              "Price differences across marketplaces are hard to spot manually",
+              "Manual verification takes minutes-opportunities close in seconds",
+              "No unified tool for cross-game asset tracking",
+              "Traders waste hours switching between wallets and exchanges"
+            ]
+          },
+          "solution": {
+            "title": "Desktop Arbitrage Detection Engine",
+            "description": "Invorious built a lightweight Windows desktop application (.exe) that runs locally and continuously monitors 15+ Web3 games for arbitrage opportunities. The app displays real-time alerts and guided execution paths.",
+            "features": [
+              {
+                "title": "Live Price Monitoring",
+                "description": "Tracks floor prices, liquidity, and trading volume across 15+ games simultaneously."
+              },
+              {
+                "title": "Cross-Market Arbitrage Detection",
+                "description": "Identifies price discrepancies between Ronin, Ethereum, Solana, and Polygon."
+              },
+              {
+                "title": "Real-Time Desktop Alerts",
+                "description": "Instant notifications when an opportunity is detected-no browser tab needed."
+              },
+              {
+                "title": "Multi-Chain Support",
+                "description": "Supports Ethereum, Ronin, Solana, and Polygon-more chains in development."
+              },
+              {
+                "title": "Lightweight & Fast",
+                "description": "Runs with minimal system resource usage."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "15+", "label": "Games Tracked" },
+            { "value": "4", "label": "Chains Supported" },
+            { "value": "Real-Time", "label": "Detection Speed" },
+            { "value": "Windows", "label": "Platform" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Marketplace Integration",
+              "description": "Connected to 15+ game marketplaces across 4 chains-Ronin, Ethereum, Solana, and Polygon."
+            },
+            {
+              "step": "02",
+              "title": "Core Engine Development",
+              "description": "Built cross-game arbitrage detection algorithms in C++ for optimal performance."
+            },
+            {
+              "step": "03",
+              "title": "Desktop UI & Alerts",
+              "description": "Designed a clean, intuitive interface with real-time notifications and guided execution paths."
+            },
+            {
+              "step": "04",
+              "title": "Beta Release",
+              "description": "Released as a Windows desktop application (.exe) with free beta access."
+            }
+          ],
+          "teamInvolved": [
+            {
+              "name": "Opportunity Intelligence Team",
+              "role": "Lead Backend Engineer",
+              "imageSrc": "/images/team/arbitrage/backendlead.avif",
+              "imageAlt": "Lead Backend Engineer",
+              "href": "#"
+            },
+            {
+              "name": "Opportunity Intelligence Team",
+              "role": "Core Engine Architect",
+              "imageSrc": "/images/team/arbitrage/coreengineer.avif",
+              "imageAlt": "Core Engine Architect",
+              "href": "#"
+            },
+            {
+              "name": "Opportunity Intelligence Team",
+              "role": "Data & Analytics Engineer",
+              "imageSrc": "/images/team/arbitrage/dataengineer.avif",
+              "imageAlt": "Data & Analytics Engineer",
+              "href": "#"
+            },
+            {
+              "name": "Opportunity Intelligence Team",
+              "role": "UI/UX Designer",
+              "imageSrc": "/images/team/arbitrage/frontenddev.avif",
+              "imageAlt": "UI/UX Designer",
+              "href": "#"
+            },
+            {
+              "name": "Opportunity Intelligence Team",
+              "role": "Product Lead",
+              "imageSrc": "/images/team/arbitrage/productlead.avif",
+              "imageAlt": "Product Lead",
+              "href": "#"
+            }
+          ],
+          "testimonial": {
+            "quote": "This desktop app changed how I trade Web3 assets. I get real-time alerts without having to keep browser tabs open all day.",
+            "name": "Beta User",
+            "role": "Early Adopter"
+          },
+          "gallery": [
+            {
+              "label": "Desktop App Interface",
+              "imageSrc": "/images/arbitrage/dashboard.avif",
+              "imageAlt": "Desktop App Preview"
+            },
+            {
+              "label": "Real-Time Alert System",
+              "imageSrc": "/images/arbitrage/execution.avif",
+              "imageAlt": "Alert System"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Desktop Apps Offer Speed & Privacy",
+              "description": "Running locally means faster detection and no reliance on web server availability. Data stays on the user's machine."
+            },
+            {
+              "title": "Multi-Chain is Essential",
+              "description": "Price discrepancies exist across chains-not just marketplaces. Supporting Ronin, Ethereum, Solana, and Polygon was critical."
+            },
+            {
+              "title": "Gamers Want Actionable Alerts",
+              "description": "Users don't want to monitor dashboards-they want real-time alerts that tell them exactly what to do."
+            }
+          ],
+          "bottomCta": {
+            "title": "Get Early Access to the Arbitrage Engine",
+            "description": "A lightweight Windows desktop app that detects cross-game arbitrage opportunities in real-time.",
+            "buttonLabel": "Contact Us for Beta Access",
+            "href": "/#contact",
+            "scrollToContact": true
+          }
+        }
+      },
+      {
+        "industry": "Retail",
+        "slug": "reimagining-retail-banking",
+        "outcomeLabel": "+35% Digital Adoption",
+        "title": "Reimagining Decentralized Finance",
+        "description": "A 35% increase in DeFi protocol adoption for a leading European platform through strategic UX overhaul.",
+        "imageSrc": "/images/landing/fintech.avif",
+        "imageAlt": "Retail Banking Transformation",
+        "details": {
+          "breadcrumbLabel": "Retail Banking Transformation",
+          "categoryLabel": "Digital Transformation & UX",
+          "pageTitle": "Reimagining Decentralized Finance for the Next Generation.",
+          "engagementBadges": [
+            { "text": "14 Months Engagement" },
+            { "text": "Global European Bank" },
+            { "text": "FastCompany Design Award 2023" }
+          ],
+          "challenge": {
+            "title": "Legacy Barriers to Growth",
+            "description": "Our client, a top-tier European bank, was losing significant market share to agile fintech startups. Their mobile app had a 2.1-star rating, and digital customer onboarding took upwards of 5 days, leading to a 60% abandonment rate.",
+            "bullets": [
+              "Declining NPS scores among customers aged 18-35.",
+              "High operational costs due to branch-heavy processing.",
+              "Technical debt preventing rapid feature deployment."
+            ]
+          },
+          "solution": {
+            "title": "A Radical UX Pivot",
+            "description": "Invorious implemented a \"Design-Led Transformation\" framework. We bypassed traditional IT bottlenecks by creating a dedicated innovation hub that rebuilt the core banking experience from the user's perspective, not the legacy system's constraints.",
+            "features": [
+              {
+                "title": "Instant KYC",
+                "description": "Automated identity verification reduced onboarding to < 5 minutes."
+              },
+              {
+                "title": "Predictive Spend",
+                "description": "AI-driven insights to help users save more effectively."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "+35%", "label": "Digital Adoption" },
+            { "value": "-85%", "label": "Onboarding Time" },
+            { "value": "$42M", "label": "Annual Ops Savings" },
+            { "value": "4.8 Star", "label": "App Store Rating" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Discovery & Audit",
+              "description": "Week 1-4: Stakeholder interviews and tech stack evaluation."
+            },
+            {
+              "step": "02",
+              "title": "Prototype & Design",
+              "description": "Week 5-12: High-fidelity prototypes and user testing cycles."
+            },
+            {
+              "step": "03",
+              "title": "Core Engineering",
+              "description": "Week 13-40: Agile development of the microservices layer."
+            },
+            {
+              "step": "04",
+              "title": "Pilot & Global Scale",
+              "description": "Week 41-60: Staged rollout to 4 million customers."
+            }
+          ],
+          "teamInvolved": [
+            {
+              "name": "Reimagining Decentralized Finance Team",
+              "role": "Lead Backend Developer",
+              "imageSrc": "/images/team/Finance/backendlead.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Reimagining Decentralized Finance Team",
+              "role": "Frontend Developer",
+              "imageSrc": "/images/team/Finance/frontenddev.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Reimagining Decentralized Finance Team",
+              "role": "Database Engineer",
+              "imageSrc": "/images/team/Finance/databaseengineer.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Reimagining Decentralized Finance Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/Finance/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+          ],
+          "testimonial": {
+            "quote": "Invorious didn't just design a new app; they transformed our internal culture to be digital-first. Our ability to respond to market shifts has increased tenfold, and the revenue impact was visible within the first quarter of launch.",
+            "name": "Jean-Pierre Rossi",
+            "role": "Chief Digital Officer, European Global Bank"
+          },
+          "gallery": [
+            {
+              "label": "Legacy Platform (2021)",
+              "imageSrc": "/images/team/Finance/legacy.avif",
+              "imageAlt": "Legacy Banking"
+            },
+            {
+              "label": "Invorious Experience (2023)",
+              "imageSrc": "/images/team/Finance/modern.avif",
+              "imageAlt": "Modern Banking UX"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Trust is Mobile-First",
+              "description": "Modern banking trust isn't built in marble branches; it's built in the reliability and speed of the mobile app interface."
+            },
+            {
+              "title": "Data as a Service",
+              "description": "Users don't want spreadsheets; they want actionable intelligence on their spending patterns delivered in real-time."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "Whether it's UX overhaul or a total strategic pivot, our team is ready to deliver measurable growth for your organization.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      },
+      {
+        "industry": "Logistics",
+        "slug": "sustainable-supply-chain",
+        "outcomeLabel": "22% Lower Carbon",
+        "title": "Sustainable Blockchain Supply Chain",
+        "description": "Optimizing a global logistics provider's network through blockchain-enabled tracking to reduce operational costs and environmental impact simultaneously.",
+        "imageSrc": "/images/landing/operations.avif",
+        "imageAlt": "Logistics Optimization",
+        "details": {
+          "breadcrumbLabel": "Sustainable Blockchain Supply Chain",
+          "categoryLabel": "Operations Excellence & Sustainability",
+          "pageTitle": "Sustainable Blockchain Supply Chain: Lower Carbon, Higher Velocity.",
+          "engagementBadges": [
+            { "text": "10 Months Engagement" },
+            { "text": "Global Logistics Provider" },
+            { "text": "Operations Sustainability Award 2024" }
+          ],
+          "challenge": {
+            "title": "Carbon & Cost Pressure",
+            "description": "The client faced rising fuel costs and increased scrutiny around emissions. Routes were planned manually, and reporting lagged weeks behind operations, preventing proactive decision-making.",
+            "bullets": [
+              "Inconsistent route planning across regions.",
+              "Carbon reporting too slow for daily operations.",
+              "High overhead from fragmented vendor workflows."
+            ]
+          },
+          "solution": {
+            "title": "A Lean Decarbonization Program",
+            "description": "Invorious built a decision engine that combined route optimization with real-time emissions estimates, then embedded it into daily planning rituals to sustain improvements.",
+            "features": [
+              {
+                "title": "Route Optimization Simulator",
+                "description": "Scenario planning that balances time, cost, and emissions."
+              },
+              {
+                "title": "Real-Time Emissions Dashboard",
+                "description": "Operational visibility that updates throughout the day."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "-22%", "label": "Carbon Footprint" },
+            { "value": "+18%", "label": "Cost Efficiency" },
+            { "value": "$31M", "label": "Annualized Savings" },
+            { "value": "99.2%", "label": "On-Time Delivery" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Discovery & Baseline",
+              "description": "Week 1-3: Map current routes, measure carbon baseline, and identify cost drivers."
+            },
+            {
+              "step": "02",
+              "title": "Network Redesign",
+              "description": "Week 4-8: Build optimization models and validate assumptions with planning teams."
+            },
+            {
+              "step": "03",
+              "title": "Lean Execution",
+              "description": "Week 9-22: Pilot standardized workflows and automate vendor handoffs."
+            },
+            {
+              "step": "04",
+              "title": "Scale & Continuous Improvement",
+              "description": "Week 23-40: Roll out across regions and refine using operational feedback."
+            }
+          ],
+          "teamInvolved": [
+            {
+              "name": "Sustainable Blockchain Supply Chain Team",
+              "role": "Lead Backend Developer",
+              "imageSrc": "/images/team/SupplyChain/backendlead.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Sustainable Blockchain Supply Chain Team",
+              "role": "Frontend Developer",
+              "imageSrc": "/images/team/SupplyChain/frontenddev.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Sustainable Blockchain Supply Chain Team",
+              "role": "Database Engineer",
+              "imageSrc": "/images/team/SupplyChain/databaseengineer.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Sustainable Blockchain Supply Chain Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/SupplyChain/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+          ],
+          "testimonial": {
+            "quote": "Invorious helped us make decarbonization operational, not theoretical. The optimization tool and dashboard changed how our teams plan every day.",
+            "name": "Amina Kruger",
+            "role": "VP Operations, Global Logistics Provider"
+          },
+          "gallery": [
+            {
+              "label": "Invorious Planning Engine (2024)",
+              "imageSrc": "/images/team/SupplyChain/planning.avif",
+              "imageAlt": "Planning Engine"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Visibility Drives Adoption",
+              "description": "Teams adopt sustainability when measurements are timely, actionable, and tied to daily workflows."
+            },
+            {
+              "title": "Lean Automations Win Quick",
+              "description": "Small automation wins unlock compounding improvements across regions."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "Whether it's operational excellence or a sustainability pivot, our team is ready to deliver measurable growth for your organization.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      },
+      {
+        "industry": "Retail",
+        "slug": "unicorn-market-expansion",
+        "outcomeLabel": "15 New Markets",
+        "title": "Web3 Unicorn Global Expansion",
+        "description": "Scaling a fast-growth blockchain brand from local presence to a dominant international player in under 2 years.",
+        "imageSrc": "/images/landing/Market_En.avif",
+        "imageAlt": "Market Entry",
+        "details": {
+          "breadcrumbLabel": "Web3 Unicorn Global Expansion",
+          "categoryLabel": "Market Expansion & Growth Strategy",
+          "pageTitle": "Web3 Unicorn Global Expansion: From local signal to global momentum-scaling fast-growth blockchain brands across international markets.",
+          "engagementBadges": [
+            { "text": "9 Months Engagement" },
+            { "text": "Fast-Growth Tech Brand" },
+            { "text": "Growth Leadership Award 2024" }
+          ],
+          "challenge": {
+            "title": "Stalled Go-To-Market",
+            "description": "The client had product-market fit locally but struggled to translate it across regions. Sales cycles slowed, messaging became inconsistent, and partnerships were delayed by fragmented planning and data silos.",
+            "bullets": [
+              "Inconsistent value proposition across regions.",
+              "Slow partner onboarding and approvals.",
+              "Data silos delaying decisions and forecasting."
+            ]
+          },
+          "solution": {
+            "title": "A Localization-Led Growth System",
+            "description": "Invorious designed a modular expansion playbook that aligned product, marketing, and operations. We standardized inputs, improved forecasting, and built tooling to keep local teams fast and consistent.",
+            "features": [
+              {
+                "title": "Localization Operating Model",
+                "description": "Guidelines and workflows that made regional launch execution repeatable."
+              },
+              {
+                "title": "Growth Analytics & Forecasting",
+                "description": "A single view of pipeline, conversion, and market signals to prioritize investments."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "15", "label": "New Markets" },
+            { "value": "+42%", "label": "Revenue Uplift" },
+            { "value": "2.1x", "label": "Lead Generation" },
+            { "value": "28%", "label": "Faster Sales Cycle" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Discovery & Market Signal",
+              "description": "Week 1-6: Identify high-potential regions and validate assumptions with customer discovery."
+            },
+            {
+              "step": "02",
+              "title": "Prototype & Messaging",
+              "description": "Week 7-12: Build localization message kits and run rapid channel experiments."
+            },
+            {
+              "step": "03",
+              "title": "Operational Launch System",
+              "description": "Week 13-28: Implement partner onboarding workflows and reporting pipelines."
+            },
+            {
+              "step": "04",
+              "title": "Scale & Portfolio Steering",
+              "description": "Week 29-40: Roll out playbooks across markets and steer investments with live metrics."
+            }
+          ],
+          "teamInvolved": [
+            {
+              "name": "Web3 Unicorn Global Expansion Team",
+              "role": "Lead Backend Developer",
+              "imageSrc": "/images/team/unicorn/backendlead.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Web3 Unicorn Global Expansion Team",
+              "role": "Frontend Developer",
+              "imageSrc": "/images/team/unicorn/frontenddev.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Web3 Unicorn Global Expansion Team",
+              "role": "Database Engineer",
+              "imageSrc": "/images/team/unicorn/databaseengineer.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Web3 Unicorn Global Expansion Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/unicorn/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+          ],
+          "testimonial": {
+            "quote": "Invorious didn’t just recommend a plan; they turned expansion into a system our teams could execute quickly and consistently.",
+            "name": "Clara Nguyen",
+            "role": "Head of Global Growth, Fast-Tech Unicorn"
+          },
+          "gallery": [
+            {
+              "label": "Local-Only Playbook (2022)",
+              "imageSrc": "/images/team/unicorn/localonly.avif",
+              "imageAlt": "Local-Only Playbook"
+            },
+            {
+              "label": "Global Expansion Engine (2023)",
+              "imageSrc": "/images/team/unicorn/globalexpansion.avif",
+              "imageAlt": "Global Expansion Engine"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Speed Beats Perfect",
+              "description": "Launch velocity came from repeatable workflows, not from waiting for complete certainty."
+            },
+            {
+              "title": "Localization is a Product",
+              "description": "Consistency across regions improved conversion because the customer experience felt native everywhere."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "Whether you are expanding into new markets or redesigning your go-to-market system, we can help you move faster with confidence.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      },
+      {
+        "industry": "Tech",
+        "slug": "saas-product-pivot",
+        "outcomeLabel": "ROI in 6 Months",
+        "title": "SaaS Product Pivot",
+        "description": "Restructuring a legacy software firm's product offering to a high-margin subscription model.",
+        "imageSrc": "images/landing/tech.avif",
+        "imageAlt": "Enterprise SaaS",
+        "details": {
+          "breadcrumbLabel": "SaaS Product Pivot",
+          "categoryLabel": "Product Strategy & Subscription Growth",
+          "pageTitle": "SaaS Product Pivot: Subscription-Led Growth in 6 Months.",
+          "engagementBadges": [
+            { "text": "6 Months Engagement" },
+            { "text": "Legacy Software Firm" },
+            { "text": "Product Strategy Award 2024" }
+          ],
+          "challenge": {
+            "title": "Churn from Legacy Offerings",
+            "description": "The client’s product packaging was built for perpetual licenses, leading to slow onboarding and limited value realization. Customer churn remained high, and revenue forecasting was unreliable due to inconsistent billing and activation tracking.",
+            "bullets": [
+              "Perpetual licensing model reduced recurring value.",
+              "Onboarding gaps delayed activation for new customers.",
+              "Fragmented billing data limited accurate forecasting."
+            ]
+          },
+          "solution": {
+            "title": "A Subscription Experience Redesign",
+            "description": "Invorious rebuilt the product experience around time-to-value. We redesigned packaging, updated onboarding, and implemented analytics to guide iteration based on customer behavior.",
+            "features": [
+              {
+                "title": "Subscription Packaging & Pricing",
+                "description": "Offer design that matched customer outcomes and improved upgrade paths."
+              },
+              {
+                "title": "Activation Journey in Product",
+                "description": "In-app guidance that accelerated time-to-value and reduced early churn."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "+31%", "label": "MRR Growth" },
+            { "value": "-24%", "label": "Customer Churn" },
+            { "value": "$18M", "label": "Expansion Revenue" },
+            { "value": "38%", "label": "Faster Activation" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Discovery & Billing Audit",
+              "description": "Week 1-2: Map current onboarding, activation funnels, and billing constraints."
+            },
+            {
+              "step": "02",
+              "title": "Offer & UX Prototyping",
+              "description": "Week 3-6: Design packaging flows and prototype in-app activation moments."
+            },
+            {
+              "step": "03",
+              "title": "Engineering for Time-to-Value",
+              "description": "Week 7-18: Implement subscription flows and analytics instrumentation."
+            },
+            {
+              "step": "04",
+              "title": "Launch & Iteration",
+              "description": "Week 19-24: Roll out, monitor performance, and optimize based on behavioral data."
+            }
+          ],
+          "teamInvolved": [
+            {
+              "name": "SaaS Product Pivot Team",
+              "role": "Lead Backend Developer",
+              "imageSrc": "/images/team/pivot/backendlead.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "SaaS Product Pivot Team",
+              "role": "Frontend Developer",
+              "imageSrc": "/images/team/pivot/frontenddev.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "SaaS Product Pivot Team",
+              "role": "Database Engineer",
+              "imageSrc": "/images/team/pivot/databaseengineer.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "SaaS Product Pivot Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/pivot/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+          ],
+          "testimonial": {
+            "quote": "Invorious helped us pivot from a legacy offering to a subscription experience with measurable value in just one quarter cycle.",
+            "name": "Robert Hayes",
+            "role": "Chief Product Officer, Enterprise SaaS"
+          },
+          "gallery": [
+            {
+              "label": "Subscription Experience (2023)",
+              "imageSrc": "/images/team/pivot/subscription.avif",
+              "imageAlt": "Subscription Experience"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Time-to-Value is the Strategy",
+              "description": "Packaging improved outcomes only after the onboarding journey reduced time-to-value friction."
+            },
+            {
+              "title": "Instrumentation Enables Iteration",
+              "description": "Behavioral analytics turned product decisions into a fast, evidence-driven loop."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "From product strategy to subscription redesign, we can help you grow recurring value with a modern experience.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      },
+      {
+        "industry": "Energy",
+        "slug": "net-zero-strategy-2030",
+        "outcomeLabel": "Net Zero Path",
+        "title": "Blockchain-Powered Net Zero 2030",
+        "description": "Developing a roadmap for a national utility company to transition 80% of its grid to renewables by 2030-powered by Web3 traceability and smart contract verification.",
+        "imageSrc": "/images/landing/energy.avif",
+        "imageAlt": "Energy Grid",
+        "details": {
+          "breadcrumbLabel": "Blockchain-Powered Net Zero 2030",
+          "categoryLabel": "Decarbonization & Grid Transformation",
+          "pageTitle": "Blockchain-Powered Net Zero 2030: A Practical Roadmap to Renewables.",
+          "engagementBadges": [
+            { "text": "14 Months Engagement" },
+            { "text": "National Utility Company" },
+            { "text": "Climate Strategy Award 2024" }
+          ],
+          "challenge": {
+            "title": "Complex Grid Constraints",
+            "description": "The utility needed a credible net-zero plan but faced complex constraints across generation, transmission, and compliance timelines. Without scenario modeling and governance, decisions were either delayed or oversimplified.",
+            "bullets": [
+              "Conflicting timelines between assets and regulatory requirements.",
+              "Unclear scenario outcomes across demand and supply assumptions.",
+              "Governance gaps slowing cross-team alignment."
+            ]
+          },
+          "solution": {
+            "title": "Scenario Planning + Governance",
+            "description": "Invorious developed a roadmap that combined scenario modeling with operational governance. We translated targets into investment phases, roles, and measurable KPIs.",
+            "features": [
+              {
+                "title": "Renewables Transition Scenarios",
+                "description": "Model demand, grid constraints, and risk to pick resilient pathways."
+              },
+              {
+                "title": "Decision Governance Framework",
+                "description": "Clear approval workflows and reporting to keep stakeholders aligned."
+              }
+            ]
+          },
+          "metrics": [
+            { "value": "80%", "label": "Renewables Transition" },
+            { "value": "-55%", "label": "Emissions Reduction" },
+            { "value": "+25%", "label": "Reliability Improvement" },
+            { "value": "$48M", "label": "Program Efficiency" }
+          ],
+          "timeline": [
+            {
+              "step": "01",
+              "title": "Baseline & Constraints Mapping",
+              "description": "Week 1-4: Audit assets, demand patterns, and regulatory constraints."
+            },
+            {
+              "step": "02",
+              "title": "Scenario Design",
+              "description": "Week 5-12: Build scenarios and stress-test outcomes with technical teams."
+            },
+            {
+              "step": "03",
+              "title": "Roadmap & Investment Phases",
+              "description": "Week 13-40: Translate the chosen pathway into phased investments and KPIs."
+            },
+            {
+              "step": "04",
+              "title": "Governance & Rollout",
+              "description": "Week 41-60: Establish decision governance and execute initial rollout milestones."
+            }
+          ],
+          "teamInvolved": [
+            {
+              "name": "Blockchain-Powered Net Zero 2030 Team",
+              "role": "Lead Backend Developer",
+              "imageSrc": "/images/team/netzero/backendlead.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Blockchain-Powered Net Zero 2030 Team",
+              "role": "Frontend Developer",
+              "imageSrc": "/images/team/netzero/frontenddev.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Blockchain-Powered Net Zero 2030 Team",
+              "role": "Database Engineer",
+              "imageSrc": "/images/team/netzero/databaseengineer.avif",
+              "imageAlt": "Team",
+              "href": "#"
+            },
+            {
+              "name": "Blockchain-Powered Net Zero 2030 Team",
+              "role": "Customer Experience Lead",
+              "imageSrc": "/images/team/netzero/customerlead.avif",
+              "imageAlt": "Customer Experience Lead",
+              "href": "#"
+            }
+          ],
+          "testimonial": {
+            "quote": "Invorious delivered a plan that our leadership can actually govern and execute. Scenario clarity reduced debate and accelerated commitments.",
+            "name": "Ethan Marshall",
+            "role": "Chief Strategy Officer, National Utility"
+          },
+          "gallery": [
+            {
+              "label": "Grid Planning (2021)",
+              "imageSrc": "/images/team/netzero/grid.avif",
+              "imageAlt": "Grid Planning"
+            },
+            {
+              "label": "Net Zero Roadmap Console (2023)",
+              "imageSrc": "/images/team/netzero/roadmap.avif",
+              "imageAlt": "Net Zero Roadmap Console"
+            }
+          ],
+          "keyLearnings": [
+            {
+              "title": "Scenarios Reduce Risk of Regret",
+              "description": "The best roadmap is the one that stays resilient under uncertainty."
+            },
+            {
+              "title": "Governance Turns Targets into Actions",
+              "description": "Clear decision ownership is what makes net-zero plans execute over time."
+            }
+          ],
+          "bottomCta": {
+            "title": "Start Your Transformation Today",
+            "description": "From decarbonization strategy to grid transformation governance, our team helps you deliver measurable change with confidence.",
+            "buttonLabel": "Book a Deep-Dive",
+            "href": "/#contact"
+          }
+        }
+      }
+    ]
+  },
+  "team": {
+    "leaders": [
+      {
+        "name": "Dr. Marek Vance",
+        "slug": "dr-elena-vance",
+        "role": "Managing Director, Web3 Strategy",
+        "imageSrc": "/images/team/leader1.jpg",
+        "imageAlt": "Dr. Marek Vance",
+        "overlayText": "Expert in Web3 strategy, blockchain transformation, and decentralized ecosystem scaling with 20+ years of tenure.",
+        "badges": ["PhD Economics", "Former BCG Partner", "Web3 Strategist"],
+        "profileDetails": {
+          "heroChip": "Web3 Strategic Leadership",
+          "heroTitle": "Dr. Marek Vance",
+          "heroSubtitle": "Managing Director of Web3 Strategy",
+          "shortBio": "Dr. Vance is a world-renowned strategist with a focus on Web3 transformation, blockchain adoption, and global market acceleration. She leads Invorious's strategy practice, helping enterprises and blockchain natives navigate the decentralized economy.",
+          "socialLinks": {
+            "linkedinHref": "https://www.linkedin.com/in/elena-vance",
+            "twitterHref": "https://twitter.com/elenavance"
+          },
+          "scheduleHref": "#",
+          "scheduleLabel": "Schedule a Web3 Strategy Session",
+          "biography": [
+            "With over two decades of experience in management consulting and Web3 strategy, Dr. Marek Vance has built a reputation for her surgical precision in diagnosing organizational inefficiency and architecting sustainable blockchain growth models. Before joining Invorious as a founding partner, she served as a Senior Partner at BCG, where she spearheaded the Global Financial Institutions practice.",
+            "Her methodology combines the rigor of classical economic theory with the agility required by the decentralized economy. She has personally overseen over 150 large-scale transformations, totaling more than $12B in optimized capital allocation for her clients."
+          ],
+          "expertise": [
+            { "title": "Web3 Strategy & Transformation", "percent": 98 },
+            { "title": "Blockchain Adoption & Scaling", "percent": 95 },
+            { "title": "DeFi & Tokenomics Strategy", "percent": 92 },
+            { "title": "Executive Alignment & Coaching", "percent": 96 },
+            { "title": "Decentralized Ecosystem Design", "percent": 88 },
+            { "title": "Web3 Economic Policy", "percent": 94 }
+          ],
+          "careerJourney": [
+            {
+              "period": "2022 - Present",
+              "title": "Invorious",
+              "role": "Managing Director, Web3 Strategy Partner",
+              "description": "Founding partner responsible for the global Web3 strategy practice and enterprise client relations."
+            },
+            {
+              "period": "2010 - 2022",
+              "title": "Boston Consulting Group (BCG)",
+              "role": "Senior Partner & Managing Director",
+              "description": "Led the North American Financial Institutions group, managing a portfolio of $200M+ annually."
+            },
+            {
+              "period": "2004 - 2010",
+              "title": "McKinsey & Company",
+              "role": "Associate Principal",
+              "description": "Focused on operational restructuring and post-merger integration for global manufacturing firms."
+            }
+          ],
+          "academicFoundations": [
+            {
+              "title": "PhD in Economics",
+              "subtitle": "Stanford University",
+              "icon": "graduation-cap"
+            },
+            {
+              "title": "MBA Strategy",
+              "subtitle": "Harvard Business School",
+              "icon": "book-open"
+            },
+            {
+              "title": "BA Philosophy",
+              "subtitle": "Princeton University",
+              "icon": "landmark"
+            }
+          ],
+          "notableImpact": [
+            {
+              "category": "DeFi Protocol",
+              "title": "+35% TVL Growth",
+              "description": "Led the tokenomics overhaul for a leading European DeFi protocol."
+            },
+            {
+              "category": "Web3 Unicorn",
+              "title": "15 Markets in 24 Months",
+              "description": "Designed the global expansion roadmap for a $10B Web3 leader."
+            },
+            {
+              "category": "Enterprise Blockchain",
+              "title": "$450M Operational Alpha",
+              "description": "Architected the blockchain integration for Global Industrials."
+            }
+          ],
+          "directContact": {
+            "email": "m.vance@Invorious.com",
+            "phone": "+61 2 8000 0000",
+            "location": "Sydney HQ, Suite 1200"
+          },
+          "clientVoice": [
+            {
+              "quote": "Marek has a unique ability to find the 'signal in the noise'. During our Web3 transformation, his strategic alignment workshops were the single most effective intervention for our executive team. He is peerless in her field.",
+              "name": "James Miller",
+              "role": "CEO, Apex Web3 Group",
+              "imageSrc": "/images/clients/jamesmiller.jpg"
+            },
+            {
+              "quote": "I've worked with the best consultants at every major firm, but Dr. Vance brings a different level of accountability. He doesn't just deliver a strategy; he ensures the blockchain execution actually happens. The results speak for themselves.",
+              "name": "William Jenkins",
+              "role": "CFO, OmniChain Global",
+              "imageSrc": "/images/team/David.avif"
+            }
+          ],
+          "bottomCta": {
+            "title": "Work with Dr. Vance on your next Web3 strategic project.",
+            "description": "Dr. Vance accepts a limited number of high-impact advisory engagements each year. Schedule a confidential discovery session to discuss your Web3 goals.",
+            "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+            "buttonLabel": "Book Web3 Strategy Workshop"
+          }
+        }
+      },
+      {
+        "name": "Marcus Thorne",
+        "slug": "marcus-thorne",
+        "role": "Head of Web3 & Digital Advisory",
+        "imageSrc": "/images/team/leader2.jpg",
+        "imageAlt": "Marcus Thorne",
+        "overlayText": "Web3 pioneer focusing on blockchain implementation, AI integration, and decentralized operational models.",
+        "badges": ["MIT Alumni", "Web3 Tech Innovator"],
+        "profileDetails": {
+          "heroChip": "Web3 & Digital Advisory",
+          "heroTitle": "Marcus Thorne",
+          "heroSubtitle": "Head of Web3 & Digital Advisory",
+          "shortBio": "Marcus helps leadership teams turn blockchain, AI, and cloud-native capabilities into operational outcomes. He partners with executives to design decentralized systems that scale safely, measure impact, and stay adaptable to change.",
+          "socialLinks": {
+            "linkedinHref": "https://www.linkedin.com/in/marcus-thorne",
+            "twitterHref": "https://twitter.com/marcusthorne"
+          },
+          "scheduleHref": "#",
+          "scheduleLabel": "Schedule a Web3 Digital Workshop",
+          "biography": [
+            "Marcus has led Web3 and digital transformation programs across regulated and high-scale environments, with a focus on blockchain enablement, AI integration, data governance, and resilient decentralized operations.",
+            "His approach connects technical architecture to measurable KPIs, ensuring teams can deploy Web3 solutions quickly while maintaining reliability, security, and accountability."
+          ],
+          "expertise": [
+            { "title": "Web3 & Blockchain Implementation", "percent": 96 },
+            { "title": "Decentralized Infrastructure", "percent": 94 },
+            { "title": "AI Integration & Enablement", "percent": 92 },
+            { "title": "Data Governance & Risk Controls", "percent": 89 }
+          ],
+          "careerJourney": [
+            {
+              "period": "2022 - Present",
+              "title": "Invorious",
+              "role": "Head of Web3 & Digital Advisory",
+              "description": "Leads blockchain, AI, and cloud-native advisory engagements for executive teams, aligning architecture with operational metrics."
+            },
+            {
+              "period": "2012 - 2022",
+              "title": "Cloud Systems Group",
+              "role": "Director, Platform Engineering",
+              "description": "Built multi-region cloud platforms and standardized operating models for global organizations."
+            },
+            {
+              "period": "2007 - 2012",
+              "title": "Tech Research Labs",
+              "role": "Applied AI & Blockchain Engineer",
+              "description": "Developed prototypes and productionized blockchain workflows focused on governance and human-in-the-loop design."
+            }
+          ],
+          "academicFoundations": [
+            {
+              "title": "PhD in Computer Science",
+              "subtitle": "MIT",
+              "icon": "graduation-cap"
+            },
+            {
+              "title": "MS in Systems Engineering",
+              "subtitle": "Stanford University",
+              "icon": "book-open"
+            },
+            {
+              "title": "BS in Information Systems",
+              "subtitle": "Carnegie Mellon",
+              "icon": "landmark"
+            }
+          ],
+          "notableImpact": [
+            {
+              "category": "Web3 Deployment",
+              "title": "+48% Decision Velocity",
+              "description": "Replaced manual analytics with governed blockchain workflows and real-time reporting dashboards."
+            },
+            {
+              "category": "Decentralized Resilience",
+              "title": "-62% Operational Incidents",
+              "description": "Introduced standardized runbooks, observability, and incident governance for multi-team Web3 operations."
+            }
+          ],
+          "directContact": {
+            "email": "m.thorne@Invorious.com",
+            "phone": "+61 2 8000 0000",
+            "location": "Sydney HQ, Suite 710"
+          },
+          "clientVoice": [
+            {
+              "quote": "Marcus made Web3 feel actionable. The governance model and metrics dashboard helped our exec team trust decentralized deployments and scale them responsibly.",
+              "name": "Oliver Grant",
+              "role": "COO, Global DeFi Platform",
+              "imageSrc": "/images/clients/olivergrant.jpg"
+            },
+            {
+              "quote": "We didn't just migrate to blockchain; we improved how decisions are made. The new operating model reduced incidents and accelerated releases.",
+              "name": "Priya Nair",
+              "role": "VP Operations, Enterprise Web3",
+              "imageSrc": "/images/clients/Priya.jpg"
+            }
+          ],
+          "bottomCta": {
+            "title": "Work with Marcus on your next Web3 program.",
+            "description": "Marcus accepts a limited number of advisory engagements focused on blockchain enablement and decentralized operating models. Book a confidential workshop to align on outcomes and governance.",
+            "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+            "buttonLabel": "Book a Web3 Digital Workshop"
+          }
+        }
+      },
+      {
+        "name": "Simon Jenkins",
+        "slug": "Simon-jenkins",
+        "role": "DeFi & Financial Risk Partner",
+        "imageSrc": "/images/team/leader3.jpg",
+        "imageAlt": "Simon Jenkins",
+        "overlayText": "Architect of complex DeFi risk models and tokenomics frameworks for enterprise blockchain firms.",
+        "badges": ["Wharton MBA", "CFA Charterholder", "DeFi Risk Expert"],
+        "profileDetails": {
+          "heroChip": "DeFi & Financial Risk",
+          "heroTitle": "Simon Jenkins",
+          "heroSubtitle": "DeFi & Financial Risk Partner",
+          "shortBio": "Simon designs DeFi risk frameworks and tokenomics models that executives can govern and teams can operationalize. Her work connects modeling quality with decision speed, compliance, and measurable risk reduction in the decentralized economy.",
+          "socialLinks": {
+            "linkedinHref": "https://www.linkedin.com/in/simon-jenkins",
+            "twitterHref": "https://twitter.com/simonjenkins"
+          },
+          "scheduleHref": "#",
+          "scheduleLabel": "Schedule a DeFi Risk Advisory Session",
+          "biography": [
+            "Simon has built and validated DeFi risk models and tokenomics frameworks for complex blockchain ecosystems, helping organizations quantify exposure and strengthen oversight.",
+            "She specializes in translating model outputs into governance workflows and stakeholder-ready decision narratives for Web3 enterprises."
+          ],
+          "expertise": [
+            { "title": "DeFi Risk Modeling & Validation", "percent": 94 },
+            { "title": "Tokenomics Design & Strategy", "percent": 92 },
+            { "title": "Blockchain Capital Structure", "percent": 90 },
+            { "title": "Governance & Compliance Frameworks", "percent": 93 }
+          ],
+          "careerJourney": [
+            {
+              "period": "2022 - Present",
+              "title": "Invorious",
+              "role": "DeFi & Financial Risk Partner",
+              "description": "Leads DeFi risk and tokenomics advisory engagements for executive teams and board stakeholders, aligning models with governance outcomes."
+            },
+            {
+              "period": "2011 - 2022",
+              "title": "Global Markets Consulting",
+              "role": "Senior Manager, Risk Analytics",
+              "description": "Architected risk measurement approaches and reporting pipelines for multinational enterprises."
+            },
+            {
+              "period": "2006 - 2011",
+              "title": "Investment Analytics",
+              "role": "Quant Analyst",
+              "description": "Developed forecasting models and performed validation across credit and liquidity use cases."
+            }
+          ],
+          "academicFoundations": [
+            {
+              "title": "MBA Finance",
+              "subtitle": "Wharton Business School",
+              "icon": "book-open"
+            },
+            {
+              "title": "CFA Charterholder",
+              "subtitle": "CFA Institute",
+              "icon": "graduation-cap"
+            },
+            {
+              "title": "Advanced Risk Studies",
+              "subtitle": "London School of Economics",
+              "icon": "landmark"
+            }
+          ],
+          "notableImpact": [
+            {
+              "category": "DeFi Risk Reduction",
+              "title": "-28% Volatility Exposure",
+              "description": "Implemented model-driven limits and governance reviews that reduced unpredictable variance in DeFi protocols."
+            },
+            {
+              "category": "Tokenomics Governance",
+              "title": "+35% Faster Approvals",
+              "description": "Streamlined risk reporting into stakeholder-ready formats, improving decision cadence for Web3 enterprises."
+            }
+          ],
+          "directContact": {
+            "email": "s.jenkins@Invorious.com",
+            "phone": "+57 320 000 0000",
+            "location": "Bogota Hub, Suite 900"
+          },
+          "clientVoice": [
+            {
+              "quote": "Simon's framework gave our Web3 leadership clear accountability. We could explain the DeFi risk model, govern it, and act faster when conditions changed.",
+              "name": "Amir Khoury",
+              "role": "CFO, Global DeFi Group",
+              "imageSrc": "/images/clients/Amir.jpg"
+            }
+          ],
+          "bottomCta": {
+            "title": "Work with Simon on DeFi risk you can govern.",
+            "description": "Book a confidential discovery session to align on your DeFi risk objectives, tokenomics needs, and decision workflows.",
+            "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+            "buttonLabel": "Book a DeFi Risk Advisory Session"
+          }
+        }
+      }
+    ],
+    "specialists": [
+      {
+        "name": "David Chen",
+        "slug": "david-chen",
+        "role": "Sustainable Blockchain Lead",
+        "imageSrc": "/images/team/spec1.jpg",
+        "imageAlt": "David Chen",
+        "tags": [
+          {
+            "label": "Green Web3",
+            "bgTextClassName": "bg-emerald-50 text-emerald-600"
+          },
+          {
+            "label": "Sustainable Blockchain",
+            "bgTextClassName": "bg-emerald-50 text-emerald-600"
+          }
+        ],
+        "profileDetails": {
+          "heroChip": "Sustainable Blockchain",
+          "heroTitle": "David Chen",
+          "heroSubtitle": "Sustainable Blockchain Lead",
+          "shortBio": "David helps organizations build energy-efficient blockchain solutions and operationalize green Web3 strategies. He connects data, governance, and execution so sustainability becomes an everyday performance capability.",
+          "socialLinks": {
+            "linkedinHref": "https://www.linkedin.com/in/david-chen",
+            "twitterHref": "https://twitter.com/davidchen"
+          },
+          "scheduleHref": "#",
+          "scheduleLabel": "Schedule a Sustainable Blockchain Deep-Dive",
+          "biography": [
+            "David has advised executive teams on practical green Web3 roadmaps, from energy-efficient consensus mechanisms to carbon-neutral blockchain operations and reporting rhythms.",
+            "His work focuses on turning sustainability goals into operating models that teams can run, audit, and improve across decentralized ecosystems."
+          ],
+          "expertise": [
+            { "title": "Green Blockchain Solutions", "percent": 95 },
+            { "title": "Energy-Efficient Consensus", "percent": 91 },
+            { "title": "Carbon-Neutral Web3 Operations", "percent": 88 },
+            { "title": "Sustainable Tokenomics", "percent": 85 }
+          ],
+          "careerJourney": [
+            {
+              "period": "2022 - Present",
+              "title": "Invorious",
+              "role": "Sustainable Blockchain Lead",
+              "description": "Leads green Web3 advisory engagements and builds measurable sustainable blockchain roadmaps."
+            },
+            {
+              "period": "2012 - 2022",
+              "title": "Impact Consulting Group",
+              "role": "Director, Sustainability Advisory",
+              "description": "Developed carbon, circular, and governance frameworks for global enterprises transitioning to Web3."
+            },
+            {
+              "period": "2007 - 2012",
+              "title": "Environmental Analytics Labs",
+              "role": "Senior Analyst",
+              "description": "Built measurement approaches for emissions, waste, and sustainable sourcing initiatives."
+            }
+          ],
+          "academicFoundations": [
+            {
+              "title": "MS Environmental Policy",
+              "subtitle": "Oxford University",
+              "icon": "book-open"
+            },
+            {
+              "title": "PhD in Sustainability Science",
+              "subtitle": "Imperial College",
+              "icon": "graduation-cap"
+            },
+            {
+              "title": "BA Economics",
+              "subtitle": "University of Toronto",
+              "icon": "landmark"
+            }
+          ],
+          "notableImpact": [
+            {
+              "category": "Green Web3 Execution",
+              "title": "+29% Program Adoption",
+              "description": "Built governance and reporting rhythms that increased adoption of sustainable blockchain practices."
+            },
+            {
+              "category": "Carbon-Neutral Operations",
+              "title": "-18% Energy Intensity",
+              "description": "Introduced measurement and improvement loops tied to daily blockchain operations."
+            }
+          ],
+          "directContact": {
+            "email": "d.chen@Invorious.com",
+            "phone": "+61 2 8000 0000",
+            "location": "Sydney HQ, Suite 310"
+          },
+          "clientVoice": [
+            {
+              "quote": "David's approach made green Web3 tangible. Our teams finally had a system for metrics, governance, and follow-through-not just targets.",
+              "name": "Elena Rodriguez",
+              "role": "VP Sustainability, Global Blockchain Enterprise",
+              "imageSrc": "/images/clients/elenarodriguez.jpg"
+            }
+          ],
+          "bottomCta": {
+            "title": "Work with David on your sustainable blockchain execution system.",
+            "description": "Book a confidential session to align on measurable green Web3 outcomes, governance, and operational adoption across teams.",
+            "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+            "buttonLabel": "Book a Sustainable Blockchain Workshop"
+          }
+        }
+      },
+      {
+        "name": "Amara Okafor",
+        "slug": "amara-okafor",
+        "role": "Web3 Talent & Community Lead",
+        "imageSrc": "/images/team/spec2.jpg",
+        "imageAlt": "Amara Okafor",
+        "tags": [
+          { "label": "Web3 Community", "bgTextClassName": "bg-blue-50 text-blue-600" },
+          {
+            "label": "Decentralized Talent",
+            "bgTextClassName": "bg-blue-50 text-blue-600"
+          }
+        ],
+        "profileDetails": {
+          "heroChip": "Web3 Talent & Community",
+          "heroTitle": "Amara Okafor",
+          "heroSubtitle": "Web3 Talent & Community Lead",
+          "shortBio": "Amara designs Web3 community building systems and decentralized talent strategies that help organizations grow sustainably. She aligns culture, performance, and learning programs to Web3 business outcomes.",
+          "socialLinks": {
+            "linkedinHref": "https://www.linkedin.com/in/amara-okafor",
+            "twitterHref": "https://twitter.com/amaraokafor"
+          },
+          "scheduleHref": "#",
+          "scheduleLabel": "Schedule a Web3 Talent & Community Session",
+          "biography": [
+            "Amara partners with executives to translate Web3 strategy into community engagement, leadership capabilities, role clarity, and measurable performance routines.",
+            "Her work strengthens decentralized organizations by making coaching, feedback, and development operational for community managers and team leaders."
+          ],
+          "expertise": [
+            { "title": "Web3 Community Building", "percent": 93 },
+            { "title": "Decentralized Talent Systems", "percent": 90 },
+            { "title": "DAO Governance & Culture", "percent": 87 },
+            { "title": "Web3 Leadership Development", "percent": 88 }
+          ],
+          "careerJourney": [
+            {
+              "period": "2022 - Present",
+              "title": "Invorious",
+              "role": "Web3 Talent & Community Lead",
+              "description": "Leads engagements on Web3 community building, decentralized talent systems, and performance operating models."
+            },
+            {
+              "period": "2013 - 2022",
+              "title": "People & Performance Advisory",
+              "role": "Senior Consultant",
+              "description": "Built talent frameworks and manager enablement programs for scaling Web3 organizations."
+            },
+            {
+              "period": "2008 - 2013",
+              "title": "Learning & Organizational Development",
+              "role": "Program Lead",
+              "description": "Designed coaching curricula and leadership development pathways."
+            }
+          ],
+          "academicFoundations": [
+            {
+              "title": "MBA Organizational Leadership",
+              "subtitle": "INSEAD",
+              "icon": "book-open"
+            },
+            {
+              "title": "MA Psychology",
+              "subtitle": "University of Chicago",
+              "icon": "graduation-cap"
+            },
+            {
+              "title": "BSc Business Administration",
+              "subtitle": "NUS",
+              "icon": "landmark"
+            }
+          ],
+          "notableImpact": [
+            {
+              "category": "Web3 Community Growth",
+              "title": "+50k Active Members",
+              "description": "Built community systems that scaled Web3 project engagement from zero to 50k+ members."
+            },
+            {
+              "category": "Decentralized Talent",
+              "title": "+31% Contributor Readiness",
+              "description": "Implemented enablement and coaching systems that improved DAO contributor capability and confidence."
+            }
+          ],
+          "directContact": {
+            "email": "a.okafor@Invorious.com",
+            "phone": "+57 320 000 0000",
+            "location": "Bogota Hub, Suite 120"
+          },
+          "clientVoice": [
+            {
+              "quote": "Amara helped us operationalize community. We now have a system for how DAO leaders coach, measure progress, and improve-week over week.",
+              "name": "Sofia Almeida",
+              "role": "Chief People Officer, Global Web3 DAO",
+              "imageSrc": "/images/clients/sofiaalmeida.jpg"
+            },
+            {
+              "quote": "Instead of generic programs, the Web3 talent framework became part of our execution cadence. That's why it stuck.",
+              "name": "Daniel Jaker",
+              "role": "VP Strategy, Web3 Growth Firm",
+              "imageSrc": "/images/clients/danieljaker.jpg"
+            }
+          ],
+          "bottomCta": {
+            "title": "Work with Amara on your Web3 talent and community systems.",
+            "description": "Book a confidential discovery session to align community strategy, talent operations, and leadership capability with your Web3 outcomes.",
+            "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+            "buttonLabel": "Book a Web3 Talent Workshop"
+          }
+        }
+      },
+      {
+        "name": "Julian Voss",
+        "slug": "julian-voss",
+        "role": "Blockchain Supply Chain Advisor",
+        "imageSrc": "/images/team/spec3.jpg",
+        "imageAlt": "Julian Voss",
+        "tags": [
+          { "label": "Blockchain Logistics", "bgTextClassName": "bg-blue-50 text-blue-600" },
+          {
+            "label": "Smart Contracts",
+            "bgTextClassName": "bg-blue-50 text-blue-600"
+          }
+        ],
+        "profileDetails": {
+          "heroChip": "Blockchain Supply Chain",
+          "heroTitle": "Julian Voss",
+          "heroSubtitle": "Blockchain Supply Chain Advisor",
+          "shortBio": "Julian helps organizations improve supply chain velocity, traceability, and resilience using blockchain technology, smart contracts, and data-driven planning. He focuses on execution systems that teams can run daily.",
+          "socialLinks": {
+            "linkedinHref": "https://www.linkedin.com/in/julian-voss",
+            "twitterHref": "https://twitter.com/julianvoss"
+          },
+          "scheduleHref": "#",
+          "scheduleLabel": "Schedule a Blockchain Supply Chain Session",
+          "biography": [
+            "Julian has led blockchain-enabled operational excellence programs that reduce waste, improve logistics performance, and strengthen cross-site coordination using smart contracts and immutable tracking.",
+            "His work connects process design with measurable service levels, operational KPIs, and decentralized verification."
+          ],
+          "expertise": [
+            { "title": "Blockchain Supply Chain Design", "percent": 94 },
+            { "title": "Smart Contract Logistics", "percent": 91 },
+            { "title": "Supply Chain Traceability", "percent": 90 },
+            { "title": "Resilience & Risk Controls", "percent": 88 }
+          ],
+          "careerJourney": [
+            {
+              "period": "2022 - Present",
+              "title": "Invorious",
+              "role": "Blockchain Supply Chain Advisor",
+              "description": "Advises on blockchain-enabled lean transformations, smart contract logistics, and supply chain performance improvement."
+            },
+            {
+              "period": "2014 - 2022",
+              "title": "Global Operations Group",
+              "role": "Senior Operations Manager",
+              "description": "Standardized operating models and improved service levels across regional supply chains using blockchain solutions."
+            },
+            {
+              "period": "2008 - 2014",
+              "title": "Industrial Engineering Consulting",
+              "role": "Operations Analyst",
+              "description": "Designed process improvements and modeling approaches for planning and execution."
+            }
+          ],
+          "academicFoundations": [
+            {
+              "title": "PhD in Operations Research",
+              "subtitle": "ETH Zurich",
+              "icon": "graduation-cap"
+            },
+            {
+              "title": "MS Supply Chain Systems",
+              "subtitle": "Georgia Tech",
+              "icon": "book-open"
+            },
+            {
+              "title": "BA Industrial Engineering",
+              "subtitle": "TU Munich",
+              "icon": "landmark"
+            }
+          ],
+          "notableImpact": [
+            {
+              "category": "Blockchain Velocity",
+              "title": "+22% Lead-Time Improvement",
+              "description": "Re-designed planning workflows and eliminated waste using smart contract automation."
+            },
+            {
+              "category": "Traceability",
+              "title": "100% Immutable Records",
+              "description": "Implemented blockchain tracking for end-to-end supply chain visibility."
+            }
+          ],
+          "directContact": {
+            "email": "j.voss@Invorious.com",
+            "phone": "+61 2 8000 0000",
+            "location": "Sydney HQ, Suite 402"
+          },
+          "clientVoice": [
+            {
+              "quote": "Julian brought blockchain clarity to messy logistics. The smart contract system made improvements repeatable and traceable for every shipment.",
+              "name": "Aisha Rahman",
+              "role": "Director, Global Logistics Operations",
+              "imageSrc": "/images/clients/aisharahman.jpg"
+            }
+          ],
+          "bottomCta": {
+            "title": "Work with Julian on blockchain supply chain execution.",
+            "description": "Book a confidential session to align on blockchain-enabled lean improvements, logistics KPIs, and traceability practices you can run daily.",
+            "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+            "buttonLabel": "Book a Blockchain Supply Chain Workshop"
+          }
+        }
+      },
+      {
+        "name": "Sofia Martinez",
+        "slug": "sofia-martinez",
+        "role": "Web3 Customer Experience Lead",
+        "imageSrc": "/images/team/spec4.jpg",
+        "imageAlt": "Sofia Martinez",
+        "tags": [
+          {
+            "label": "Web3 UX",
+            "bgTextClassName": "bg-blue-50 text-blue-600"
+          },
+          { "label": "dApp Design", "bgTextClassName": "bg-blue-50 text-blue-600" }
+        ],
+        "profileDetails": {
+          "heroChip": "Web3 Customer Experience",
+          "heroTitle": "Sofia Martinez",
+          "heroSubtitle": "Web3 Customer Experience Lead",
+          "shortBio": "Sofia designs Web3 customer experience systems that connect dApp UX, brand, and measurable outcomes. She helps organizations create decentralized experiences users trust and teams can continuously improve.",
+          "socialLinks": {
+            "linkedinHref": "https://www.linkedin.com/in/sofia-martinez",
+            "twitterHref": "https://twitter.com/sofiamartinez"
+          },
+          "scheduleHref": "#",
+          "scheduleLabel": "Schedule a Web3 CX & dApp UX Session",
+          "biography": [
+            "Sofia partners with leadership teams to turn Web3 experience strategy into execution-ready dApp journeys and decentralized design systems.",
+            "Her expertise blends Web3 research, product design, and performance measurement to create fast, reliable customer value in decentralized applications."
+          ],
+          "expertise": [
+            { "title": "dApp UX Strategy & Design", "percent": 96 },
+            { "title": "Web3 Design Systems", "percent": 92 },
+            { "title": "Wallet Onboarding & Conversion", "percent": 89 },
+            { "title": "Decentralized Brand Consistency", "percent": 88 }
+          ],
+          "careerJourney": [
+            {
+              "period": "2022 - Present",
+              "title": "Invorious",
+              "role": "Web3 Customer Experience Lead",
+              "description": "Leads dApp UX transformations that improve wallet onboarding, engagement, and measurable Web3 customer outcomes."
+            },
+            {
+              "period": "2013 - 2022",
+              "title": "Product Experience Studio",
+              "role": "Senior Product Designer",
+              "description": "Built design systems and ran experiments to improve conversion and retention for Web3 products."
+            },
+            {
+              "period": "2008 - 2013",
+              "title": "Brand & Digital Labs",
+              "role": "UX Researcher",
+              "description": "Conducted research and designed experience prototypes for multi-channel products."
+            }
+          ],
+          "academicFoundations": [
+            {
+              "title": "MS Human-Computer Interaction",
+              "subtitle": "Carnegie Mellon",
+              "icon": "graduation-cap"
+            },
+            {
+              "title": "MA Communication Design",
+              "subtitle": "UCL",
+              "icon": "book-open"
+            },
+            {
+              "title": "BA Psychology",
+              "subtitle": "University of Barcelona",
+              "icon": "landmark"
+            }
+          ],
+          "notableImpact": [
+            {
+              "category": "Web3 Conversion",
+              "title": "+41% Wallet Onboarding",
+              "description": "Redesigned dApp onboarding journeys and introduced performance instrumentation for rapid iteration."
+            },
+            {
+              "category": "dApp Design Consistency",
+              "title": "-33% UX Fragmentation",
+              "description": "Implemented Web3 design systems that improved brand consistency across decentralized product lines."
+            }
+          ],
+          "directContact": {
+            "email": "s.martinez@Invorious.com",
+            "phone": "+57 320 000 0000",
+            "location": "Bogota Hub, Suite 240"
+          },
+          "clientVoice": [
+            {
+              "quote": "Sofia gave us clarity on what to change first in our dApp. The redesigned wallet journey improved conversion immediately, and the system keeps improving.",
+              "name": "Jonas Remi",
+              "role": "VP Product, Web3 Consumer Platform",
+              "imageSrc": "/images/clients/jonasremi.avif"
+            },
+            {
+              "quote": "The combination of Web3 brand thinking and dApp UX rigor made the experience feel trustworthy. Our teams finally had a repeatable process.",
+              "name": "Mariana Garcia",
+              "role": "CMO, Global Web3 Brand",
+              "imageSrc": "/images/clients/marianagarcia.jpg"
+            }
+          ],
+          "bottomCta": {
+            "title": "Work with Sofia on your next Web3 customer experience system.",
+            "description": "Book a confidential discovery session to align on dApp UX strategy, Web3 brand consistency, and measurable decentralized experience outcomes.",
+            "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+            "buttonLabel": "Book a Web3 CX Workshop"
+          }
+        }
+      }
+    ]
+  },
+  "workWithUs": {
+    "openings": [
+      {
+        "id": "apply-btn-1",
+        "category": "Blockchain Development",
+        "categoryColor": "bg-blue-100 text-blue-600",
+        "details": "Full-time / Contract / Part-time • Sydney / Remote (Bogota timezone)",
+        "title": "Senior Smart Contract Engineer (Web3)",
+        "description": "Stop writing code for features nobody uses. Architect real, production-grade decentralized systems for real clients using Solidity and Vyper. We offer 1:1 access to founders, massive autonomy, and zero corporate red tape."
+      },
+      {
+        "id": "apply-btn-2",
+        "category": "Product Design",
+        "categoryColor": "bg-purple-100 text-purple-600",
+        "details": "Full-time • Sydney / Remote (EMEA)",
+        "title": "Product Designer (UI/UX)",
+        "description": "Design intuitive, user-friendly interfaces for Web2 and Web3 platforms. Create seamless experiences for users interacting with blockchain-based features."
+      },
+      {
+        "id": "apply-btn-3",
+        "category": "Backend Engineering",
+        "categoryColor": "bg-emerald-100 text-emerald-600",
+        "details": "Full-time • Sydney / Remote (EMEA)",
+        "title": "Backend API Engineer",
+        "description": "Build scalable, secure RESTful APIs and microservices to power Web2 and Web3 applications, integrating with blockchain infrastructure, smart contracts, and third-party services."
+      },
+      {
+        "id": "apply-btn-4",
+        "category": "Frontend Engineering",
+        "categoryColor": "bg-orange-100 text-orange-600",
+        "details": "Full-time • Sydney / Remote (EMEA)",
+        "title": "Frontend Engineer",
+        "description": "Develop responsive, high-performance web applications using React/Next.js. Implement wallet connections, NFT displays, and interactive dashboards."
+      },
+      {
+        "id": "apply-btn-5",
+        "category": "Mobile Engineering",
+        "categoryColor": "bg-pink-100 text-pink-600",
+        "details": "Full-time • Sydney / Remote (EMEA)",
+        "title": "Mobile Engineer",
+        "description": "Build cross-platform mobile apps for iOS and Android using React Native. Bring Web3 features and wallet integration to users on the go."
+      },
+      {
+        "id": "apply-btn-6",
+        "category": "Smart Contract Development Intern",
+        "categoryColor": "bg-blue-100 text-blue-600",
+        "details": "Internship (3-6 months) • Sydney / Remote (EMEA)",
+        "title": "Smart Contract Intern",
+        "description": "Kickstart your Web3 career by working alongside our senior blockchain engineers. Assist in developing, testing, and deploying smart contracts using Solidity and Vyper."
+      },
+      {
+        "id": "apply-btn-7",
+        "category": "AI Development",
+        "categoryColor": "bg-purple-100 text-purple-600",
+        "details": "Contract • Remote (Worldwide)",
+        "title": "AI Developer",
+        "description": "Build AI features for Web3 platforms - AI-powered chat support, natural language search across data, voice-to-text transcription, automated reminders, and AI-generated insights. Must know OpenAI API, LangChain, vector databases (PGVector), and TypeScript."
+      },
+      {
+        "id": "apply-btn-8",
+        "category": "AI-Assisted Development",
+        "categoryColor": "bg-indigo-100 text-indigo-600",
+        "details": "Contract • Remote (Worldwide)",
+        "title": "AI Agent Developer (Cursor)",
+        "description": "Use Cursor to build VaultWise - an AI-powered DeFi yield optimizer. Complete the Web2 layer and build the Web3 layer: yield vaults (ERC-4626), cross-chain swap aggregators, automated compounding agents, and an AI agent that autonomously rebalances positions. Must be a Cursor power user. Must know Solidity, Next.js, NestJS, and DeFi protocols (Uniswap, Aave, Curve)."
+      },
+      {
+        "id": "apply-btn-9",
+        "category": "Systems Engineering",
+        "categoryColor": "bg-amber-100 text-amber-600",
+        "details": "Full-time • Sydney / Remote (EMEA)",
+        "title": "Senior Rust & Go Engineer",
+        "description": "Design and build high-performance, low-latency infrastructure services using Rust and Go for next-generation decentralized applications. You'll architect and implement critical systems including blockchain indexers, high-throughput API gateways, and secure cryptographic services."
+      },
+      {
+        "id": "apply-btn-10",
+        "category": "Product Design2",
+        "categoryColor": "bg-purple-100 text-purple-600",
+        "details": "Contract • Remote (Worldwide)",
+        "title": "Product Designer (VaultWise)",
+        "description": "Design the end-to-end product experience for VaultWise - an AI-powered DeFi yield optimizer. Shape how users interact with yield vaults, monitor portfolio performance, and manage cross-chain positions. Own the design system and visual identity from zero to launch."
+      },
+      {
+        "id": "apply-btn-11",
+        "category": "Technical Leadership",
+        "categoryColor": "bg-indigo-100 text-indigo-600",
+        "details": "Full-time • Sydney / Remote (EMEA)",
+        "title": "Tech Lead (Web3 Delivery)",
+        "description": "Lead the technical vision and execution for Web3 projects. Architect the Web3 layer from scratch, including smart contracts, decentralized infrastructure, and secure protocols. Guide a team of blockchain, backend, and frontend engineers to deliver a production-grade platform."
+      },
+      {
+        "id": "apply-btn-12",
+        "category": "Project Management",
+        "categoryColor": "bg-blue-100 text-blue-600",
+        "details": "Part-time • Remote (EMEA)",
+        "title": "Project Manager (Web3 Initiatives)",
+        "description": "Coordinate the development team and ensure smooth delivery of Web3 projects. Own project planning, sprint coordination, and timeline management across engineering, design, and business stakeholders. Identify risks, track progress, and keep the team aligned."
+      }
+    ],
+    "openingDetails": {
+      "Blockchain": {
+        "qualifications": [
+          "3+ years in software engineering, with 1–2 years deep in the Web3 trenches (EVM required, Rust is a plus).",
+          "Language Agnostic: Highly proficient in Solidity and comfortable working with Vyper.",
+          "A Security Mindset: You dream in reentrancy attacks, understand upgradeable contract patterns, and know exactly how to prevent vulnerabilities.",
+          "Full-Stack Fluency: You’re comfortable in TypeScript, Node.js, and modern Web3 libraries (viem, wagmi).",
+          "Communication: You can explain a Merkle tree to a non-technical client without making them feel dumb.",
+          "Autonomy: You don't need to be micromanaged. You see a problem, you scope it, and you ship a solution."
+        ],
+        "responsibilities": [
+          "Architect & Build: Design, develop, and deploy secure smart contracts primarily on EVM-compatible chains using Solidity and/or Vyper.",
+          "Tokenomics & Logic: Build out token systems (ERC-20, ERC-721, ERC-1155), DeFi primitives, and dApp logic from scratch.",
+          "Security First: Write comprehensive tests and conduct internal audits using Hardhat, Foundry, or ApeWorX. You care about gas optimization and security.",
+          "Bridge the Gap: Work closely with our Web2 engineers to wire your contracts into slick, responsive frontends (Next.js, Wagmi, Viem).",
+          "Consult & Educate: Translate real-world business problems into decentralized solutions for clients who might not be Web3 natives."
+        ],
+        "applicationSteps": [
+          "Forget the formal cover letter. Send us your GitHub, a 2-sentence note about the coolest (or most catastrophic) smart contract you’ve ever built, and the contract address of a real project you've deployed to mainnet.",
+          "Use email subject format: Smart Contract Engineer – [Your Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "Smart Contract Intern": {
+        "qualifications": [
+          "Currently pursuing or recently completed a degree in Computer Science or related field",
+          "Demonstrated interest in blockchain technology through coursework, personal projects, or hackathons",
+          "Familiarity with Solidity or strong willingness to learn rapidly",
+          "Understanding of fundamental data structures and software design patterns",
+          "Ability to work effectively in a remote, distributed team environment"
+        ],
+        "responsibilities": [
+          "Collaborate with senior engineers to design, implement, and test smart contract solutions",
+          "Assist in writing and deploying Solidity contracts for DeFi protocols and token systems.",
+          "Participate in code reviews, security audits, and gas optimization exercises",
+          "Research emerging Web3 standards (ERC-721, ERC-1155, ERC-4337) and propose integration strategies"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV, GitHub profile, and any blockchain-related projects.",
+          "Use email subject format: Application - Smart Contract Intern - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "Design": {
+        "qualifications": [
+          "4+ years of product design experience for web and mobile",
+          "Strong portfolio showcasing user-centered design process",
+          "Proficiency in Figma, Sketch, or Adobe XD",
+          "Experience designing dashboards or complex B2C/B2B platforms",
+          "Understanding of Web3/wallet UX is a plus",
+          "Professional English proficiency"
+        ],
+        "responsibilities": [
+          "Lead end-to-end design for web and mobile apps",
+          "Create user flows, wireframes, prototypes, and high-fidelity designs",
+          "Collaborate with engineers on implementation",
+          "Conduct user research and usability testing",
+          "Maintain and evolve design system"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV and design portfolio (case studies required).",
+          "Use email subject format: Application - Product Designer - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "Backend": {
+        "qualifications": [
+          "4+ years of backend development experience with Node.js and NestJS framework",
+          "Strong experience with RESTful API design and microservices architecture",
+          "Proficiency with PostgreSQL, TypeORM, or Prisma",
+          "Experience with Ethers.js or Web3.js for blockchain interaction",
+          "Experience with cloud platforms and containerization (Docker, Kubernetes)",
+          "Professional English proficiency"
+        ],
+        "responsibilities": [
+          "Design and implement scalable backend services using NestJS and TypeScript",
+          "Build RESTful APIs for frontend and mobile clients following OpenAPI/Swagger specifications",
+          "Integrate with blockchain infrastructure using Ethers.js to interact with smart contracts",
+          "Design and optimize PostgreSQL database schemas, queries, and indexing",
+          "Write unit tests and integration tests using Jest"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV, GitHub portfolio, and links to relevant backend projects.",
+          "Use email subject format: Application - Backend API Engineer - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "Frontend": {
+        "qualifications": [
+          "3+ years of frontend development experience",
+          "Strong proficiency in React/Next.js and TypeScript",
+          "Experience with state management (Redux, Zustand, or Context API)",
+          "Understanding of responsive design and Tailwind CSS",
+          "Experience with Web3/wallet libraries (Web3.js, Ethers.js, Wagmi) is a plus"
+        ],
+        "responsibilities": [
+          "Build responsive web interfaces",
+          "Implement wallet connection and blockchain interactions",
+          "Create user dashboards and record views",
+          "Optimize frontend performance and SEO",
+          "Collaborate with designers and backend engineers"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV, GitHub portfolio, and links to live projects.",
+          "Use email subject format: Application - Frontend Engineer - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "Mobile": {
+        "qualifications": [
+          "3+ years of mobile development experience with React Native",
+          "Published apps on iOS App Store and Google Play Store",
+          "Experience with mobile state management and offline storage",
+          "Familiarity with push notifications and mobile security",
+          "Understanding of blockchain/wallet mobile integration is a plus"
+        ],
+        "responsibilities": [
+          "Build cross-platform mobile apps for iOS & Android",
+          "Implement user profile management and records",
+          "Add wallet integration for Web3 features",
+          "Handle push notifications for reminders",
+          "Optimize mobile performance and user experience"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV, GitHub portfolio, and links to published apps.",
+          "Use email subject format: Application - Mobile Engineer - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "AI-Developer": {
+        "qualifications": [
+          "3+ years of software development experience with focus on AI/ML",
+          "Experience with OpenAI API, Claude API, or similar LLM providers",
+          "Knowledge of LangChain, LlamaIndex, or similar orchestration frameworks",
+          "Experience with vector databases (PGVector, Pinecone, or Qdrant)",
+          "Familiarity with TypeScript, Node.js, and NestJS (our backend stack)",
+          "Understanding of RAG (Retrieval-Augmented Generation) patterns"
+        ],
+        "responsibilities": [
+          "Build AI-powered chat support using OpenAI/Claude",
+          "Implement natural language search across records using vector embeddings",
+          "Integrate Whisper API for transcription",
+          "Develop automated reminders",
+          "Create AI-generated insights (health timeline, anomaly detection, recommendations)",
+          "Work alongside backend and frontend developers to integrate AI features"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV and GitHub profile (include AI/LLM projects if any)",
+          "Use email subject format: Application - AI Developer - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "AI-Agent": {
+        "qualifications": [
+          "3+ years of software development experience",
+          "Deep experience with Cursor or similar AI coding tools",
+          "Strong Solidity and EVM knowledge (ERC-4626, ERC-20, ERC-721, Hardhat/Foundry)",
+          "Experience with Next.js, TypeScript, NestJS, or similar full-stack frameworks",
+          "Familiarity with DeFi protocols (Uniswap, Aave, Curve) and yield optimization strategies",
+          "Experience with AI agents or automated trading systems is a strong plus"
+        ],
+        "responsibilities": [
+          "Finish VaultWise's Web2 layer - auth, user dashboards, KYC workflows, form validations, missing pages",
+          "Build the entire Web3 layer from scratch using AI agents (Cursor)",
+          "Write and test Solidity smart contracts (yield vaults, swap aggregators, LP position managers, governance token)",
+          "Build Web3 frontend features (Wagmi, RainbowKit, ethers.js)",
+          "Develop blockchain API layer (NestJS + ethers.js) for transaction signing and event indexing",
+          "Build AI agent logic for autonomous rebalancing based on APY and risk parameters"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV and GitHub profile (must show Cursor or AI-assisted development experience).",
+          "Use email subject format: Application - AI Agent Developer - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "Rust-Go-Engineer": {
+        "qualifications": [
+          "5+ years of systems programming experience with Rust and Go",
+          "Strong understanding of concurrency, memory management, and performance optimization",
+          "Experience building high-performance microservices and distributed systems",
+          "Familiarity with blockchain node infrastructure (Ethereum clients, consensus algorithms)",
+          "Experience with gRPC, Protocol Buffers, and low-latency networking",
+          "Knowledge of cryptographic primitives, key management, and secure coding practices"
+        ],
+        "responsibilities": [
+          "Architect and implement high-performance blockchain indexers and data pipelines",
+          "Build low-latency API gateways for Web3 infrastructure",
+          "Design secure cryptographic services for key management and transaction signing",
+          "Optimize critical-path systems for throughput and reliability",
+          "Mentor junior engineers on systems programming best practices",
+          "Write performance-critical code in Rust for blockchain clients",
+          "Build Go services for internal tooling and infrastructure automation"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV and GitHub profile (highlight Rust and Go projects)",
+          "Use email subject format: Application - Rust/Go Engineer - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "VaultWise-Designer": {
+        "qualifications": [
+          "4+ years of product design experience, preferably in Web3/DeFi",
+          "Strong portfolio showcasing complex dashboard and financial product design",
+          "Experience designing wallet experiences and blockchain interactions",
+          "Proficiency in Figma and design systems",
+          "Understanding of DeFi concepts (yield farming, LP, staking) is a strong plus",
+          "Ability to translate complex technical concepts into intuitive interfaces"
+        ],
+        "responsibilities": [
+          "Own end-to-end product design for VaultWise from zero to launch",
+          "Design DeFi user flows: wallet connection, vault deposits, yield tracking, rebalancing dashboards",
+          "Create wireframes, prototypes, and high-fidelity designs",
+          "Build and maintain a scalable design system",
+          "Shape the visual identity and brand experience",
+          "Collaborate with engineering on implementation quality",
+          "Conduct user research and usability testing"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV and design portfolio (DeFi/Web3 case studies preferred)",
+          "Use email subject format: Application - Product Designer (VaultWise) - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "TechLead-Web3": {
+        "qualifications": [
+          "7+ years of software development experience",
+          "3+ years of technical leadership or management experience",
+          "Strong experience with blockchain technologies (Ethereum, Solidity, Smart Contracts)",
+          "Experience with full-stack development (Node.js, NestJS, React, TypeScript)",
+          "Proven track record of delivering complex Web3 projects from concept to production",
+          "Experience with NFT standards (ERC-721, ERC-1155) and tokenomics",
+          "Strong system design and architecture skills"
+        ],
+        "responsibilities": [
+          "Lead technical architecture and execution for Web3 projects",
+          "Design and oversee NFT and tokenization smart contracts",
+          "Guide and mentor a team of blockchain, backend, and frontend engineers",
+          "Make critical technical decisions on architecture, tooling, and infrastructure",
+          "Ensure code quality, testing standards, and security best practices",
+          "Collaborate with product and design teams on roadmap and delivery",
+          "Balance hands-on development (Solidity, Node.js) with team leadership"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV and GitHub profile (highlight blockchain and leadership experience)",
+          "Use email subject format: Application - Tech Lead (Web3) - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      },
+      "ProjectManager-Web3": {
+        "qualifications": [
+          "4+ years of project management experience, preferably in Web3/blockchain or tech",
+          "Strong understanding of blockchain technology, smart contracts, and Web3 concepts (or willingness to learn)",
+          "Experience managing technical projects from concept to launch",
+          "Strong communication and stakeholder management skills",
+          "Experience with Agile methodologies and project management tools (Jira, Notion, etc.)",
+          "Ability to translate complex technical concepts into clear business updates"
+        ],
+        "responsibilities": [
+          "Coordinate the development team and ensure smooth delivery of Web3 projects",
+          "Own project planning, timeline management, and sprint coordination",
+          "Identify risks, track progress, and keep the team aligned to deliver the Web3 MVP on time",
+          "Bridge the gap between technical complexity and business goals",
+          "Manage cross-functional coordination (engineering, design, business)",
+          "Stakeholder communication and progress reporting",
+          "Ensure delivery within scope, budget, and timeline"
+        ],
+        "applicationSteps": [
+          "Submit your resume/CV and LinkedIn profile (highlight project management experience)",
+          "Use email subject format: Application - Project Manager (Web3) - [Your Full Name]",
+          "Email: hello@invorious.com"
+        ]
+      }
+    },
+    "journey": [
+      {
+        "step": "01",
+        "title": "Intro & Technical Chat (30 mins)",
+        "description": "A quick call with our founder to talk shop, culture, and what you're looking for. We'll also ask a few simple, practical technical questions to ensure we're on the same page before moving forward."
+      },
+      {
+        "step": "02",
+        "title": "Code Review / Take-Home (Paid)",
+        "description": "We will either give you a short, realistic take-home challenge or ask you to walk us through a past smart contract you've built."
+      },
+      {
+        "step": "03",
+        "title": "Technical Deep Dive (60 mins)",
+        "description": "A discussion with our engineers about architecture, security, and how you solve problems."
+      },
+      {
+        "step": "04",
+        "title": "Offer",
+        "description": "If we're a fit, we move fast."
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "stethoscope",
+        "title": "Comprehensive Health",
+        "description": "Premium health insurance to keep you and your family covered. Your well-being is a priority."
+      },
+      {
+        "icon": "coffee",
+        "title": "True Flexibility",
+        "description": "Work hybrid from our Sydney HQ, fully remote from Bogota, or as a contractor—whatever works best for your life."
+      },
+      {
+        "icon": "chartBar",
+        "title": "Home Office Stipend",
+        "description": "A one-time stipend to help you set up a comfortable and productive home office. Use it for whatever helps you do your best work."
+      }
+    ]
+  }
+}
