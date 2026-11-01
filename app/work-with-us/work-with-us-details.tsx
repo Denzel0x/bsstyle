@@ -1,8 +1,17 @@
 import React, { useState } from "react";
 import { Link, useParams } from "react-router";
-import { motion } from "motion/react";
+import { motion, AnimatePresence } from "motion/react";
 import { FaArrowRight } from "react-icons/fa";
-import { FiArrowLeft, FiBriefcase, FiMapPin, FiSend, FiX } from "react-icons/fi";
+import { 
+  FiArrowLeft, 
+  FiBriefcase, 
+  FiMapPin, 
+  FiSend, 
+  FiX, 
+  FiCheck, 
+  FiMail, 
+  FiCopy 
+} from "react-icons/fi";
 import data from "../../lib/data.json";
 
 // ============================================================================
@@ -98,7 +107,7 @@ export default function WorkWithUsDetails({
     throw new Response("Opening not found", { status: 404 });
   }
 
-  // Modal state
+  // Application Form State
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({
     fullName: "",
@@ -107,10 +116,16 @@ export default function WorkWithUsDetails({
     portfolio: "",
     message: "",
   });
+  const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState("");
   const [submitMessageType, setSubmitMessageType] = useState<"success" | "error" | "">("");
   const [fallbackLink, setFallbackLink] = useState("");
+
+  // Resume Dialog State
+  const [showResumeDialog, setShowResumeDialog] = useState(false);
+  const [applicantInfo, setApplicantInfo] = useState({ name: "", role: "", track: "" });
+  const [copied, setCopied] = useState<"" | "address" | "subject" | "failed">("");
 
   // Map category to openingDetails key
   const categoryToKey: Record<string, string> = {
@@ -123,7 +138,6 @@ export default function WorkWithUsDetails({
     "AI Development": "AI-Developer",
     "AI-Assisted Development": "AI-Agent",
     "Systems Engineering":"Rust-Go-Engineer",
-    "Product Design2":"VaultWise-Designer",
     "Technical Leadership":"TechLead-Web3",
     "Project Management": "ProjectManager-Web3"
   };
@@ -136,6 +150,10 @@ export default function WorkWithUsDetails({
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+    // Clear specific error when user types
+    if (errors[name]) {
+      setErrors((prev) => ({ ...prev, [name]: "" }));
+    }
   };
 
   const openModal = () => {
@@ -144,42 +162,36 @@ export default function WorkWithUsDetails({
 
   const closeModal = () => {
     setShowModal(false);
-    setFormData({
-      fullName: "",
-      email: "",
-      phone: "",
-      portfolio: "",
-      message: "",
-    });
-    setSubmitMessage("");
-    setSubmitMessageType("");
-    setFallbackLink("");
-    setIsSubmitting(false);
+    // Delay resetting the form to avoid visual glitches on close
+    setTimeout(() => {
+      setFormData({ fullName: "", email: "", phone: "", portfolio: "", message: "" });
+      setErrors({});
+      setSubmitMessage("");
+      setSubmitMessageType("");
+      setFallbackLink("");
+      setIsSubmitting(false);
+    }, 300);
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     // Validation
-    if (!formData.fullName.trim()) {
-      setSubmitMessage("Please enter your full name.");
-      setSubmitMessageType("error");
-      setTimeout(() => { setSubmitMessage(""); setSubmitMessageType(""); }, 4000);
-      return;
-    }
-
-    if (!formData.email.trim()) {
-      setSubmitMessage("Please enter your email address.");
-      setSubmitMessageType("error");
-      setTimeout(() => { setSubmitMessage(""); setSubmitMessageType(""); }, 4000);
-      return;
-    }
-
+    const nextErrors: Record<string, string> = {};
+    if (!formData.fullName.trim()) nextErrors.fullName = "Please enter your full name.";
+    
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(formData.email)) {
-      setSubmitMessage("Please enter a valid email address.");
-      setSubmitMessageType("error");
-      setTimeout(() => { setSubmitMessage(""); setSubmitMessageType(""); }, 4000);
+    if (!emailRegex.test(formData.email.trim())) nextErrors.email = "Please enter a valid email address.";
+    
+    // NEW: Required Portfolio
+    if (!formData.portfolio.trim()) nextErrors.portfolio = "Please provide a link to your portfolio, LinkedIn, or GitHub.";
+    
+    // NEW: Required Cover Letter
+    if (!formData.message.trim()) nextErrors.message = "Please provide a cover letter.";
+
+    setErrors(nextErrors);
+
+    if (Object.keys(nextErrors).length > 0) {
       return;
     }
 
@@ -190,38 +202,26 @@ export default function WorkWithUsDetails({
       name: formData.fullName,
       email: formData.email,
       phone: formData.phone || "Not provided",
-      portfolio: formData.portfolio || "Not provided",
-      message: formData.message || "No cover letter provided",
+      portfolio: formData.portfolio,
+      message: formData.message,
       role_applied: opening.title,
     };
 
     const result = await sendToInbox(CAREERS_INBOX, subject, fields);
 
     if (result.ok) {
-      setSubmitMessage("Application submitted successfully! We'll review your application and get back to you soon.");
-      setSubmitMessageType("success");
-
-      // Clear form
-      setFormData({
-        fullName: "",
-        email: "",
-        phone: "",
-        portfolio: "",
-        message: "",
+      // Store applicant info for the dialog
+      setApplicantInfo({
+        name: formData.fullName,
+        role: opening.title,
+        track: opening.details
       });
-
+      
       setIsSubmitting(false);
-
-      // Clear success message after 3 seconds
-      setTimeout(() => {
-        setSubmitMessage("");
-        setSubmitMessageType("");
-      }, 3000);
-
-      // Close modal after 2 seconds
-      setTimeout(() => {
-        closeModal();
-      }, 2000);
+      // Hide the form modal and show the resume dialog
+      setShowModal(false);
+      setShowResumeDialog(true);
+      
     } else {
       setSubmitMessage(diagnose(result.error));
       setSubmitMessageType("error");
@@ -230,185 +230,249 @@ export default function WorkWithUsDetails({
     }
   };
 
+  // Resume Dialog Logic
+  const handleCopy = async (text: string, type: "address" | "subject") => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(type);
+      setTimeout(() => setCopied(""), 2000);
+    } catch {
+      setCopied("failed");
+      setTimeout(() => setCopied(""), 2000);
+    }
+  };
+
+  const resumeSubject = `Resume — ${applicantInfo.role} (${applicantInfo.track}) — ${applicantInfo.name}`;
+  const mailtoLink = `mailto:${CAREERS_INBOX}?subject=${encodeURIComponent(resumeSubject)}`;
+
   return (
     <main
       style={{ viewTransitionName: "main-content" } as React.CSSProperties}
       className="flex-1 bg-[#030712] text-white selection:bg-blue-600 selection:text-white pt-20 min-h-screen"
     >
-      {/* APPLICATION MODAL - FIXED LAYOUT */}
-      {showModal && (
-        <div className="fixed inset-0 z-[100] flex items-start justify-center p-4 pt-24 md:pt-28 bg-black/80 backdrop-blur-md overflow-y-auto">
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.95, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="bg-[#050A14] border border-white/10 rounded-sm shadow-[0_0_50px_rgba(37,99,235,0.2)] w-full max-w-lg mx-auto relative mb-10"
-          >
-            {/* Decorative corner */}
-            <div className="absolute top-0 right-0 w-16 h-16 border-t border-r border-blue-500/30 pointer-events-none" />
-            
-            <div className="p-6 sm:p-8">
+      {/* =================================================================== */}
+      {/* APPLICATION MODAL */}
+      {/* =================================================================== */}
+      <AnimatePresence>
+        {showModal && (
+          <div className="fixed inset-0 z-[100] flex items-start justify-center p-4 pt-24 md:pt-28 bg-black/80 backdrop-blur-md overflow-y-auto">
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.95, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: 20 }}
+              className="bg-[#050A14] border border-white/10 rounded-sm shadow-[0_0_50px_rgba(37,99,235,0.2)] w-full max-w-lg mx-auto relative mb-10"
+            >
+              <div className="absolute top-0 right-0 w-16 h-16 border-t border-r border-blue-500/30 pointer-events-none" />
               
-              {/* Header */}
-              <div className="flex justify-between items-center mb-6">
-                <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-white">
-                  Apply for <span className="text-cyan-400">{opening.title}</span>
-                </h2>
-                <button
-                  onClick={closeModal}
-                  className="p-2 text-gray-500 hover:text-white transition-colors bg-white/5 hover:bg-white/10 rounded-sm"
-                >
-                  <FiX className="w-5 h-5" />
-                </button>
-              </div>
-              
-              <p className="text-gray-400 font-light text-sm mb-8">
-                Fill out the form below to apply for the {opening.title} position.
-              </p>
-
-              <form onSubmit={handleSubmit} className="space-y-5">
-                {/* Full Name */}
-                <div>
-                  <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
-                    Full Name <span className="text-blue-500">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    name="fullName"
-                    value={formData.fullName}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 transition-all rounded-none text-sm"
-                    placeholder="John Doe"
-                    required
-                  />
+              <div className="p-6 sm:p-8">
+                <div className="flex justify-between items-center mb-6">
+                  <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-white">
+                    Apply for <span className="text-cyan-400">{opening.title}</span>
+                  </h2>
+                  <button
+                    onClick={closeModal}
+                    className="p-2 text-gray-500 hover:text-white transition-colors bg-white/5 hover:bg-white/10 rounded-sm"
+                  >
+                    <FiX className="w-5 h-5" />
+                  </button>
                 </div>
+                
+                <p className="text-gray-400 font-light text-sm mb-8">
+                  Fill out the form below to apply for the {opening.title} position.
+                </p>
 
-                {/* Email */}
-                <div>
-                  <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
-                    Email Address <span className="text-blue-500">*</span>
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 transition-all rounded-none text-sm"
-                    placeholder="john@example.com"
-                    required
-                  />
-                </div>
+                <form onSubmit={handleSubmit} noValidate className="space-y-5">
+                  {/* Full Name */}
+                  <div>
+                    <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
+                      Full Name <span className="text-blue-500">*</span>
+                    </label>
+                    <input
+                      type="text" name="fullName" value={formData.fullName} onChange={handleChange}
+                      className={`w-full px-4 py-3 bg-white/5 border text-white placeholder-gray-600 focus:outline-none transition-all rounded-none text-sm ${errors.fullName ? 'border-red-500' : 'border-white/10 focus:border-blue-500 focus:bg-blue-500/5'}`}
+                      placeholder="John Doe"
+                    />
+                    {errors.fullName && <p className="text-[10px] text-red-500 mt-1">{errors.fullName}</p>}
+                  </div>
 
-                {/* Phone (Optional) */}
-                <div>
-                  <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
-                    Phone Number <span className="text-gray-600 text-xs font-normal">(Optional)</span>
-                  </label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 transition-all rounded-none text-sm"
-                    placeholder="+1 (555) 000-0000"
-                  />
-                </div>
+                  {/* Email */}
+                  <div>
+                    <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
+                      Email Address <span className="text-blue-500">*</span>
+                    </label>
+                    <input
+                      type="email" name="email" value={formData.email} onChange={handleChange}
+                      className={`w-full px-4 py-3 bg-white/5 border text-white placeholder-gray-600 focus:outline-none transition-all rounded-none text-sm ${errors.email ? 'border-red-500' : 'border-white/10 focus:border-blue-500 focus:bg-blue-500/5'}`}
+                      placeholder="john@example.com"
+                    />
+                    {errors.email && <p className="text-[10px] text-red-500 mt-1">{errors.email}</p>}
+                  </div>
 
-                {/* Portfolio / LinkedIn / GitHub (Optional) */}
-                <div>
-                  <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
-                    Portfolio / LinkedIn / GitHub <span className="text-gray-600 text-xs font-normal">(Optional)</span>
-                  </label>
-                  <input
-                    type="text"
-                    name="portfolio"
-                    value={formData.portfolio}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 transition-all rounded-none text-sm"
-                    placeholder="https://..."
-                  />
-                </div>
+                  {/* Phone */}
+                  <div>
+                    <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
+                      Phone Number <span className="text-gray-600 text-xs font-normal">(Optional)</span>
+                    </label>
+                    <input
+                      type="tel" name="phone" value={formData.phone} onChange={handleChange}
+                      className="w-full px-4 py-3 bg-white/5 border border-white/10 text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 transition-all rounded-none text-sm"
+                      placeholder="+1 (555) 000-0000"
+                    />
+                  </div>
 
-                {/* Cover Letter (Optional) */}
-                <div>
-                  <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
-                    Cover Letter / Message <span className="text-gray-600 text-xs font-normal">(Optional)</span>
-                  </label>
-                  <textarea
-                    name="message"
-                    rows={4}
-                    value={formData.message}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 transition-all rounded-none resize-none text-sm"
-                    placeholder="Tell us why you're interested in this role and what makes you a great fit for this position"
-                  />
-                </div>
+                  {/* Portfolio (NOW REQUIRED) */}
+                  <div>
+                    <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
+                      Portfolio / LinkedIn / GitHub <span className="text-blue-500">*</span>
+                    </label>
+                    <input
+                      type="text" name="portfolio" value={formData.portfolio} onChange={handleChange}
+                      className={`w-full px-4 py-3 bg-white/5 border text-white placeholder-gray-600 focus:outline-none transition-all rounded-none text-sm ${errors.portfolio ? 'border-red-500' : 'border-white/10 focus:border-blue-500 focus:bg-blue-500/5'}`}
+                      placeholder="https://..."
+                    />
+                    {errors.portfolio && <p className="text-[10px] text-red-500 mt-1">{errors.portfolio}</p>}
+                  </div>
 
-                {/* Resume Required Notice */}
-                <div className="bg-blue-600/10 border border-blue-500/30 rounded-sm p-4">
-                  <div className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-cyan-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                    <div>
-                      <p className="text-xs font-mono font-bold text-cyan-400 uppercase tracking-widest">
-                        Resume/CV Required
-                      </p>
-                      <p className="text-xs text-gray-400 mt-2 font-light leading-relaxed">
-                        Please email your resume separately to <span className="font-mono text-cyan-400">hello@invorious.com</span> after submitting the form.
-                      </p>
+                  {/* Cover Letter (NOW REQUIRED) */}
+                  <div>
+                    <label className="block text-[10px] font-mono font-bold text-gray-500 uppercase tracking-[0.2em] mb-2">
+                      Cover Letter / Message <span className="text-blue-500">*</span>
+                    </label>
+                    <textarea
+                      name="message" rows={4} value={formData.message} onChange={handleChange}
+                      className={`w-full px-4 py-3 bg-white/5 border text-white placeholder-gray-600 focus:outline-none transition-all rounded-none resize-none text-sm ${errors.message ? 'border-red-500' : 'border-white/10 focus:border-blue-500 focus:bg-blue-500/5'}`}
+                      placeholder="Tell us why you're interested in this role and what makes you a great fit..."
+                    />
+                    {errors.message && <p className="text-[10px] text-red-500 mt-1">{errors.message}</p>}
+                  </div>
+
+                  {submitMessage && (
+                    <div className={`p-4 text-xs font-mono uppercase tracking-widest border flex flex-col gap-2 ${
+                      submitMessageType === "success"
+                        ? "bg-cyan-500/10 text-cyan-400 border-cyan-500/30"
+                        : "bg-red-500/10 text-red-400 border-red-500/30"
+                    }`}>
+                      <span>{submitMessage}</span>
+                      {submitMessageType === "error" && fallbackLink && (
+                        <a href={fallbackLink} className="text-white underline hover:text-cyan-400 normal-case font-sans text-sm font-bold w-fit" target="_blank" rel="noopener noreferrer">
+                          Click here to email us directly instead &rarr;
+                        </a>
+                      )}
                     </div>
+                  )}
+
+                  <div className="flex gap-3 pt-4">
+                    <button
+                      type="button" onClick={closeModal}
+                      className="flex-1 px-4 py-3 bg-white/5 border border-white/10 text-white font-bold uppercase tracking-widest text-[10px] rounded-sm hover:bg-white/10 transition-colors"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      type="submit" disabled={isSubmitting}
+                      className="group relative flex-1 px-4 py-3 bg-blue-600 text-white font-bold uppercase tracking-widest text-[10px] rounded-sm hover:bg-blue-500 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 overflow-hidden shadow-[0_0_15px_rgba(37,99,235,0.3)]"
+                    >
+                      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+                      {isSubmitting ? (
+                        <><div className="w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin" /> Submitting...</>
+                      ) : (
+                        <>Submit Application <FiSend className="w-3 h-3" /></>
+                      )}
+                    </button>
                   </div>
+                </form>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+
+      {/* =================================================================== */}
+      {/* RESUME DIALOG (Appears after successful submission) */}
+      {/* =================================================================== */}
+      <AnimatePresence>
+        {showResumeDialog && (
+          <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.95, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: 20 }}
+              className="bg-[#050A14] border border-cyan-500/30 rounded-sm shadow-[0_0_60px_rgba(34,211,238,0.15)] w-full max-w-lg relative"
+            >
+              <div className="p-6 sm:p-8">
+                <div className="flex justify-between items-start mb-6">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 border border-cyan-400/30 bg-cyan-400/10 text-cyan-400 text-[10px] font-mono font-bold uppercase tracking-[0.2em]">
+                    <FiCheck className="w-3 h-3" /> Application Sent
+                  </div>
+                  <button onClick={() => setShowResumeDialog(false)} className="p-2 text-gray-500 hover:text-white transition-colors bg-white/5 hover:bg-white/10 rounded-sm">
+                    <FiX className="w-5 h-5" />
+                  </button>
                 </div>
 
-                {submitMessage && (
-                  <div className={`p-4 text-xs font-mono uppercase tracking-widest border flex flex-col gap-2 ${
-                    submitMessageType === "success"
-                      ? "bg-cyan-500/10 text-cyan-400 border-cyan-500/30"
-                      : "bg-red-500/10 text-red-400 border-red-500/30"
-                  }`}>
-                    <span>{submitMessage}</span>
-                    {submitMessageType === "error" && fallbackLink && (
-                      <a href={fallbackLink} className="text-white underline hover:text-cyan-400 normal-case font-sans text-sm font-bold w-fit" target="_blank" rel="noopener noreferrer">
-                        Click here to email us directly instead &rarr;
-                      </a>
-                    )}
-                  </div>
+                <h3 className="text-2xl font-black uppercase tracking-tight text-white mb-2">
+                  One more step, {applicantInfo.name.split(" ")[0]}
+                </h3>
+                <p className="text-gray-400 font-light text-sm mb-6 leading-relaxed">
+                  Your application for <strong className="text-white">{applicantInfo.role}</strong> ({applicantInfo.track}) is with us. 
+                  Please send your resume <strong className="text-cyan-400">separately</strong> to our company email to complete your application.
+                </p>
+
+                {/* Email Address Copy Box */}
+                <div className="flex items-center justify-between bg-white/5 border border-white/10 p-3 mb-6">
+                  <span className="font-mono text-sm text-cyan-400">{CAREERS_INBOX}</span>
+                  <button 
+                    onClick={() => handleCopy(CAREERS_INBOX, "address")}
+                    className="flex items-center gap-2 text-[10px] font-mono uppercase tracking-widest text-gray-400 hover:text-white transition-colors"
+                  >
+                    {copied === "address" ? <><FiCheck className="text-cyan-400"/> Copied</> : <><FiCopy /> Copy</>}
+                  </button>
+                </div>
+
+                <ol className="space-y-4 mb-8">
+                  <li className="flex gap-4">
+                    <span className="flex items-center justify-center w-6 h-6 border border-white/20 text-xs font-mono shrink-0">1</span>
+                    <p className="text-sm text-gray-400 font-light pt-0.5">Start a new email to <strong className="text-white">{CAREERS_INBOX}</strong> and attach your resume (PDF preferred).</p>
+                  </li>
+                  <li className="flex gap-4">
+                    <span className="flex items-center justify-center w-6 h-6 border border-white/20 text-xs font-mono shrink-0">2</span>
+                    <div className="text-sm text-gray-400 font-light pt-0.5">
+                      Use this subject so we can match it to your application:
+                      <div className="mt-2 flex items-center justify-between bg-[#030712] border border-white/10 p-2">
+                        <span className="font-mono text-xs text-gray-300 truncate max-w-[200px] sm:max-w-[250px]">{resumeSubject}</span>
+                        <button 
+                          onClick={() => handleCopy(resumeSubject, "subject")}
+                          className="text-[10px] font-mono uppercase tracking-widest text-cyan-400 hover:text-white ml-2 shrink-0"
+                        >
+                          {copied === "subject" ? "Copied" : "Copy"}
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
+
+                {copied === "failed" && (
+                  <p className="text-[10px] text-red-500 mb-4">Couldn't copy — please select the text and copy it manually.</p>
                 )}
 
-                {/* Buttons */}
-                <div className="flex gap-3 pt-4">
-                  <button
-                    type="button"
-                    onClick={closeModal}
-                    className="flex-1 px-4 py-3 bg-white/5 border border-white/10 text-white font-bold uppercase tracking-widest text-[10px] rounded-sm hover:bg-white/10 transition-colors"
+                <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-white/10">
+                  <a 
+                    href={mailtoLink}
+                    className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-white/5 border border-white/10 text-white font-bold uppercase tracking-widest text-[10px] rounded-sm hover:bg-white/10 transition-colors"
                   >
-                    Cancel
-                  </button>
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="group relative flex-1 px-4 py-3 bg-blue-600 text-white font-bold uppercase tracking-widest text-[10px] rounded-sm hover:bg-blue-500 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 overflow-hidden shadow-[0_0_15px_rgba(37,99,235,0.3)]"
+                    <FiMail className="w-3 h-3" /> Open Email App
+                  </a>
+                  <button 
+                    onClick={() => setShowResumeDialog(false)}
+                    className="flex-1 px-4 py-3 bg-cyan-500 text-black font-bold uppercase tracking-widest text-[10px] rounded-sm hover:bg-cyan-400 transition-colors shadow-[0_0_15px_rgba(34,211,238,0.3)]"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-                    {isSubmitting ? (
-                      <>
-                        <div className="w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                        Submitting...
-                      </>
-                    ) : (
-                      <>
-                        Submit Application
-                        <FiSend className="w-3 h-3" />
-                      </>
-                    )}
+                    Done
                   </button>
                 </div>
-              </form>
-            </div>
-          </motion.div>
-        </div>
-      )}
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
 
       {/* HERO SECTION */}
       <section className="pt-32 pb-24 bg-[#030712] relative overflow-hidden border-b border-white/5">
