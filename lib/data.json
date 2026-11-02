@@ -1391,16 +1391,16 @@
           ],
           "careerJourney": [
             {
-              "period": "2021 - Present",
+              "period": "Oct 2023 - Present",
               "title": "Invorious Software Agency",
-              "role": "Co-founder",
+              "role": "Co-Founder",
               "description": "Leading the agency's global strategy and operations."
             },
             {
-              "period": "2018 - 2021",
-              "title": "Tech Consultancy",
-              "role": "Strategic Advisor",
-              "description": "Advised startups on go-to-market strategies and operational scaling."
+              "period": "Jun 2021 - Sep 2023",
+              "title": "BitGo",
+              "role": "QA Engineer",
+              "description": "Ensured the reliability and security of digital asset infrastructure."
             }
           ],
           "academicFoundations": [
@@ -1469,16 +1469,34 @@
           ],
           "careerJourney": [
             {
-              "period": "2021 - Present",
+              "period": "Oct 2022 - Present",
               "title": "Invorious Software Agency",
-              "role": "CTO",
-              "description": "Leading the technical architecture and engineering delivery."
+              "role": "Chief Technology Officer (CTO)",
+              "description": "Leading the engineering team, overseeing architecture, code quality, and delivery for all client projects."
             },
             {
-              "period": "2017 - 2021",
-              "title": "Enterprise Tech Firm",
-              "role": "Lead Engineer",
-              "description": "Architected scalable distributed systems for enterprise clients."
+              "period": "Jan 2021 - Sep 2022",
+              "title": "Invorious Software Agency",
+              "role": "Lead Software Engineer",
+              "description": "Built scalable backend systems, implemented smart contracts, and mentored junior engineers."
+            },
+            {
+              "period": "Jun 2018 - Dec 2020",
+              "title": "Glovo",
+              "role": "Senior Software Engineer",
+              "description": "Scaled core backend services and APIs for a high-growth delivery platform operating across multiple countries."
+            },
+            {
+              "period": "Sep 2016 - Mar 2018",
+              "title": "Schibsted",
+              "role": "Software Engineer",
+              "description": "Built and maintained backend services for high-traffic digital media and marketplace platforms."
+            },
+            {
+              "period": "Aug 2015 - Aug 2016",
+              "title": "Sngular",
+              "role": "Software Engineering Intern",
+              "description": "Supported the engineering team with backend development and feature testing."
             }
           ],
           "academicFoundations": [
@@ -1547,16 +1565,28 @@
           ],
           "careerJourney": [
             {
-              "period": "2021 - Present",
+              "period": "Oct 2021 - Present",
               "title": "Invorious Software Agency",
               "role": "Co-Founder & Project Lead",
-              "description": "Overseeing project delivery and client relations."
+              "description": "Lead end-to-end delivery of Web3 and enterprise software projects, coordinating cross-functional engineering teams."
             },
             {
-              "period": "2016 - 2021",
-              "title": "Consulting Group",
-              "role": "Senior Project Manager",
-              "description": "Managed complex software delivery for global clients."
+              "period": "Sep 2018 - Sep 2021",
+              "title": "Quicknode",
+              "role": "Technical Project Manager",
+              "description": "Managed delivery for blockchain infrastructure and API products, coordinating engineering teams across platform reliability and developer tooling."
+            },
+            {
+              "period": "Sep 2017 - Aug 2018",
+              "title": "Figment",
+              "role": "Project Coordinator",
+              "description": "Coordinated project schedules and task tracking for digital asset staking."
+            },
+            {
+              "period": "Feb 2016 - Aug 2017",
+              "title": "B2C2",
+              "role": "Project Management Intern",
+              "description": "Supported the Product & Delivery team with project plans, schedules, and status reports for institutional digital asset products."
             }
           ],
           "academicFoundations": [
@@ -1629,16 +1659,28 @@
           ],
           "careerJourney": [
             {
-              "period": "2023 - Present",
-              "title": "Invorious",
+              "period": "Oct 2021 - Present",
+              "title": "Invorious Software Agency",
               "role": "Senior Technical Project Manager",
-              "description": "Leading agile delivery for key client projects."
+              "description": "Lead end-to-end delivery of Web3, blockchain, and enterprise software projects, coordinating cross-functional engineering teams."
             },
             {
-              "period": "2018 - 2023",
-              "title": "Global Software Firm",
-              "role": "Project Manager",
-              "description": "Managed distributed teams delivering complex enterprise software."
+              "period": "Jan 2020 - Sep 2021",
+              "title": "Typeform",
+              "role": "Technical Project Manager",
+              "description": "Managed the delivery of core platform features and API integrations for a high-growth SaaS product."
+            },
+            {
+              "period": "Jun 2018 - Dec 2019",
+              "title": "Schibsted",
+              "role": "Technical Project Coordinator",
+              "description": "Coordinated project schedules, task tracking, and stakeholder communication for digital media and marketplace platforms."
+            },
+            {
+              "period": "Sep 2016 - Mar 2018",
+              "title": "Sopra Steria",
+              "role": "Software Engineer",
+              "description": "Developed and maintained enterprise software applications for banking and telecom clients."
             }
           ],
           "academicFoundations": [
@@ -1702,16 +1744,34 @@
           ],
           "careerJourney": [
             {
-              "period": "2023 - Present",
-              "title": "Invorious",
+              "period": "Jan 2024 - Present",
+              "title": "Invorious Software Agency",
               "role": "Senior Director of People Operations",
-              "description": "Leading talent strategy and operational people programs."
+              "description": "Lead the global People Operations and Talent strategy for a software agency delivering Web3, blockchain, and enterprise projects."
             },
             {
-              "period": "2015 - 2023",
-              "title": "Enterprise Tech & Web3 Startups",
-              "role": "HR & Engineering Lead",
-              "description": "Combined technical engineering with people leadership."
+              "period": "Jan 2023 - Dec 2023",
+              "title": "Invorious Software Agency",
+              "role": "Director of Talent Acquisition",
+              "description": "Led full-cycle technical recruitment for Web3, blockchain, and enterprise client projects."
+            },
+            {
+              "period": "Apr 2020 - Dec 2022",
+              "title": "Mirakl",
+              "role": "Senior Talent Acquisition Specialist",
+              "description": "Led full-cycle technical recruiting for a SaaS unicorn providing marketplace and dropship solutions."
+            },
+            {
+              "period": "Jun 2018 - Mar 2020",
+              "title": "Back Market",
+              "role": "Technical Recruiter",
+              "description": "Sourced software engineers, data scientists, and product managers directly through GitHub and tech communities."
+            },
+            {
+              "period": "Aug 2016 - May 2018",
+              "title": "Deezer",
+              "role": "Software Engineer",
+              "description": "Developed and maintained backend features and web applications for a global music streaming platform."
             }
           ],
           "academicFoundations": [
@@ -1745,7 +1805,7 @@
       {
         "name": "Vitalic Nazarenko",
         "slug": "vitalic-nazarenko",
-        "role": "Technical Recruiter",
+        "role": "Senior Technical Recruiter",
         "imageSrc": "/images/team/vitalic.jpg",
         "imageAlt": "Vitalic Nazarenko",
         "tags": [
@@ -1755,7 +1815,7 @@
         "profileDetails": {
           "heroChip": "Talent Acquisition",
           "heroTitle": "Vitalic Nazarenko",
-          "heroSubtitle": "Technical Recruiter",
+          "heroSubtitle": "Senior Technical Recruiter",
           "shortBio": "Vitalic bridges code and talent. He specializes in identifying and recruiting elite Web3 and software engineering professionals to join the Invorious network.",
           "socialLinks": {
             "linkedinHref": "https://www.linkedin.com/in/vitalic-nazarenko/",
@@ -1775,16 +1835,28 @@
           ],
           "careerJourney": [
             {
-              "period": "2022 - Present",
-              "title": "Invorious",
-              "role": "Technical Recruiter",
-              "description": "Leading talent acquisition for senior engineering roles."
+              "period": "Oct 2023 - Present",
+              "title": "Invorious Software Agency",
+              "role": "Senior Technical Recruiter",
+              "description": "Lead full-cycle technical recruitment for a software agency delivering Web3, blockchain, and enterprise projects."
             },
             {
-              "period": "2019 - 2022",
-              "title": "Tech Recruitment Agency",
-              "role": "Senior Recruiter",
-              "description": "Placed engineers in top tech companies."
+              "period": "Mar 2020 - Sep 2023",
+              "title": "Sorare",
+              "role": "Senior Talent Acquisition Specialist",
+              "description": "Led full-cycle technical recruiting for a French blockchain-based fantasy sports platform (NFT digital collectibles)."
+            },
+            {
+              "period": "Jan 2018 - Mar 2020",
+              "title": "Luko by Allianz Direct",
+              "role": "Technical Recruiter",
+              "description": "Transitioned from Software Engineering to Technical Recruitment, joining a fast-growing French insurtech startup."
+            },
+            {
+              "period": "Aug 2016 - Mar 2018",
+              "title": "Welcome to the Jungle",
+              "role": "Software Engineer",
+              "description": "Developed and maintained backend features and web applications for a French online recruitment platform."
             }
           ],
           "academicFoundations": [
@@ -1818,7 +1890,7 @@
       {
         "name": "Silvi Beltrán Benet",
         "slug": "silvi-beltran-benet",
-        "role": "HR Specialist",
+        "role": "Senior HR Specialist",
         "imageSrc": "/images/team/silvi.jpg",
         "imageAlt": "Silvi Beltrán Benet",
         "tags": [
@@ -1828,7 +1900,7 @@
         "profileDetails": {
           "heroChip": "Human Resources",
           "heroTitle": "Silvi Beltrán Benet",
-          "heroSubtitle": "HR Specialist",
+          "heroSubtitle": "Senior HR Specialist",
           "shortBio": "Silvi handles human resources operations, ensuring a smooth and positive experience for the Invorious team and candidates.",
           "socialLinks": {
             "linkedinHref": "https://www.linkedin.com/in/silvi-beltran-benet/",
@@ -1848,16 +1920,34 @@
           ],
           "careerJourney": [
             {
-              "period": "2023 - Present",
-              "title": "Invorious",
-              "role": "HR Specialist",
-              "description": "Managing day-to-day HR operations and culture."
+              "period": "Jan 2025 - Present",
+              "title": "Invorious Software Agency",
+              "role": "Senior HR Specialist",
+              "description": "Lead people operations and HR strategy for a software agency delivering Web3, blockchain, and enterprise projects."
             },
             {
-              "period": "2019 - 2023",
-              "title": "Tech Company",
-              "role": "HR Generalist",
-              "description": "Supported HR functions for a growing remote workforce."
+              "period": "Oct 2022 - Oct 2024",
+              "title": "dexola",
+              "role": "Senior HR Specialist",
+              "description": "Managed people operations for a Web3 development company, supporting a remote-first workforce across Europe."
+            },
+            {
+              "period": "Mar 2020 - Sep 2022",
+              "title": "Typeform",
+              "role": "Human Resources Specialist",
+              "description": "Supported HR operations for a high-growth SaaS company building online form and survey products."
+            },
+            {
+              "period": "Jan 2018 - Feb 2020",
+              "title": "TravelPerks Dream Vacations",
+              "role": "HR Coordinator",
+              "description": "Coordinated HR administration for a fast-growing business travel platform."
+            },
+            {
+              "period": "Jan 2016 - Mar 2018",
+              "title": "EPAM Systems",
+              "role": "HR Assistant",
+              "description": "Supported HR and recruitment administration for a leading global software engineering and IT services company."
             }
           ],
           "academicFoundations": [
@@ -1924,7 +2014,6 @@
         "title": "Frontend Engineer",
         "description": "Develop responsive, high-performance web applications using React/Next.js. Implement wallet connections, NFT displays, and interactive dashboards."
       },
-
       {
         "id": "apply-btn-6",
         "category": "Smart Contract Development Intern",
@@ -1941,7 +2030,6 @@
         "title": "AI Developer",
         "description": "Build AI features for Web3 platforms - AI-powered chat support, natural language search across data, voice-to-text transcription, automated reminders, and AI-generated insights. Must know OpenAI API, LangChain, vector databases (PGVector), and TypeScript."
       },
-
       {
         "id": "apply-btn-9",
         "category": "Systems Engineering",
@@ -1950,7 +2038,6 @@
         "title": "Senior Rust & Go Engineer",
         "description": "Design and build high-performance, low-latency infrastructure services using Rust and Go for next-generation decentralized applications. You'll architect and implement critical systems including blockchain indexers, high-throughput API gateways, and secure cryptographic services."
       },
-
       {
         "id": "apply-btn-11",
         "category": "Technical Leadership",
