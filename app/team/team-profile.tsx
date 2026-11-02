@@ -9,10 +9,6 @@ import {
 } from "react-icons/fa";
 import {
   FiArrowLeft,
-  FiMail,
-  FiPhone,
-  FiMapPin,
-  FiCalendar,
 } from "react-icons/fi";
 import {
   getMemberOverlayText,
@@ -299,34 +295,6 @@ export default function TeamProfile({ memberId }: { memberId?: string }) {
 
                 <div className="absolute -right-8 -bottom-8 opacity-5">
                   <span className="text-[10rem] leading-none text-white font-black">↑</span>
-                </div>
-              </motion.div>
-
-              {/* Direct Contact */}
-              <motion.div variants={fadeInUp} className="p-8 bg-[#030712] border border-white/10 space-y-6">
-                <h4 className="text-lg font-black uppercase tracking-tight text-white">
-                  Direct Contact
-                </h4>
-                <div className="space-y-4">
-                  <a
-                    href={`mailto:${d.directContact.email}`}
-                    className="flex items-center gap-3 text-sm text-gray-400 hover:text-cyan-400 transition-colors group"
-                  >
-                    <FiMail className="text-lg text-cyan-400 group-hover:scale-110 transition-transform" />
-                    {d.directContact.email}
-                  </a>
-                  <a
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
-                    className="flex items-center gap-3 text-sm text-gray-400 hover:text-cyan-400 transition-colors group"
-                  >
-                    <FiPhone className="text-lg text-cyan-400 group-hover:scale-110 transition-transform" />
-                    {d.directContact.phone}
-                  </a>
-                  <div className="flex items-center gap-3 text-sm text-gray-400">
-                    <FiMapPin className="text-lg text-cyan-400" />
-                    {d.directContact.location}
-                  </div>
                 </div>
               </motion.div>
             </motion.aside>
