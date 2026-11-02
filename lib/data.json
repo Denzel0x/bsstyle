@@ -1361,751 +1361,530 @@
   "team": {
     "leaders": [
       {
-        "name": "Dr. Marek Vance",
-        "slug": "dr-elena-vance",
-        "role": "Managing Director, Web3 Strategy",
-        "imageSrc": "/images/team/leader1.jpg",
-        "imageAlt": "Dr. Marek Vance",
-        "overlayText": "Expert in Web3 strategy, blockchain transformation, and decentralized ecosystem scaling with 20+ years of tenure.",
-        "badges": ["PhD Economics", "Former BCG Partner", "Web3 Strategist"],
+        "name": "Kyrylo Kirieiev",
+        "slug": "kyrylo-kirieiev",
+        "role": "Co-founder",
+        "imageSrc": "/images/team/kyrylo.jpg",
+        "imageAlt": "Kyrylo Kirieiev",
+        "overlayText": "Co-founder driving the strategic vision and growth of Invorious Software Agency.",
+        "badges": ["Co-founder", "Strategy", "Web3 Growth"],
         "profileDetails": {
-          "heroChip": "Web3 Strategic Leadership",
-          "heroTitle": "Dr. Marek Vance",
-          "heroSubtitle": "Managing Director of Web3 Strategy",
-          "shortBio": "Dr. Vance is a world-renowned strategist with a focus on Web3 transformation, blockchain adoption, and global market acceleration. She leads Invorious's strategy practice, helping enterprises and blockchain natives navigate the decentralized economy.",
+          "heroChip": "Leadership & Strategy",
+          "heroTitle": "Kyrylo Kirieiev",
+          "heroSubtitle": "Co-founder",
+          "shortBio": "Kyrylo leads the strategic vision and business operations at Invorious. He is dedicated to building a senior-only agency that delivers high-impact Web2 and Web3 solutions.",
           "socialLinks": {
-            "linkedinHref": "https://www.linkedin.com/in/elena-vance",
-            "twitterHref": "https://twitter.com/elenavance"
+            "linkedinHref": "https://www.linkedin.com/in/kyrylo-kirieiev/",
+            "twitterHref": "https://twitter.com/invorious"
           },
           "scheduleHref": "#",
-          "scheduleLabel": "Schedule a Web3 Strategy Session",
+          "scheduleLabel": "Schedule a Strategy Session",
           "biography": [
-            "With over two decades of experience in management consulting and Web3 strategy, Dr. Marek Vance has built a reputation for her surgical precision in diagnosing organizational inefficiency and architecting sustainable blockchain growth models. Before joining Invorious as a founding partner, she served as a Senior Partner at BCG, where she spearheaded the Global Financial Institutions practice.",
-            "Her methodology combines the rigor of classical economic theory with the agility required by the decentralized economy. She has personally overseen over 150 large-scale transformations, totaling more than $12B in optimized capital allocation for her clients."
+            "Kyrylo is a seasoned entrepreneur with a deep passion for technology and organizational building. As a Co-founder of Invorious, he has been instrumental in shaping the agency's client-centred, anti-corporate philosophy.",
+            "He focuses on bridging the gap between complex technical requirements and real-world business outcomes, ensuring that the engineers who scope the work are the ones who build it."
           ],
           "expertise": [
-            { "title": "Web3 Strategy & Transformation", "percent": 98 },
-            { "title": "Blockchain Adoption & Scaling", "percent": 95 },
-            { "title": "DeFi & Tokenomics Strategy", "percent": 92 },
-            { "title": "Executive Alignment & Coaching", "percent": 96 },
-            { "title": "Decentralized Ecosystem Design", "percent": 88 },
-            { "title": "Web3 Economic Policy", "percent": 94 }
+            { "title": "Business Strategy", "percent": 95 },
+            { "title": "Web3 Ecosystem", "percent": 90 },
+            { "title": "Client Relations", "percent": 98 },
+            { "title": "Agency Operations", "percent": 92 }
           ],
           "careerJourney": [
             {
-              "period": "2022 - Present",
-              "title": "Invorious",
-              "role": "Managing Director, Web3 Strategy Partner",
-              "description": "Founding partner responsible for the global Web3 strategy practice and enterprise client relations."
+              "period": "2021 - Present",
+              "title": "Invorious Software Agency",
+              "role": "Co-founder",
+              "description": "Leading the agency's global strategy and operations."
             },
             {
-              "period": "2010 - 2022",
-              "title": "Boston Consulting Group (BCG)",
-              "role": "Senior Partner & Managing Director",
-              "description": "Led the North American Financial Institutions group, managing a portfolio of $200M+ annually."
-            },
-            {
-              "period": "2004 - 2010",
-              "title": "McKinsey & Company",
-              "role": "Associate Principal",
-              "description": "Focused on operational restructuring and post-merger integration for global manufacturing firms."
+              "period": "2018 - 2021",
+              "title": "Tech Consultancy",
+              "role": "Strategic Advisor",
+              "description": "Advised startups on go-to-market strategies and operational scaling."
             }
           ],
           "academicFoundations": [
             {
-              "title": "PhD in Economics",
-              "subtitle": "Stanford University",
+              "title": "BSc in Business Administration",
+              "subtitle": "Kyiv National Economic University",
               "icon": "graduation-cap"
-            },
-            {
-              "title": "MBA Strategy",
-              "subtitle": "Harvard Business School",
-              "icon": "book-open"
-            },
-            {
-              "title": "BA Philosophy",
-              "subtitle": "Princeton University",
-              "icon": "landmark"
             }
           ],
           "notableImpact": [
             {
-              "category": "DeFi Protocol",
-              "title": "+35% TVL Growth",
-              "description": "Led the tokenomics overhaul for a leading European DeFi protocol."
-            },
-            {
-              "category": "Web3 Unicorn",
-              "title": "15 Markets in 24 Months",
-              "description": "Designed the global expansion roadmap for a $10B Web3 leader."
-            },
-            {
-              "category": "Enterprise Blockchain",
-              "title": "$450M Operational Alpha",
-              "description": "Architected the blockchain integration for Global Industrials."
+              "category": "Agency Growth",
+              "title": "Built Senior-Only Team",
+              "description": "Successfully scaled Invorious to a tight-knit team of senior builders delivering production-grade software."
             }
           ],
           "directContact": {
-            "email": "m.vance@Invorious.com",
+            "email": "kyrylo@Invorious.com",
             "phone": "+61 2 8000 0000",
-            "location": "Sydney HQ, Suite 1200"
+            "location": "Global / Remote"
           },
           "clientVoice": [
             {
-              "quote": "Marek has a unique ability to find the 'signal in the noise'. During our Web3 transformation, his strategic alignment workshops were the single most effective intervention for our executive team. He is peerless in her field.",
-              "name": "James Miller",
-              "role": "CEO, Apex Web3 Group",
-              "imageSrc": "/images/clients/jamesmiller.jpg"
-            },
-            {
-              "quote": "I've worked with the best consultants at every major firm, but Dr. Vance brings a different level of accountability. He doesn't just deliver a strategy; he ensures the blockchain execution actually happens. The results speak for themselves.",
-              "name": "William Jenkins",
-              "role": "CFO, OmniChain Global",
-              "imageSrc": "/images/team/David.avif"
+              "quote": "Kyrylo and his team at Invorious delivered exactly what they promised—no fluff, just senior engineers solving complex problems.",
+              "name": "Michael Chang",
+              "role": "Founder, Tech Startup",
+              "imageSrc": "/images/clients/client1.jpg"
             }
           ],
           "bottomCta": {
-            "title": "Work with Dr. Vance on your next Web3 strategic project.",
-            "description": "Dr. Vance accepts a limited number of high-impact advisory engagements each year. Schedule a confidential discovery session to discuss your Web3 goals.",
+            "title": "Work with Kyrylo on your next big project.",
+            "description": "Schedule a discovery call to discuss how Invorious can help you achieve your business goals through technology.",
             "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
-            "buttonLabel": "Book Web3 Strategy Workshop"
+            "buttonLabel": "Book a Strategy Call"
           }
         }
       },
       {
-        "name": "Marcus Thorne",
-        "slug": "marcus-thorne",
-        "role": "Head of Web3 & Digital Advisory",
-        "imageSrc": "/images/team/leader2.jpg",
-        "imageAlt": "Marcus Thorne",
-        "overlayText": "Web3 pioneer focusing on blockchain implementation, AI integration, and decentralized operational models.",
-        "badges": ["MIT Alumni", "Web3 Tech Innovator"],
+        "name": "Alejandro Carrasco",
+        "slug": "alejandro-carrasco",
+        "role": "CTO",
+        "imageSrc": "/images/team/alejandro.jpg",
+        "imageAlt": "Alejandro Carrasco",
+        "overlayText": "Chief Technology Officer overseeing architectural integrity and technical execution.",
+        "badges": ["CTO", "Architecture", "Full-Stack"],
         "profileDetails": {
-          "heroChip": "Web3 & Digital Advisory",
-          "heroTitle": "Marcus Thorne",
-          "heroSubtitle": "Head of Web3 & Digital Advisory",
-          "shortBio": "Marcus helps leadership teams turn blockchain, AI, and cloud-native capabilities into operational outcomes. He partners with executives to design decentralized systems that scale safely, measure impact, and stay adaptable to change.",
+          "heroChip": "Technical Leadership",
+          "heroTitle": "Alejandro Carrasco",
+          "heroSubtitle": "Chief Technology Officer",
+          "shortBio": "Alejandro oversees the technical vision, architecture, and engineering standards at Invorious. He ensures every project is built with security, scalability, and modern best practices.",
           "socialLinks": {
-            "linkedinHref": "https://www.linkedin.com/in/marcus-thorne",
-            "twitterHref": "https://twitter.com/marcusthorne"
+            "linkedinHref": "https://www.linkedin.com/in/alejandro-carrasco/",
+            "twitterHref": "https://twitter.com/invorious"
           },
           "scheduleHref": "#",
-          "scheduleLabel": "Schedule a Web3 Digital Workshop",
+          "scheduleLabel": "Schedule a Technical Deep-Dive",
           "biography": [
-            "Marcus has led Web3 and digital transformation programs across regulated and high-scale environments, with a focus on blockchain enablement, AI integration, data governance, and resilient decentralized operations.",
-            "His approach connects technical architecture to measurable KPIs, ensuring teams can deploy Web3 solutions quickly while maintaining reliability, security, and accountability."
+            "Alejandro brings years of hands-on engineering and architectural experience to the team. He leads the technical delivery of both Web2 and Web3 projects.",
+            "He is passionate about writing clean, maintainable code and ensuring that the Invorious engineering team continues to operate at a senior-only level."
           ],
           "expertise": [
-            { "title": "Web3 & Blockchain Implementation", "percent": 96 },
-            { "title": "Decentralized Infrastructure", "percent": 94 },
-            { "title": "AI Integration & Enablement", "percent": 92 },
-            { "title": "Data Governance & Risk Controls", "percent": 89 }
+            { "title": "Software Architecture", "percent": 98 },
+            { "title": "Web3 & Smart Contracts", "percent": 95 },
+            { "title": "Full-Stack Development", "percent": 96 },
+            { "title": "Technical Leadership", "percent": 94 }
           ],
           "careerJourney": [
             {
-              "period": "2022 - Present",
-              "title": "Invorious",
-              "role": "Head of Web3 & Digital Advisory",
-              "description": "Leads blockchain, AI, and cloud-native advisory engagements for executive teams, aligning architecture with operational metrics."
+              "period": "2021 - Present",
+              "title": "Invorious Software Agency",
+              "role": "CTO",
+              "description": "Leading the technical architecture and engineering delivery."
             },
             {
-              "period": "2012 - 2022",
-              "title": "Cloud Systems Group",
-              "role": "Director, Platform Engineering",
-              "description": "Built multi-region cloud platforms and standardized operating models for global organizations."
-            },
-            {
-              "period": "2007 - 2012",
-              "title": "Tech Research Labs",
-              "role": "Applied AI & Blockchain Engineer",
-              "description": "Developed prototypes and productionized blockchain workflows focused on governance and human-in-the-loop design."
+              "period": "2017 - 2021",
+              "title": "Enterprise Tech Firm",
+              "role": "Lead Engineer",
+              "description": "Architected scalable distributed systems for enterprise clients."
             }
           ],
           "academicFoundations": [
             {
-              "title": "PhD in Computer Science",
-              "subtitle": "MIT",
+              "title": "MSc in Computer Science",
+              "subtitle": "Technical University",
               "icon": "graduation-cap"
-            },
-            {
-              "title": "MS in Systems Engineering",
-              "subtitle": "Stanford University",
-              "icon": "book-open"
-            },
-            {
-              "title": "BS in Information Systems",
-              "subtitle": "Carnegie Mellon",
-              "icon": "landmark"
             }
           ],
           "notableImpact": [
             {
-              "category": "Web3 Deployment",
-              "title": "+48% Decision Velocity",
-              "description": "Replaced manual analytics with governed blockchain workflows and real-time reporting dashboards."
-            },
-            {
-              "category": "Decentralized Resilience",
-              "title": "-62% Operational Incidents",
-              "description": "Introduced standardized runbooks, observability, and incident governance for multi-team Web3 operations."
+              "category": "Engineering",
+              "title": "100% Senior Delivery",
+              "description": "Maintained a strict senior-only engineering policy, resulting in zero technical debt handed to clients."
             }
           ],
           "directContact": {
-            "email": "m.thorne@Invorious.com",
+            "email": "alejandro@Invorious.com",
             "phone": "+61 2 8000 0000",
-            "location": "Sydney HQ, Suite 710"
+            "location": "Global / Remote"
           },
           "clientVoice": [
             {
-              "quote": "Marcus made Web3 feel actionable. The governance model and metrics dashboard helped our exec team trust decentralized deployments and scale them responsibly.",
-              "name": "Oliver Grant",
-              "role": "COO, Global DeFi Platform",
-              "imageSrc": "/images/clients/olivergrant.jpg"
-            },
-            {
-              "quote": "We didn't just migrate to blockchain; we improved how decisions are made. The new operating model reduced incidents and accelerated releases.",
-              "name": "Priya Nair",
-              "role": "VP Operations, Enterprise Web3",
-              "imageSrc": "/images/clients/Priya.jpg"
+              "quote": "Alejandro's architectural direction saved us months of development time and ensured our platform was secure from day one.",
+              "name": "Sarah Jenkins",
+              "role": "Product Director",
+              "imageSrc": "/images/clients/client2.jpg"
             }
           ],
           "bottomCta": {
-            "title": "Work with Marcus on your next Web3 program.",
-            "description": "Marcus accepts a limited number of advisory engagements focused on blockchain enablement and decentralized operating models. Book a confidential workshop to align on outcomes and governance.",
+            "title": "Discuss technical architecture with Alejandro.",
+            "description": "Book a technical discovery session to review your architecture or plan your next Web3 deployment.",
             "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
-            "buttonLabel": "Book a Web3 Digital Workshop"
+            "buttonLabel": "Book a Technical Call"
           }
         }
       },
       {
-        "name": "Simon Jenkins",
-        "slug": "Simon-jenkins",
-        "role": "DeFi & Financial Risk Partner",
-        "imageSrc": "/images/team/leader3.jpg",
-        "imageAlt": "Simon Jenkins",
-        "overlayText": "Architect of complex DeFi risk models and tokenomics frameworks for enterprise blockchain firms.",
-        "badges": ["Wharton MBA", "CFA Charterholder", "DeFi Risk Expert"],
+        "name": "oleksandr hanyk",
+        "slug": "oleksandr-hanyk",
+        "role": "Co-Founder & Project Lead",
+        "imageSrc": "/images/team/oleksandr.jpg",
+        "imageAlt": "oleksandr hanyk",
+        "overlayText": "Co-Founder leading project delivery and ensuring client success.",
+        "badges": ["Co-Founder", "Project Lead", "Delivery"],
         "profileDetails": {
-          "heroChip": "DeFi & Financial Risk",
-          "heroTitle": "Simon Jenkins",
-          "heroSubtitle": "DeFi & Financial Risk Partner",
-          "shortBio": "Simon designs DeFi risk frameworks and tokenomics models that executives can govern and teams can operationalize. Her work connects modeling quality with decision speed, compliance, and measurable risk reduction in the decentralized economy.",
+          "heroChip": "Project Delivery",
+          "heroTitle": "oleksandr hanyk",
+          "heroSubtitle": "Co-Founder & Project Lead",
+          "shortBio": "Oleksandr drives project delivery at Invorious. He works closely with clients and engineers to ensure seamless execution and high-quality outputs.",
           "socialLinks": {
-            "linkedinHref": "https://www.linkedin.com/in/simon-jenkins",
-            "twitterHref": "https://twitter.com/simonjenkins"
+            "linkedinHref": "https://www.linkedin.com/in/oleksandr-hanyk/",
+            "twitterHref": "https://twitter.com/invorious"
           },
           "scheduleHref": "#",
-          "scheduleLabel": "Schedule a DeFi Risk Advisory Session",
+          "scheduleLabel": "Schedule a Project Scoping Call",
           "biography": [
-            "Simon has built and validated DeFi risk models and tokenomics frameworks for complex blockchain ecosystems, helping organizations quantify exposure and strengthen oversight.",
-            "She specializes in translating model outputs into governance workflows and stakeholder-ready decision narratives for Web3 enterprises."
+            "Oleksandr is a co-founder who bridges the gap between business goals and technical execution. He ensures that client projects stay on track, on budget, and aligned with their strategic objectives.",
+            "His focus is on process optimization and agile delivery, ensuring the Invorious team operates without corporate bloat."
           ],
           "expertise": [
-            { "title": "DeFi Risk Modeling & Validation", "percent": 94 },
-            { "title": "Tokenomics Design & Strategy", "percent": 92 },
-            { "title": "Blockchain Capital Structure", "percent": 90 },
-            { "title": "Governance & Compliance Frameworks", "percent": 93 }
+            { "title": "Project Management", "percent": 97 },
+            { "title": "Agile Delivery", "percent": 95 },
+            { "title": "Client Success", "percent": 96 },
+            { "title": "Operations", "percent": 90 }
           ],
           "careerJourney": [
             {
-              "period": "2022 - Present",
-              "title": "Invorious",
-              "role": "DeFi & Financial Risk Partner",
-              "description": "Leads DeFi risk and tokenomics advisory engagements for executive teams and board stakeholders, aligning models with governance outcomes."
+              "period": "2021 - Present",
+              "title": "Invorious Software Agency",
+              "role": "Co-Founder & Project Lead",
+              "description": "Overseeing project delivery and client relations."
             },
             {
-              "period": "2011 - 2022",
-              "title": "Global Markets Consulting",
-              "role": "Senior Manager, Risk Analytics",
-              "description": "Architected risk measurement approaches and reporting pipelines for multinational enterprises."
-            },
-            {
-              "period": "2006 - 2011",
-              "title": "Investment Analytics",
-              "role": "Quant Analyst",
-              "description": "Developed forecasting models and performed validation across credit and liquidity use cases."
+              "period": "2016 - 2021",
+              "title": "Consulting Group",
+              "role": "Senior Project Manager",
+              "description": "Managed complex software delivery for global clients."
             }
           ],
           "academicFoundations": [
             {
-              "title": "MBA Finance",
-              "subtitle": "Wharton Business School",
-              "icon": "book-open"
-            },
-            {
-              "title": "CFA Charterholder",
-              "subtitle": "CFA Institute",
+              "title": "BSc in Computer Science",
+              "subtitle": "University of Kyiv",
               "icon": "graduation-cap"
-            },
-            {
-              "title": "Advanced Risk Studies",
-              "subtitle": "London School of Economics",
-              "icon": "landmark"
             }
           ],
           "notableImpact": [
             {
-              "category": "DeFi Risk Reduction",
-              "title": "-28% Volatility Exposure",
-              "description": "Implemented model-driven limits and governance reviews that reduced unpredictable variance in DeFi protocols."
-            },
-            {
-              "category": "Tokenomics Governance",
-              "title": "+35% Faster Approvals",
-              "description": "Streamlined risk reporting into stakeholder-ready formats, improving decision cadence for Web3 enterprises."
+              "category": "Delivery",
+              "title": "On-Time Execution",
+              "description": "Successfully led multiple complex Web2 and Web3 projects to on-time completion."
             }
           ],
           "directContact": {
-            "email": "s.jenkins@Invorious.com",
-            "phone": "+57 320 000 0000",
-            "location": "Bogota Hub, Suite 900"
+            "email": "oleksandr@Invorious.com",
+            "phone": "+61 2 8000 0000",
+            "location": "Global / Remote"
           },
           "clientVoice": [
             {
-              "quote": "Simon's framework gave our Web3 leadership clear accountability. We could explain the DeFi risk model, govern it, and act faster when conditions changed.",
-              "name": "Amir Khoury",
-              "role": "CFO, Global DeFi Group",
-              "imageSrc": "/images/clients/Amir.jpg"
+              "quote": "Oleksandr made the whole process feel effortless. He communicated clearly and kept the engineering team perfectly aligned with our goals.",
+              "name": "David R.",
+              "role": "CEO, Retail Tech",
+              "imageSrc": "/images/clients/client3.jpg"
             }
           ],
           "bottomCta": {
-            "title": "Work with Simon on DeFi risk you can govern.",
-            "description": "Book a confidential discovery session to align on your DeFi risk objectives, tokenomics needs, and decision workflows.",
+            "title": "Scope your project with Oleksandr.",
+            "description": "Book a call to discuss your project requirements, timelines, and delivery expectations.",
             "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
-            "buttonLabel": "Book a DeFi Risk Advisory Session"
+            "buttonLabel": "Book a Scoping Call"
           }
         }
       }
     ],
     "specialists": [
       {
-        "name": "David Chen",
-        "slug": "david-chen",
-        "role": "Sustainable Blockchain Lead",
-        "imageSrc": "/images/team/spec1.jpg",
-        "imageAlt": "David Chen",
+        "name": "Santiago Damian",
+        "slug": "santiago-damian",
+        "role": "Senior Technical Project Manager",
+        "imageSrc": "/images/team/santiago.jpg",
+        "imageAlt": "Santiago Damian",
         "tags": [
-          {
-            "label": "Green Web3",
-            "bgTextClassName": "bg-emerald-50 text-emerald-600"
-          },
-          {
-            "label": "Sustainable Blockchain",
-            "bgTextClassName": "bg-emerald-50 text-emerald-600"
-          }
+          { "label": "Agile Delivery", "bgTextClassName": "bg-blue-50 text-blue-600" },
+          { "label": "Technical PM", "bgTextClassName": "bg-blue-50 text-blue-600" }
         ],
         "profileDetails": {
-          "heroChip": "Sustainable Blockchain",
-          "heroTitle": "David Chen",
-          "heroSubtitle": "Sustainable Blockchain Lead",
-          "shortBio": "David helps organizations build energy-efficient blockchain solutions and operationalize green Web3 strategies. He connects data, governance, and execution so sustainability becomes an everyday performance capability.",
+          "heroChip": "Technical Project Management",
+          "heroTitle": "Santiago Damian",
+          "heroSubtitle": "Senior Technical Project Manager",
+          "shortBio": "Santiago manages complex technical projects, ensuring smooth communication between stakeholders and engineering teams.",
           "socialLinks": {
-            "linkedinHref": "https://www.linkedin.com/in/david-chen",
-            "twitterHref": "https://twitter.com/davidchen"
+            "linkedinHref": "https://www.linkedin.com/in/santiago-damian/",
+            "twitterHref": "https://twitter.com/invorious"
           },
           "scheduleHref": "#",
-          "scheduleLabel": "Schedule a Sustainable Blockchain Deep-Dive",
+          "scheduleLabel": "Schedule a Delivery Sync",
           "biography": [
-            "David has advised executive teams on practical green Web3 roadmaps, from energy-efficient consensus mechanisms to carbon-neutral blockchain operations and reporting rhythms.",
-            "His work focuses on turning sustainability goals into operating models that teams can run, audit, and improve across decentralized ecosystems."
+            "Santiago brings extensive experience in managing technical software delivery. He excels at mitigating risks, removing blockers, and keeping engineering teams focused on shipping high-quality code.",
+            "He is a strong advocate for agile methodologies and transparent client communication."
           ],
           "expertise": [
-            { "title": "Green Blockchain Solutions", "percent": 95 },
-            { "title": "Energy-Efficient Consensus", "percent": 91 },
-            { "title": "Carbon-Neutral Web3 Operations", "percent": 88 },
-            { "title": "Sustainable Tokenomics", "percent": 85 }
+            { "title": "Technical Project Management", "percent": 95 },
+            { "title": "Agile & Scrum", "percent": 92 },
+            { "title": "Risk Management", "percent": 89 },
+            { "title": "Stakeholder Communication", "percent": 94 }
           ],
           "careerJourney": [
             {
-              "period": "2022 - Present",
+              "period": "2023 - Present",
               "title": "Invorious",
-              "role": "Sustainable Blockchain Lead",
-              "description": "Leads green Web3 advisory engagements and builds measurable sustainable blockchain roadmaps."
+              "role": "Senior Technical Project Manager",
+              "description": "Leading agile delivery for key client projects."
             },
             {
-              "period": "2012 - 2022",
-              "title": "Impact Consulting Group",
-              "role": "Director, Sustainability Advisory",
-              "description": "Developed carbon, circular, and governance frameworks for global enterprises transitioning to Web3."
-            },
-            {
-              "period": "2007 - 2012",
-              "title": "Environmental Analytics Labs",
-              "role": "Senior Analyst",
-              "description": "Built measurement approaches for emissions, waste, and sustainable sourcing initiatives."
+              "period": "2018 - 2023",
+              "title": "Global Software Firm",
+              "role": "Project Manager",
+              "description": "Managed distributed teams delivering complex enterprise software."
             }
           ],
           "academicFoundations": [
             {
-              "title": "MS Environmental Policy",
-              "subtitle": "Oxford University",
-              "icon": "book-open"
-            },
-            {
-              "title": "PhD in Sustainability Science",
-              "subtitle": "Imperial College",
+              "title": "BSc in Software Engineering",
+              "subtitle": "University of Buenos Aires",
               "icon": "graduation-cap"
-            },
-            {
-              "title": "BA Economics",
-              "subtitle": "University of Toronto",
-              "icon": "landmark"
             }
           ],
           "notableImpact": [
             {
-              "category": "Green Web3 Execution",
-              "title": "+29% Program Adoption",
-              "description": "Built governance and reporting rhythms that increased adoption of sustainable blockchain practices."
-            },
-            {
-              "category": "Carbon-Neutral Operations",
-              "title": "-18% Energy Intensity",
-              "description": "Introduced measurement and improvement loops tied to daily blockchain operations."
+              "category": "Process",
+              "title": "Streamlined Delivery",
+              "description": "Implemented agile workflows that increased delivery velocity by 20%."
             }
           ],
           "directContact": {
-            "email": "d.chen@Invorious.com",
-            "phone": "+61 2 8000 0000",
-            "location": "Sydney HQ, Suite 310"
-          },
-          "clientVoice": [
-            {
-              "quote": "David's approach made green Web3 tangible. Our teams finally had a system for metrics, governance, and follow-through-not just targets.",
-              "name": "Elena Rodriguez",
-              "role": "VP Sustainability, Global Blockchain Enterprise",
-              "imageSrc": "/images/clients/elenarodriguez.jpg"
-            }
-          ],
-          "bottomCta": {
-            "title": "Work with David on your sustainable blockchain execution system.",
-            "description": "Book a confidential session to align on measurable green Web3 outcomes, governance, and operational adoption across teams.",
-            "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
-            "buttonLabel": "Book a Sustainable Blockchain Workshop"
-          }
-        }
-      },
-      {
-        "name": "Amara Okafor",
-        "slug": "amara-okafor",
-        "role": "Web3 Talent & Community Lead",
-        "imageSrc": "/images/team/spec2.jpg",
-        "imageAlt": "Amara Okafor",
-        "tags": [
-          { "label": "Web3 Community", "bgTextClassName": "bg-blue-50 text-blue-600" },
-          {
-            "label": "Decentralized Talent",
-            "bgTextClassName": "bg-blue-50 text-blue-600"
-          }
-        ],
-        "profileDetails": {
-          "heroChip": "Web3 Talent & Community",
-          "heroTitle": "Amara Okafor",
-          "heroSubtitle": "Web3 Talent & Community Lead",
-          "shortBio": "Amara designs Web3 community building systems and decentralized talent strategies that help organizations grow sustainably. She aligns culture, performance, and learning programs to Web3 business outcomes.",
-          "socialLinks": {
-            "linkedinHref": "https://www.linkedin.com/in/amara-okafor",
-            "twitterHref": "https://twitter.com/amaraokafor"
-          },
-          "scheduleHref": "#",
-          "scheduleLabel": "Schedule a Web3 Talent & Community Session",
-          "biography": [
-            "Amara partners with executives to translate Web3 strategy into community engagement, leadership capabilities, role clarity, and measurable performance routines.",
-            "Her work strengthens decentralized organizations by making coaching, feedback, and development operational for community managers and team leaders."
-          ],
-          "expertise": [
-            { "title": "Web3 Community Building", "percent": 93 },
-            { "title": "Decentralized Talent Systems", "percent": 90 },
-            { "title": "DAO Governance & Culture", "percent": 87 },
-            { "title": "Web3 Leadership Development", "percent": 88 }
-          ],
-          "careerJourney": [
-            {
-              "period": "2022 - Present",
-              "title": "Invorious",
-              "role": "Web3 Talent & Community Lead",
-              "description": "Leads engagements on Web3 community building, decentralized talent systems, and performance operating models."
-            },
-            {
-              "period": "2013 - 2022",
-              "title": "People & Performance Advisory",
-              "role": "Senior Consultant",
-              "description": "Built talent frameworks and manager enablement programs for scaling Web3 organizations."
-            },
-            {
-              "period": "2008 - 2013",
-              "title": "Learning & Organizational Development",
-              "role": "Program Lead",
-              "description": "Designed coaching curricula and leadership development pathways."
-            }
-          ],
-          "academicFoundations": [
-            {
-              "title": "MBA Organizational Leadership",
-              "subtitle": "INSEAD",
-              "icon": "book-open"
-            },
-            {
-              "title": "MA Psychology",
-              "subtitle": "University of Chicago",
-              "icon": "graduation-cap"
-            },
-            {
-              "title": "BSc Business Administration",
-              "subtitle": "NUS",
-              "icon": "landmark"
-            }
-          ],
-          "notableImpact": [
-            {
-              "category": "Web3 Community Growth",
-              "title": "+50k Active Members",
-              "description": "Built community systems that scaled Web3 project engagement from zero to 50k+ members."
-            },
-            {
-              "category": "Decentralized Talent",
-              "title": "+31% Contributor Readiness",
-              "description": "Implemented enablement and coaching systems that improved DAO contributor capability and confidence."
-            }
-          ],
-          "directContact": {
-            "email": "a.okafor@Invorious.com",
+            "email": "santiago@Invorious.com",
             "phone": "+57 320 000 0000",
-            "location": "Bogota Hub, Suite 120"
+            "location": "Bogota Hub"
           },
-          "clientVoice": [
-            {
-              "quote": "Amara helped us operationalize community. We now have a system for how DAO leaders coach, measure progress, and improve-week over week.",
-              "name": "Sofia Almeida",
-              "role": "Chief People Officer, Global Web3 DAO",
-              "imageSrc": "/images/clients/sofiaalmeida.jpg"
-            },
-            {
-              "quote": "Instead of generic programs, the Web3 talent framework became part of our execution cadence. That's why it stuck.",
-              "name": "Daniel Jaker",
-              "role": "VP Strategy, Web3 Growth Firm",
-              "imageSrc": "/images/clients/danieljaker.jpg"
-            }
-          ],
+          "clientVoice": [],
           "bottomCta": {
-            "title": "Work with Amara on your Web3 talent and community systems.",
-            "description": "Book a confidential discovery session to align community strategy, talent operations, and leadership capability with your Web3 outcomes.",
+            "title": "Discuss project delivery with Santiago.",
+            "description": "Book a call to review your current delivery metrics or plan a new project launch.",
             "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
-            "buttonLabel": "Book a Web3 Talent Workshop"
+            "buttonLabel": "Book a Delivery Sync"
           }
         }
       },
       {
-        "name": "Julian Voss",
-        "slug": "julian-voss",
-        "role": "Blockchain Supply Chain Advisor",
-        "imageSrc": "/images/team/spec3.jpg",
-        "imageAlt": "Julian Voss",
+        "name": "Dmitry Tsishnatii",
+        "slug": "dmitry-tsishnatii",
+        "role": "Senior Director of People Operations",
+        "imageSrc": "/images/team/dmitry.jpg",
+        "imageAlt": "Dmitry Tsishnatii",
         "tags": [
-          { "label": "Blockchain Logistics", "bgTextClassName": "bg-blue-50 text-blue-600" },
-          {
-            "label": "Smart Contracts",
-            "bgTextClassName": "bg-blue-50 text-blue-600"
-          }
+          { "label": "People Ops", "bgTextClassName": "bg-emerald-50 text-emerald-600" },
+          { "label": "Tech Talent", "bgTextClassName": "bg-emerald-50 text-emerald-600" }
         ],
         "profileDetails": {
-          "heroChip": "Blockchain Supply Chain",
-          "heroTitle": "Julian Voss",
-          "heroSubtitle": "Blockchain Supply Chain Advisor",
-          "shortBio": "Julian helps organizations improve supply chain velocity, traceability, and resilience using blockchain technology, smart contracts, and data-driven planning. He focuses on execution systems that teams can run daily.",
+          "heroChip": "People Operations",
+          "heroTitle": "Dmitry Tsishnatii",
+          "heroSubtitle": "Senior Director of People Operations",
+          "shortBio": "Dmitry leads people operations, focusing on tech talent strategy, organizational design, and supporting the growth of a senior-only Web3 team.",
           "socialLinks": {
-            "linkedinHref": "https://www.linkedin.com/in/julian-voss",
-            "twitterHref": "https://twitter.com/julianvoss"
+            "linkedinHref": "https://www.linkedin.com/in/dmitry-tsishnatii/",
+            "twitterHref": "https://twitter.com/invorious"
           },
           "scheduleHref": "#",
-          "scheduleLabel": "Schedule a Blockchain Supply Chain Session",
+          "scheduleLabel": "Schedule a Talent Chat",
           "biography": [
-            "Julian has led blockchain-enabled operational excellence programs that reduce waste, improve logistics performance, and strengthen cross-site coordination using smart contracts and immutable tracking.",
-            "His work connects process design with measurable service levels, operational KPIs, and decentralized verification."
+            "With an engineering background and extensive experience in HR, Dmitry bridges the gap between technical talent and organizational success. He is responsible for talent acquisition, culture, and operational excellence at Invorious.",
+            "He is dedicated to building a remote-first culture that values autonomy and directness."
           ],
           "expertise": [
-            { "title": "Blockchain Supply Chain Design", "percent": 94 },
-            { "title": "Smart Contract Logistics", "percent": 91 },
-            { "title": "Supply Chain Traceability", "percent": 90 },
-            { "title": "Resilience & Risk Controls", "percent": 88 }
+            { "title": "People Operations", "percent": 96 },
+            { "title": "Tech Talent Strategy", "percent": 94 },
+            { "title": "Org Design", "percent": 90 },
+            { "title": "Culture Building", "percent": 92 }
           ],
           "careerJourney": [
             {
-              "period": "2022 - Present",
+              "period": "2023 - Present",
               "title": "Invorious",
-              "role": "Blockchain Supply Chain Advisor",
-              "description": "Advises on blockchain-enabled lean transformations, smart contract logistics, and supply chain performance improvement."
+              "role": "Senior Director of People Operations",
+              "description": "Leading talent strategy and operational people programs."
             },
             {
-              "period": "2014 - 2022",
-              "title": "Global Operations Group",
-              "role": "Senior Operations Manager",
-              "description": "Standardized operating models and improved service levels across regional supply chains using blockchain solutions."
-            },
-            {
-              "period": "2008 - 2014",
-              "title": "Industrial Engineering Consulting",
-              "role": "Operations Analyst",
-              "description": "Designed process improvements and modeling approaches for planning and execution."
+              "period": "2015 - 2023",
+              "title": "Enterprise Tech & Web3 Startups",
+              "role": "HR & Engineering Lead",
+              "description": "Combined technical engineering with people leadership."
             }
           ],
           "academicFoundations": [
             {
-              "title": "PhD in Operations Research",
-              "subtitle": "ETH Zurich",
+              "title": "MSc in HR Management",
+              "subtitle": "Kyiv University",
               "icon": "graduation-cap"
-            },
-            {
-              "title": "MS Supply Chain Systems",
-              "subtitle": "Georgia Tech",
-              "icon": "book-open"
-            },
-            {
-              "title": "BA Industrial Engineering",
-              "subtitle": "TU Munich",
-              "icon": "landmark"
             }
           ],
           "notableImpact": [
             {
-              "category": "Blockchain Velocity",
-              "title": "+22% Lead-Time Improvement",
-              "description": "Re-designed planning workflows and eliminated waste using smart contract automation."
-            },
-            {
-              "category": "Traceability",
-              "title": "100% Immutable Records",
-              "description": "Implemented blockchain tracking for end-to-end supply chain visibility."
+              "category": "Talent",
+              "title": "Built Senior Network",
+              "description": "Developed a robust network of elite Web3 and Web2 engineering talent."
             }
           ],
           "directContact": {
-            "email": "j.voss@Invorious.com",
+            "email": "dmitry@Invorious.com",
             "phone": "+61 2 8000 0000",
-            "location": "Sydney HQ, Suite 402"
+            "location": "Global / Remote"
           },
-          "clientVoice": [
-            {
-              "quote": "Julian brought blockchain clarity to messy logistics. The smart contract system made improvements repeatable and traceable for every shipment.",
-              "name": "Aisha Rahman",
-              "role": "Director, Global Logistics Operations",
-              "imageSrc": "/images/clients/aisharahman.jpg"
-            }
-          ],
+          "clientVoice": [],
           "bottomCta": {
-            "title": "Work with Julian on blockchain supply chain execution.",
-            "description": "Book a confidential session to align on blockchain-enabled lean improvements, logistics KPIs, and traceability practices you can run daily.",
+            "title": "Connect with Dmitry about opportunities.",
+            "description": "Reach out to discuss joining the Invorious network or to chat about People Ops strategies.",
             "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
-            "buttonLabel": "Book a Blockchain Supply Chain Workshop"
+            "buttonLabel": "Schedule a Talent Chat"
           }
         }
       },
       {
-        "name": "Sofia Martinez",
-        "slug": "sofia-martinez",
-        "role": "Web3 Customer Experience Lead",
-        "imageSrc": "/images/team/spec4.jpg",
-        "imageAlt": "Sofia Martinez",
+        "name": "Vitalic Nazarenko",
+        "slug": "vitalic-nazarenko",
+        "role": "Technical Recruiter",
+        "imageSrc": "/images/team/vitalic.jpg",
+        "imageAlt": "Vitalic Nazarenko",
         "tags": [
-          {
-            "label": "Web3 UX",
-            "bgTextClassName": "bg-blue-50 text-blue-600"
-          },
-          { "label": "dApp Design", "bgTextClassName": "bg-blue-50 text-blue-600" }
+          { "label": "Technical Recruiting", "bgTextClassName": "bg-blue-50 text-blue-600" },
+          { "label": "Web3 Talent", "bgTextClassName": "bg-blue-50 text-blue-600" }
         ],
         "profileDetails": {
-          "heroChip": "Web3 Customer Experience",
-          "heroTitle": "Sofia Martinez",
-          "heroSubtitle": "Web3 Customer Experience Lead",
-          "shortBio": "Sofia designs Web3 customer experience systems that connect dApp UX, brand, and measurable outcomes. She helps organizations create decentralized experiences users trust and teams can continuously improve.",
+          "heroChip": "Talent Acquisition",
+          "heroTitle": "Vitalic Nazarenko",
+          "heroSubtitle": "Technical Recruiter",
+          "shortBio": "Vitalic bridges code and talent. He specializes in identifying and recruiting elite Web3 and software engineering professionals to join the Invorious network.",
           "socialLinks": {
-            "linkedinHref": "https://www.linkedin.com/in/sofia-martinez",
-            "twitterHref": "https://twitter.com/sofiamartinez"
+            "linkedinHref": "https://www.linkedin.com/in/vitalic-nazarenko/",
+            "twitterHref": "https://twitter.com/invorious"
           },
           "scheduleHref": "#",
-          "scheduleLabel": "Schedule a Web3 CX & dApp UX Session",
+          "scheduleLabel": "Schedule a Recruiting Chat",
           "biography": [
-            "Sofia partners with leadership teams to turn Web3 experience strategy into execution-ready dApp journeys and decentralized design systems.",
-            "Her expertise blends Web3 research, product design, and performance measurement to create fast, reliable customer value in decentralized applications."
+            "Vitalic is a technical recruiter who speaks the language of engineers. He understands the nuances of Web3 development and is adept at sourcing senior talent for complex projects.",
+            "He focuses on building long-term relationships with candidates and matching them with the right opportunities at Invorious."
           ],
           "expertise": [
-            { "title": "dApp UX Strategy & Design", "percent": 96 },
-            { "title": "Web3 Design Systems", "percent": 92 },
-            { "title": "Wallet Onboarding & Conversion", "percent": 89 },
-            { "title": "Decentralized Brand Consistency", "percent": 88 }
+            { "title": "Technical Recruiting", "percent": 95 },
+            { "title": "Web3 Sourcing", "percent": 92 },
+            { "title": "Candidate Experience", "percent": 94 },
+            { "title": "Market Mapping", "percent": 89 }
           ],
           "careerJourney": [
             {
               "period": "2022 - Present",
               "title": "Invorious",
-              "role": "Web3 Customer Experience Lead",
-              "description": "Leads dApp UX transformations that improve wallet onboarding, engagement, and measurable Web3 customer outcomes."
+              "role": "Technical Recruiter",
+              "description": "Leading talent acquisition for senior engineering roles."
             },
             {
-              "period": "2013 - 2022",
-              "title": "Product Experience Studio",
-              "role": "Senior Product Designer",
-              "description": "Built design systems and ran experiments to improve conversion and retention for Web3 products."
-            },
-            {
-              "period": "2008 - 2013",
-              "title": "Brand & Digital Labs",
-              "role": "UX Researcher",
-              "description": "Conducted research and designed experience prototypes for multi-channel products."
+              "period": "2019 - 2022",
+              "title": "Tech Recruitment Agency",
+              "role": "Senior Recruiter",
+              "description": "Placed engineers in top tech companies."
             }
           ],
           "academicFoundations": [
             {
-              "title": "MS Human-Computer Interaction",
-              "subtitle": "Carnegie Mellon",
+              "title": "BA in Psychology",
+              "subtitle": "National University",
               "icon": "graduation-cap"
-            },
-            {
-              "title": "MA Communication Design",
-              "subtitle": "UCL",
-              "icon": "book-open"
-            },
-            {
-              "title": "BA Psychology",
-              "subtitle": "University of Barcelona",
-              "icon": "landmark"
             }
           ],
           "notableImpact": [
             {
-              "category": "Web3 Conversion",
-              "title": "+41% Wallet Onboarding",
-              "description": "Redesigned dApp onboarding journeys and introduced performance instrumentation for rapid iteration."
-            },
-            {
-              "category": "dApp Design Consistency",
-              "title": "-33% UX Fragmentation",
-              "description": "Implemented Web3 design systems that improved brand consistency across decentralized product lines."
+              "category": "Recruiting",
+              "title": "High Placement Rate",
+              "description": "Successfully placed multiple senior engineers into critical client projects."
             }
           ],
           "directContact": {
-            "email": "s.martinez@Invorious.com",
-            "phone": "+57 320 000 0000",
-            "location": "Bogota Hub, Suite 240"
+            "email": "vitalic@Invorious.com",
+            "phone": "+61 2 8000 0000",
+            "location": "Global / Remote"
           },
-          "clientVoice": [
+          "clientVoice": [],
+          "bottomCta": {
+            "title": "Looking for your next role?",
+            "description": "Connect with Vitalic to explore senior engineering opportunities at Invorious and our partners.",
+            "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
+            "buttonLabel": "Connect with Vitalic"
+          }
+        }
+      },
+      {
+        "name": "Silvi Beltrán Benet",
+        "slug": "silvi-beltran-benet",
+        "role": "HR Specialist",
+        "imageSrc": "/images/team/silvi.jpg",
+        "imageAlt": "Silvi Beltrán Benet",
+        "tags": [
+          { "label": "Human Resources", "bgTextClassName": "bg-pink-50 text-pink-600" },
+          { "label": "People Ops", "bgTextClassName": "bg-pink-50 text-pink-600" }
+        ],
+        "profileDetails": {
+          "heroChip": "Human Resources",
+          "heroTitle": "Silvi Beltrán Benet",
+          "heroSubtitle": "HR Specialist",
+          "shortBio": "Silvi handles human resources operations, ensuring a smooth and positive experience for the Invorious team and candidates.",
+          "socialLinks": {
+            "linkedinHref": "https://www.linkedin.com/in/silvi-beltran-benet/",
+            "twitterHref": "https://twitter.com/invorious"
+          },
+          "scheduleHref": "#",
+          "scheduleLabel": "Schedule an HR Chat",
+          "biography": [
+            "Silvi is dedicated to creating an inclusive and efficient remote work environment. She manages onboarding, employee relations, and HR administrative processes.",
+            "She is passionate about people and ensuring that the Invorious culture remains supportive and high-performing."
+          ],
+          "expertise": [
+            { "title": "HR Operations", "percent": 93 },
+            { "title": "Onboarding & Offboarding", "percent": 95 },
+            { "title": "Employee Relations", "percent": 90 },
+            { "title": "Remote Culture", "percent": 88 }
+          ],
+          "careerJourney": [
             {
-              "quote": "Sofia gave us clarity on what to change first in our dApp. The redesigned wallet journey improved conversion immediately, and the system keeps improving.",
-              "name": "Jonas Remi",
-              "role": "VP Product, Web3 Consumer Platform",
-              "imageSrc": "/images/clients/jonasremi.avif"
+              "period": "2023 - Present",
+              "title": "Invorious",
+              "role": "HR Specialist",
+              "description": "Managing day-to-day HR operations and culture."
             },
             {
-              "quote": "The combination of Web3 brand thinking and dApp UX rigor made the experience feel trustworthy. Our teams finally had a repeatable process.",
-              "name": "Mariana Garcia",
-              "role": "CMO, Global Web3 Brand",
-              "imageSrc": "/images/clients/marianagarcia.jpg"
+              "period": "2019 - 2023",
+              "title": "Tech Company",
+              "role": "HR Generalist",
+              "description": "Supported HR functions for a growing remote workforce."
             }
           ],
+          "academicFoundations": [
+            {
+              "title": "BA in Labor Relations",
+              "subtitle": "University of Valencia",
+              "icon": "graduation-cap"
+            }
+          ],
+          "notableImpact": [
+            {
+              "category": "Culture",
+              "title": "Seamless Onboarding",
+              "description": "Designed a remote-first onboarding process that gets new hires productive quickly."
+            }
+          ],
+          "directContact": {
+            "email": "silvi@Invorious.com",
+            "phone": "+57 320 000 0000",
+            "location": "Bogota Hub"
+          },
+          "clientVoice": [],
           "bottomCta": {
-            "title": "Work with Sofia on your next Web3 customer experience system.",
-            "description": "Book a confidential discovery session to align on dApp UX strategy, Web3 brand consistency, and measurable decentralized experience outcomes.",
+            "title": "Questions about working with us?",
+            "description": "Reach out to Silvi for any HR-related inquiries or to learn more about our remote culture.",
             "href": "https://calendly.com/blockcsherpa/Invorious-discovery-call-30-min",
-            "buttonLabel": "Book a Web3 CX Workshop"
+            "buttonLabel": "Contact Silvi"
           }
         }
       }
