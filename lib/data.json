@@ -2145,14 +2145,7 @@
         "title": "Frontend Engineer",
         "description": "Develop responsive, high-performance web applications using React/Next.js. Implement wallet connections, NFT displays, and interactive dashboards."
       },
-      {
-        "id": "apply-btn-5",
-        "category": "Mobile Engineering",
-        "categoryColor": "bg-pink-100 text-pink-600",
-        "details": "Full-time • Sydney / Remote (EMEA)",
-        "title": "Mobile Engineer",
-        "description": "Build cross-platform mobile apps for iOS and Android using React Native. Bring Web3 features and wallet integration to users on the go."
-      },
+
       {
         "id": "apply-btn-6",
         "category": "Smart Contract Development Intern",
@@ -2169,14 +2162,7 @@
         "title": "AI Developer",
         "description": "Build AI features for Web3 platforms - AI-powered chat support, natural language search across data, voice-to-text transcription, automated reminders, and AI-generated insights. Must know OpenAI API, LangChain, vector databases (PGVector), and TypeScript."
       },
-      {
-        "id": "apply-btn-8",
-        "category": "AI-Assisted Development",
-        "categoryColor": "bg-indigo-100 text-indigo-600",
-        "details": "Contract • Remote (Worldwide)",
-        "title": "AI Agent Developer (Cursor)",
-        "description": "Use Cursor to build VaultWise - an AI-powered DeFi yield optimizer. Complete the Web2 layer and build the Web3 layer: yield vaults (ERC-4626), cross-chain swap aggregators, automated compounding agents, and an AI agent that autonomously rebalances positions. Must be a Cursor power user. Must know Solidity, Next.js, NestJS, and DeFi protocols (Uniswap, Aave, Curve)."
-      },
+
       {
         "id": "apply-btn-9",
         "category": "Systems Engineering",
@@ -2185,14 +2171,7 @@
         "title": "Senior Rust & Go Engineer",
         "description": "Design and build high-performance, low-latency infrastructure services using Rust and Go for next-generation decentralized applications. You'll architect and implement critical systems including blockchain indexers, high-throughput API gateways, and secure cryptographic services."
       },
-      {
-        "id": "apply-btn-10",
-        "category": "Product Design2",
-        "categoryColor": "bg-purple-100 text-purple-600",
-        "details": "Contract • Remote (Worldwide)",
-        "title": "Product Designer (VaultWise)",
-        "description": "Design the end-to-end product experience for VaultWise - an AI-powered DeFi yield optimizer. Shape how users interact with yield vaults, monitor portfolio performance, and manage cross-chain positions. Own the design system and visual identity from zero to launch."
-      },
+
       {
         "id": "apply-btn-11",
         "category": "Technical Leadership",
